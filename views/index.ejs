@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="my-form" action="" method="GET">
+      <label for="rank">Rank</label>
+      <input type="text" id="rank">
+
+      <input type="radio" name="main-adv" id="main" value="false">
+      <label for="main">JEE Mains</label>
+
+      <input type="radio" name="main-adv" id="advanced" value="true">
+      <label for="advanced">JEE Advanced</label>
+
+      <label for="category">Category</label>
+      <select name="category" id="category">
+        <option value="OPEN">OPEN</option>
+        <option value="GEN-EWS">GEN-EWS</option>
+        <option value="OBC-NCL">OBC-NCL</option>
+        <option value="SC">SC</option>
+        <option value="ST">ST</option>
+        <option value="OPEN-PwD">OPEN-PwD</option>
+        <option value="GEN-EWS-PwD">GEN-EWS-PwD</option>
+        <option value="OBC-NCL-PwD">OBC-NCL-PwD</option>
+        <option value="SC-PwD">SC-PwD</option>
+        <option value="ST-PwD">ST-PwD</option>
+      </select>
+
+      <label for="seat_pool">Seat Pool</label>
+      <select name="seat_pool" id="seat_pool">
+        <option value="Gender-Neutral">Gender-Neutral</option>
+        <option value="Female-Only">Female-Only</option>
+      </select>
+
+      <label for="alloted_quota">Alloted Quota</label>
+      <select name="alloted_quota" id="alloted_quota">
+        <option value="AI">AI</option>
+        <option value="HS">HS</option>
+        <option value="OS">OS</option>
+      </select>
+
+      <input type="button" id="submit-button" value="Search College" />
+    </form>
+    <script>
+      function setData(){
+          var myForm = document.querySelector('#my-form');
+          var dropdown1 = document.querySelector('#category');
+          var dropdown2 = document.querySelector('#seat_pool');
+          var dropdown3 = document.querySelector('#alloted_quota');
+          var category = dropdown1.options[dropdown1.selectedIndex].value;
+          var seat_pool = dropdown2.options[dropdown2.selectedIndex].value;
+          var alloted_quota = dropdown3.options[dropdown3.selectedIndex].value;
+          var mains_advanced = document.querySelector("input[name=main-adv]:checked").value;
+          var Rank = document.querySelector("#rank").value;
+          myForm.action = "/"+Rank+"&"+category+"&"+seat_pool+"&"+alloted_quota+"&"+mains_advanced;
+          myForm.submit();
+      }
+
+      document.querySelector("#submit-button").addEventListener('click', setData);
+    </script>
+  </body>
+</html>

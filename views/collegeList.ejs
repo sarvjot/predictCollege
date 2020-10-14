@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+      th,td{
+        text-align: center;
+        width: 30vw;
+        border: 1px solid black;
+        margin: 0;
+      }
+      h1{
+        text-align: center;
+      }
+      table{
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+      div{
+        margin: 100px 0;
+      }
+  </style>
+  <body>
+    <% colleges.forEach((college) => {  %> 
+        
+        <% var ctr=0 %> 
+        <% college.branches.forEach( (branch) => {%> 
+            <% if( rank <= branch.closing_rank 
+                && category == branch.Category 
+                && alloted_quota == branch.alloted_quota 
+                && seat_pool == branch.seat_pool 
+                && main_advanced == branch.iit 
+                && !(branch.branch_name.includes("Architecture"))){  %> 
+                <% ctr++ %> 
+                <% if(ctr==1){ %> 
+                    <!-- Every college should begin with its own table -->
+                    <div>
+                        <h1><%= college.institute_name %></h1>            
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Branch</th>
+                                    <th>Cutoff 2019</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                <% } %>            
+                <tr>
+                    <td><%= branch.branch_name %></td>    
+                    <td><%= branch.closing_rank %></td>    
+                </tr>
+            <% } %> 
+        <% }); %> 
+        <% if(ctr>0){ %> 
+                    </tbody>
+                </table>
+            </div>
+        <% } %> 
+    <% });  %> 
+
+    </body>
+</html>
+    
