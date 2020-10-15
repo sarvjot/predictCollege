@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.post("/predict", (req, res) => {
+app.post("/colleges", (req, res) => {
   console.log(req.body);
   College.find({}, (err, allColleges) => {
     if (err) {
