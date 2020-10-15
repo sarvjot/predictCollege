@@ -23,23 +23,19 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/:rank&:category&:seat_pool&:alloted_quota&:main_advanced", (req, res) => {
-  var rank = req.params.rank;
-  var category = req.params.category;
-  var seat_pool = req.params.seat_pool;
-  var alloted_quota = req.params.alloted_quota;
-  var main_advanced = req.params.main_advanced;
+app.post("/new", (req, res) => {
+  console.log(req.body);
   College.find({}, (err, allColleges) => {
     if (err) {
       console.log(err);
     } else {
       res.render("collegeList", {
         colleges: allColleges,
-        rank: rank,
-        category: category,
-        seat_pool: seat_pool,
-        alloted_quota: alloted_quota,
-        main_advanced: main_advanced
+        rank: req.body.rank,
+        category: req.body.category,
+        seat_pool: req.body.seat_pool,
+        alloted_quota: req.body.alloted_quota,
+        main_advanced: req.body.main_adv
       });
     }
   });
