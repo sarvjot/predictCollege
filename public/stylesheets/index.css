@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.container{
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+h1{
+  font-size: 60px;
+}
+#form-div{
+  margin: 0 auto;
+  width: 75vw;
+  background: #999;
+  height: 70vh;
+  border-radius: 10px;
+}
+#my-form{
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#my-form div, #my-form div input, #my-form div select, #my-form div button{
+  font-size: 25px;
+}
+
+#my-form .input-div{
+  display: flex;
+  justify-content: space-between;
+}
+#my-form .input-div input, #my-form .input-div select{
+  width: 60%;
+  border-radius: 7px;
+  border-width: 0px;
+  text-align-last: center;
+}
+#button-div button{
+  width: 150px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+#form-Main{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.switch_buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.switch_label{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  color: #222;
+  background: #ddd;
+  font-size: 40px;
+  border-radius: 10px;
+}
+.radio{
+  display: none;
+}
+.radio:checked + .switch_label{
+  border: 3px solid black;
+}

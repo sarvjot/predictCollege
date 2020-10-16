@@ -25,7 +25,6 @@ app.get("/", (req, res) => {
 });
 
 app.post("/colleges", (req, res) => {
-  console.log(req.body);
   College.find({}, (err, allColleges) => {
     if (err) {
       console.log(err);

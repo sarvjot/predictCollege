@@ -1,44 +1,79 @@
-<%- include("./partials/header") %> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+    <title>Predict College</title>
+  </head>
+  <body> 
 
-  <h1>Welcome to IITJEE College Predictor</h1>
-  <form id="my-form" action="/colleges" method="POST">
-    <label for="rank">Rank</label>
-    <input type="text" id="rank" name="rank">
+  
+  <div class="container">
+    <h1>Welcome to IITJEE College Predictor</h1>
+  
+    <div id="form-div">
+      <form id="my-form" action="/colleges" method="POST">
+        <div class="switch_buttons">
+          <input type="radio" name="main_adv" id="main" value="false" class="radio">
+          <label for="main" class="switch_label">
+            <p>JEE Mains</p>
+          </label>
+      
+          <input type="radio" name="main_adv" id="advanced" value="true" class="radio">
+          <label for="advanced" class="switch_label">
+            <p>JEE Advanced</p>
+          </label>
+        </div>
 
-    <input type="radio" name="main_adv" id="main" value="false">
-    <label for="main">JEE Mains</label>
-
-    <input type="radio" name="main_adv" id="advanced" value="true">
-    <label for="advanced">JEE Advanced</label>
-
-    <label for="category">Category</label>
-    <select name="category" id="category">
-      <option value="OPEN">OPEN</option>
-      <option value="GEN-EWS">GEN-EWS</option>
-      <option value="OBC-NCL">OBC-NCL</option>
-      <option value="SC">SC</option>
-      <option value="ST">ST</option>
-      <option value="OPEN-PwD">OPEN-PwD</option>
-      <option value="GEN-EWS-PwD">GEN-EWS-PwD</option>
-      <option value="OBC-NCL-PwD">OBC-NCL-PwD</option>
-      <option value="SC-PwD">SC-PwD</option>
-      <option value="ST-PwD">ST-PwD</option>
-    </select>
-
-    <label for="seat_pool">Seat Pool</label>
-    <select name="seat_pool" id="seat_pool">
-      <option value="Gender-Neutral">Gender-Neutral</option>
-      <option value="Female-Only">Female-Only</option>
-    </select>
-
-    <label for="alloted_quota">Alloted Quota</label>
-    <select name="alloted_quota" id="alloted_quota">
-      <option value="AI">AI</option>
-      <option value="HS">HS</option>
-      <option value="OS">OS</option>
-    </select>
-
-    <button>Submit</button>
-  </form>
+        <div id="form-Main">
+          <div class="input-div">
+            <label for="rank">Category Rank</label>
+            <input type="text" id="rank" name="rank" placeholder="Enter Your JEE Mains Rank">
+          </div>
+    
+          <div class="input-div">
+            <label for="category">Category</label>
+            <select name="category" id="category">
+              <option value="OPEN"><span>OPEN</span></option>
+              <option value="GEN-EWS">GEN-EWS</option>
+              <option value="OBC-NCL">OBC-NCL</option>
+              <option value="SC">SC</option>
+              <option value="ST">ST</option>
+              <option value="OPEN-PwD">OPEN-PwD</option>
+              <option value="GEN-EWS-PwD">GEN-EWS-PwD</option>
+              <option value="OBC-NCL-PwD">OBC-NCL-PwD</option>
+              <option value="SC-PwD">SC-PwD</option>
+              <option value="ST-PwD">ST-PwD</option>
+            </select>
+          </div>
+      
+          <div class="input-div">
+            <label for="seat_pool">Seat Pool</label>
+            <select name="seat_pool" id="seat_pool">
+              <option value="Gender-Neutral">Gender-Neutral</option>
+              <option value="Female-Only">Female-Only</option>
+            </select>
+          </div>
+      
+          <div class="input-div">
+            <label for="alloted_quota">Alloted Quota</label>
+            <select name="alloted_quota" id="alloted_quota">
+              <option value="AI">All India</option>
+              <option value="HS">Home State</option>
+              <option value="OS">Outside State</option>
+            </select>
+          </div>
+          
+          <div id="button-div">
+            <button>Submit</button>
+          </div>
+        </div>
+        
+      </form>
+    </div>
+    
+  </div>
+  
 
 <%- include("./partials/footer") %> 
