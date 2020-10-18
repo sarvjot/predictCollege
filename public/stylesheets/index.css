@@ -1,68 +1,57 @@
-*{
+/* Styles are in increasing order of specificity*/
+/* --------------------------------Full Page Styling-------------------------------- */
+* {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  font-family: "Commissioner", sans-serif;
+  font-size: 25px;
 }
-.container{
-  width: 80vw;
+body {
+  background: #999;
+}
+.container {
+  width: 96vw;
   height: 100vh;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: space-around;
 }
-h1{
+/* --------------------------------Title Styling-------------------------------- */
+.title {
   font-size: 60px;
+  width: 35%;
 }
-#form-div{
-  margin: 0 auto;
-  width: 75vw;
-  background: #999;
+/* --------------------------------Form Styling-------------------------------- */
+#form-div {
+  width: 55%;
   height: 70vh;
-  border-radius: 10px;
 }
-#my-form{
+#my-form {
   margin: 0 auto;
-  width: 70%;
+  width: 95%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-#my-form div, #my-form div input, #my-form div select, #my-form div button{
-  font-size: 25px;
-}
 
-#my-form .input-div{
-  display: flex;
-  justify-content: space-between;
-}
-#my-form .input-div input, #my-form .input-div select{
-  width: 60%;
-  border-radius: 7px;
-  border-width: 0px;
-  text-align-last: center;
-}
-#button-div button{
-  width: 150px;
-  border-radius: 5px;
-  border-width: 0px;
-}
-
-#form-Main{
+#form-Main {
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.switch_buttons{
+/* Form tabs styling */
+.switch_tabs {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.switch_label{
+.tab_label {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -74,9 +63,29 @@ h1{
   font-size: 40px;
   border-radius: 10px;
 }
-.radio{
+.tab {
   display: none;
 }
-.radio:checked + .switch_label{
+.tab :checked + .switch_label {
   border: 3px solid black;
+}
+
+/* Form inputs styling */
+.input-div {
+  display: flex;
+  justify-content: space-between;
+}
+.input-div input,
+.input-div select {
+  width: 60%;
+  border-radius: 7px;
+  border-width: 0px;
+  text-align-last: center;
+}
+
+/* Form buttons styling*/
+button {
+  width: 150px;
+  border-radius: 5px;
+  border-width: 0px;
 }

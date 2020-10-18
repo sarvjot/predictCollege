@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
     <title>Predict College</title>
   </head>
@@ -10,18 +11,18 @@
 
   
   <div class="container">
-    <h1>Welcome to IITJEE College Predictor</h1>
+    <h1 class="title">Welcome to IITJEE College Predictor</h1>
   
     <div id="form-div">
       <form id="my-form" action="/colleges" method="POST">
-        <div class="switch_buttons">
-          <input type="radio" name="main_adv" id="main" value="false" class="radio">
-          <label for="main" class="switch_label">
+        <div class="switch_tabs">
+          <input type="radio" name="main_adv" id="main" value="false" class="tab">
+          <label for="main" class="tab_label">
             <p>JEE Mains</p>
           </label>
       
-          <input type="radio" name="main_adv" id="advanced" value="true" class="radio">
-          <label for="advanced" class="switch_label">
+          <input type="radio" name="main_adv" id="advanced" value="true" class="tab">
+          <label for="advanced" class="tab_label">
             <p>JEE Advanced</p>
           </label>
         </div>

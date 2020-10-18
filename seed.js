@@ -5,6 +5,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology Bombay",
       state: "", 
+      type: "iit",
       branches: [
         {
           branch_name:
@@ -14,7 +15,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -24,7 +25,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34,7 +35,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43,7 +44,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2",
           closing_rank: "2",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -52,7 +53,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3",
           closing_rank: "3",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62,7 +63,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3",
           closing_rank: "3",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -71,7 +72,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "4",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -81,7 +82,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3",
           closing_rank: "6",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -90,7 +91,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10",
           closing_rank: "10",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -99,7 +100,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10",
           closing_rank: "10",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -109,7 +110,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "15",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -119,7 +120,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3",
           closing_rank: "21",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -128,7 +129,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "21",
           closing_rank: "24",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -138,7 +139,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "26",
           closing_rank: "26",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -147,7 +148,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "29",
           closing_rank: "29",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -156,7 +157,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "30",
           closing_rank: "30",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -165,7 +166,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "35",
           closing_rank: "35",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -175,7 +176,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7",
           closing_rank: "37",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -184,7 +185,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "42",
           closing_rank: "42",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -193,7 +194,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "54",
           closing_rank: "54",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -202,7 +203,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "25",
           closing_rank: "58",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -211,7 +212,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "61",
           closing_rank: "61",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -221,7 +222,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "63",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -231,7 +232,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "60",
           closing_rank: "77",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -241,7 +242,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "56",
           closing_rank: "78",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -251,7 +252,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "83",
           closing_rank: "83",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -261,7 +262,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "94",
           closing_rank: "94",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -270,7 +271,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "27",
           closing_rank: "100",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -279,7 +280,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "73",
           closing_rank: "100",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -288,7 +289,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "101",
           closing_rank: "101",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -298,7 +299,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "60",
           closing_rank: "105",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -308,7 +309,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "59",
           closing_rank: "122",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -318,7 +319,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "122",
           closing_rank: "122",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -327,7 +328,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "84",
           closing_rank: "123",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -336,7 +337,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "76",
           closing_rank: "132",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -345,7 +346,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "65",
           closing_rank: "135",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -354,7 +355,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "150",
           closing_rank: "150",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -363,7 +364,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "146",
           closing_rank: "165",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -372,7 +373,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "60",
           closing_rank: "175",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -381,7 +382,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "175",
           closing_rank: "180",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -391,7 +392,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "130",
           closing_rank: "190",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -400,7 +401,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "192",
           closing_rank: "192",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -410,7 +411,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "203",
           closing_rank: "203",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -419,7 +420,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "66",
           closing_rank: "219",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -428,7 +429,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "82",
           closing_rank: "250",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -438,7 +439,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "262",
           closing_rank: "262",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -447,7 +448,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "152",
           closing_rank: "285",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -456,7 +457,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "71",
           closing_rank: "296",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -465,7 +466,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "309",
           closing_rank: "309",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -475,7 +476,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10",
           closing_rank: "313",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "BS in Mathematics (4 Years, Bachelor of Science)",
@@ -484,7 +485,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "320",
           closing_rank: "320",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -493,7 +494,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "236",
           closing_rank: "337",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -502,7 +503,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "276",
           closing_rank: "355",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -512,7 +513,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "363",
           closing_rank: "378",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -522,7 +523,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "261",
           closing_rank: "392",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -532,7 +533,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "155",
           closing_rank: "410",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -541,7 +542,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "310",
           closing_rank: "432",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -551,7 +552,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "173",
           closing_rank: "436",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -561,7 +562,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "448",
           closing_rank: "448",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -571,7 +572,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "457",
           closing_rank: "457",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -580,7 +581,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "371",
           closing_rank: "469",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -589,7 +590,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "234",
           closing_rank: "477",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -598,7 +599,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "271",
           closing_rank: "501",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -607,7 +608,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "529",
           closing_rank: "529",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -616,7 +617,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "56",
           closing_rank: "564",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -625,7 +626,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "567",
           closing_rank: "567",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -635,7 +636,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "306",
           closing_rank: "572",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -644,7 +645,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "168",
           closing_rank: "604",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -653,7 +654,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "573",
           closing_rank: "611",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -663,7 +664,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "511",
           closing_rank: "635",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -672,7 +673,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "639",
           closing_rank: "639",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -682,7 +683,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "546",
           closing_rank: "647",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -691,7 +692,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "568",
           closing_rank: "650",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -701,7 +702,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "336",
           closing_rank: "657",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -710,7 +711,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "30",
           closing_rank: "661",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "BS in Mathematics (4 Years, Bachelor of Science)",
@@ -719,7 +720,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "663",
           closing_rank: "663",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -729,7 +730,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "691",
           closing_rank: "691",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -738,7 +739,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "705",
           closing_rank: "705",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -748,7 +749,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "745",
           closing_rank: "745",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -758,7 +759,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "625",
           closing_rank: "751",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -767,7 +768,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "643",
           closing_rank: "756",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -777,7 +778,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "726",
           closing_rank: "757",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -786,7 +787,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "794",
           closing_rank: "794",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -795,7 +796,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "172",
           closing_rank: "797",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -804,7 +805,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "399",
           closing_rank: "799",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -814,7 +815,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "807",
           closing_rank: "829",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -824,7 +825,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "868",
           closing_rank: "868",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -833,7 +834,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "922",
           closing_rank: "922",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -842,7 +843,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "899",
           closing_rank: "942",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -851,7 +852,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "431",
           closing_rank: "945",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -860,7 +861,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "196",
           closing_rank: "999",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -869,7 +870,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "527",
           closing_rank: "1025",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -879,7 +880,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "678",
           closing_rank: "1034",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -888,7 +889,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "697",
           closing_rank: "1058",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -898,7 +899,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1116",
           closing_rank: "1116",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -907,7 +908,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "565",
           closing_rank: "1118",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -916,7 +917,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "735",
           closing_rank: "1123",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -926,7 +927,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1109",
           closing_rank: "1160",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -935,7 +936,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "842",
           closing_rank: "1176",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -944,7 +945,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "511",
           closing_rank: "1186",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -953,7 +954,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "663",
           closing_rank: "1208",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -962,7 +963,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "682",
           closing_rank: "1266",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -971,7 +972,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "347",
           closing_rank: "1290",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -981,7 +982,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1097",
           closing_rank: "1294",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -991,7 +992,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "864",
           closing_rank: "1314",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1001,7 +1002,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1025",
           closing_rank: "1319",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -1010,7 +1011,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "349",
           closing_rank: "1330",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1020,7 +1021,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1370",
           closing_rank: "1370",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "BS in Mathematics (4 Years, Bachelor of Science)",
@@ -1029,7 +1030,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1177",
           closing_rank: "1419",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1039,7 +1040,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1425",
           closing_rank: "1425",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1049,7 +1050,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1260",
           closing_rank: "1430",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1059,7 +1060,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1212",
           closing_rank: "1434",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "BS in Mathematics (4 Years, Bachelor of Science)",
@@ -1068,7 +1069,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1041",
           closing_rank: "1631",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1078,7 +1079,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1349",
           closing_rank: "1642",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -1087,7 +1088,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "440",
           closing_rank: "1739",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1097,7 +1098,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1236",
           closing_rank: "1910",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -1106,7 +1107,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1312",
           closing_rank: "1925",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -1115,7 +1116,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1255",
           closing_rank: "1981",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -1124,7 +1125,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1182",
           closing_rank: "2082",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1133,7 +1134,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1273",
           closing_rank: "2219",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1143,7 +1144,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1252",
           closing_rank: "2219",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1153,7 +1154,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2228",
           closing_rank: "2228",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1163,7 +1164,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1466",
           closing_rank: "2275",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1173,7 +1174,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2018",
           closing_rank: "2358",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -1182,7 +1183,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1312",
           closing_rank: "2363",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1192,7 +1193,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2413",
           closing_rank: "2413",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "BS in Mathematics (4 Years, Bachelor of Science)",
@@ -1201,7 +1202,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2444",
           closing_rank: "2444",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -1210,7 +1211,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2578",
           closing_rank: "2578",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1220,7 +1221,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1016",
           closing_rank: "2606",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -1229,7 +1230,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1087",
           closing_rank: "2689",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -1238,7 +1239,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2302",
           closing_rank: "2727",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -1247,7 +1248,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2160",
           closing_rank: "2772",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1257,7 +1258,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2647",
           closing_rank: "2822",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -1266,7 +1267,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2851",
           closing_rank: "2924",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -1275,7 +1276,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1965",
           closing_rank: "2932",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1284,7 +1285,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "747",
           closing_rank: "3005",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1294,7 +1295,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2353",
           closing_rank: "3012",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1303,7 +1304,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2357",
           closing_rank: "3061",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1313,7 +1314,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2138",
           closing_rank: "3501",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1322,7 +1323,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1880",
           closing_rank: "3536",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1332,7 +1333,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3904",
           closing_rank: "3904",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -1341,7 +1342,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2421",
           closing_rank: "3952",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1351,7 +1352,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3205",
           closing_rank: "4016",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1361,7 +1362,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3392",
           closing_rank: "4020",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -1370,7 +1371,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1276",
           closing_rank: "4239",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1380,7 +1381,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4102",
           closing_rank: "4480",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -1389,7 +1390,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2634",
           closing_rank: "4550",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1399,7 +1400,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4572",
           closing_rank: "4736",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1409,7 +1410,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4023",
           closing_rank: "4869",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "BS in Mathematics (4 Years, Bachelor of Science)",
@@ -1418,7 +1419,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4960",
           closing_rank: "4960",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1427,7 +1428,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1871",
           closing_rank: "5464",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -1436,7 +1437,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1486",
           closing_rank: "5640",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1446,7 +1447,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4968",
           closing_rank: "5939",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -1455,7 +1456,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5583",
           closing_rank: "6048",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1465,7 +1466,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4814",
           closing_rank: "6574",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1475,7 +1476,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7336",
           closing_rank: "7641",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1485,7 +1486,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8337",
           closing_rank: "8834",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -1494,7 +1495,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8846",
           closing_rank: "12409",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -1503,7 +1504,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "150",
           closing_rank: "150",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -1512,7 +1513,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "159",
           closing_rank: "159",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1521,7 +1522,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "15",
           closing_rank: "15",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1531,7 +1532,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1541,7 +1542,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "22",
           closing_rank: "22",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1551,7 +1552,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "238",
           closing_rank: "238",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -1560,7 +1561,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3",
           closing_rank: "3",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1570,7 +1571,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "45",
           closing_rank: "45",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1579,7 +1580,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "14",
           closing_rank: "6",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1588,7 +1589,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6",
           closing_rank: "6",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -1597,7 +1598,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7",
           closing_rank: "7",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1606,14 +1607,13 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8",
           closing_rank: "8",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology Delhi",
-      state: "",
-      
+      type: "iit",
       branches: [
         {
           branch_name:
@@ -1623,7 +1623,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1633,7 +1633,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3",
           closing_rank: "3",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1643,7 +1643,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2",
           closing_rank: "3",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -1652,7 +1652,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "4",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1662,7 +1662,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7",
           closing_rank: "7",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1672,7 +1672,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8",
           closing_rank: "11",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1682,7 +1682,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "11",
           closing_rank: "11",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1692,7 +1692,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7",
           closing_rank: "12",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -1701,7 +1701,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "12",
           closing_rank: "12",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1710,7 +1710,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "19",
           closing_rank: "19",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1720,7 +1720,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3",
           closing_rank: "19",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1729,7 +1729,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "21",
           closing_rank: "21",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -1738,7 +1738,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "16",
           closing_rank: "24",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1748,7 +1748,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "26",
           closing_rank: "26",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1758,7 +1758,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "23",
           closing_rank: "29",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -1767,7 +1767,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "32",
           closing_rank: "32",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1776,7 +1776,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "32",
           closing_rank: "32",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1786,7 +1786,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "32",
           closing_rank: "34",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1796,7 +1796,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "36",
           closing_rank: "36",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1806,7 +1806,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "22",
           closing_rank: "39",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1816,7 +1816,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "40",
           closing_rank: "40",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -1825,7 +1825,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "39",
           closing_rank: "46",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1835,7 +1835,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "48",
           closing_rank: "48",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -1844,7 +1844,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9",
           closing_rank: "54",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1853,7 +1853,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "43",
           closing_rank: "60",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1863,7 +1863,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "62",
           closing_rank: "62",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1873,7 +1873,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "17",
           closing_rank: "65",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1883,7 +1883,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "34",
           closing_rank: "69",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1892,7 +1892,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "20",
           closing_rank: "74",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1902,7 +1902,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "37",
           closing_rank: "80",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1912,7 +1912,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "89",
           closing_rank: "89",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1922,7 +1922,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2",
           closing_rank: "93",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1932,7 +1932,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "87",
           closing_rank: "96",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1942,7 +1942,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "107",
           closing_rank: "107",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1951,7 +1951,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8",
           closing_rank: "108",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -1960,7 +1960,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "85",
           closing_rank: "113",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1970,7 +1970,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "109",
           closing_rank: "115",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -1979,7 +1979,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "120",
           closing_rank: "120",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -1989,7 +1989,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "124",
           closing_rank: "124",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -1998,7 +1998,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "134",
           closing_rank: "134",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2008,7 +2008,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "82",
           closing_rank: "145",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2018,7 +2018,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "75",
           closing_rank: "147",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -2027,7 +2027,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "83",
           closing_rank: "152",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2037,7 +2037,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "104",
           closing_rank: "174",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2047,7 +2047,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "176",
           closing_rank: "176",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2057,7 +2057,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "120",
           closing_rank: "192",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2067,7 +2067,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "128",
           closing_rank: "197",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2077,7 +2077,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "79",
           closing_rank: "207",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2086,7 +2086,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "219",
           closing_rank: "219",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2096,7 +2096,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "95",
           closing_rank: "247",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2106,7 +2106,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "134",
           closing_rank: "255",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2115,7 +2115,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "218",
           closing_rank: "267.1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2125,7 +2125,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "147",
           closing_rank: "275",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -2134,7 +2134,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "215",
           closing_rank: "285",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -2143,7 +2143,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "107",
           closing_rank: "295",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2152,7 +2152,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "250",
           closing_rank: "299",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2161,7 +2161,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "57",
           closing_rank: "310",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2171,7 +2171,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "97",
           closing_rank: "314",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2181,7 +2181,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "245",
           closing_rank: "324",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2190,7 +2190,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "215",
           closing_rank: "330",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2199,7 +2199,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "280.1",
           closing_rank: "331",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2208,7 +2208,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "102",
           closing_rank: "333",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2218,7 +2218,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "252",
           closing_rank: "344",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2228,7 +2228,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "118",
           closing_rank: "348",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2238,7 +2238,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "243",
           closing_rank: "378",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2248,7 +2248,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "315",
           closing_rank: "419",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2258,7 +2258,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "319",
           closing_rank: "435",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2268,7 +2268,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "437",
           closing_rank: "437",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2278,7 +2278,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "460",
           closing_rank: "460",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2288,7 +2288,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "233",
           closing_rank: "465",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -2297,7 +2297,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "297",
           closing_rank: "469",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2306,7 +2306,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "250",
           closing_rank: "482",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2316,7 +2316,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "325",
           closing_rank: "525",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2326,7 +2326,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "414",
           closing_rank: "539",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2336,7 +2336,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "328",
           closing_rank: "558",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2346,7 +2346,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "473",
           closing_rank: "561",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2356,7 +2356,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "454",
           closing_rank: "565",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2365,7 +2365,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "155",
           closing_rank: "606",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2375,7 +2375,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "615",
           closing_rank: "615",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2385,7 +2385,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "415",
           closing_rank: "660",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2394,7 +2394,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "50",
           closing_rank: "681",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -2403,7 +2403,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "630",
           closing_rank: "694",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2412,7 +2412,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "706",
           closing_rank: "706",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2422,7 +2422,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "663",
           closing_rank: "741",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2431,7 +2431,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "303",
           closing_rank: "753",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2440,7 +2440,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "780",
           closing_rank: "780",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2449,7 +2449,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "506",
           closing_rank: "785",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2459,7 +2459,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "566",
           closing_rank: "802",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2469,7 +2469,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "519",
           closing_rank: "864",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2479,7 +2479,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "469",
           closing_rank: "866",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2488,7 +2488,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "901",
           closing_rank: "901",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2498,7 +2498,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "948",
           closing_rank: "948",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2507,7 +2507,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "858",
           closing_rank: "964",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2517,7 +2517,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "438",
           closing_rank: "989",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2526,7 +2526,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "856",
           closing_rank: "1008",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -2535,7 +2535,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "361",
           closing_rank: "1020",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2544,7 +2544,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "501",
           closing_rank: "1045",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2554,7 +2554,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "774",
           closing_rank: "1060",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2563,7 +2563,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "602",
           closing_rank: "1065",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2573,7 +2573,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1081",
           closing_rank: "1081",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2582,7 +2582,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1100",
           closing_rank: "1100",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -2591,7 +2591,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "597",
           closing_rank: "1156",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2600,7 +2600,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1176",
           closing_rank: "1176",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2609,7 +2609,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "498",
           closing_rank: "1222",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2618,7 +2618,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "631",
           closing_rank: "1242",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2628,7 +2628,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1219",
           closing_rank: "1288",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2637,7 +2637,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "598",
           closing_rank: "1298",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2646,7 +2646,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "719",
           closing_rank: "1329",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2656,7 +2656,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1346",
           closing_rank: "1346",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2666,7 +2666,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "679",
           closing_rank: "1372",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2676,7 +2676,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1337",
           closing_rank: "1482",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2686,7 +2686,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1483",
           closing_rank: "1483",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2696,7 +2696,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1035",
           closing_rank: "1585",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2705,7 +2705,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1081",
           closing_rank: "1631",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -2714,7 +2714,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "795",
           closing_rank: "1676",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2724,7 +2724,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1381",
           closing_rank: "1720",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -2733,7 +2733,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1727",
           closing_rank: "1727",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2743,7 +2743,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1185",
           closing_rank: "1752",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2753,7 +2753,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1370",
           closing_rank: "1927",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2762,7 +2762,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1243",
           closing_rank: "1940",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -2771,7 +2771,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1407",
           closing_rank: "2162",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2781,7 +2781,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1692",
           closing_rank: "2176",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2791,7 +2791,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1957",
           closing_rank: "2287",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2801,7 +2801,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2426",
           closing_rank: "2426",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2810,7 +2810,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2008",
           closing_rank: "2481",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2820,7 +2820,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2359",
           closing_rank: "2587",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2829,7 +2829,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2424",
           closing_rank: "2587",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -2838,7 +2838,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2450",
           closing_rank: "2605",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2848,7 +2848,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1793",
           closing_rank: "2771",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2857,7 +2857,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1018",
           closing_rank: "2849",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2866,7 +2866,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1243",
           closing_rank: "3108",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2876,7 +2876,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2081",
           closing_rank: "3253",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -2885,7 +2885,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2093",
           closing_rank: "3258",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2894,7 +2894,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1121",
           closing_rank: "3429",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2904,7 +2904,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2045",
           closing_rank: "3491",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2913,7 +2913,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1840",
           closing_rank: "3710",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -2922,7 +2922,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2377",
           closing_rank: "3932",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -2931,7 +2931,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2875",
           closing_rank: "4125",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2941,7 +2941,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3829",
           closing_rank: "4174",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2951,7 +2951,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2411",
           closing_rank: "4403",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2961,7 +2961,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3266",
           closing_rank: "4530",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2971,7 +2971,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4216",
           closing_rank: "4797",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -2981,7 +2981,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5214",
           closing_rank: "5690",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -2990,7 +2990,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5115",
           closing_rank: "5854",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -2999,7 +2999,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4276",
           closing_rank: "5946",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -3008,7 +3008,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4914",
           closing_rank: "6542",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -3017,7 +3017,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3937",
           closing_rank: "6549",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3027,7 +3027,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2512",
           closing_rank: "6971",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3037,7 +3037,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4811",
           closing_rank: "7047",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -3046,7 +3046,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7440",
           closing_rank: "9677",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3056,7 +3056,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "100",
           closing_rank: "100",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3065,7 +3065,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10",
           closing_rank: "10",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3074,7 +3074,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16",
           closing_rank: "16",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3084,7 +3084,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2",
           closing_rank: "2",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3094,7 +3094,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2",
           closing_rank: "2",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3103,7 +3103,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "4",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3113,7 +3113,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "529",
           closing_rank: "529",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3122,7 +3122,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "56",
           closing_rank: "56",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3131,7 +3131,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5",
           closing_rank: "5",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3141,7 +3141,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "670",
           closing_rank: "670",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Textile Technology (4 Years, Bachelor of Technology)",
@@ -3150,7 +3150,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "699",
           closing_rank: "765",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -3159,7 +3159,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "76",
           closing_rank: "76",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3169,13 +3169,13 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "87",
           closing_rank: "87",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology Kanpur",
-      state: "",
+      type: "iit",
       
       branches: [
         {
@@ -3186,7 +3186,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1",
           closing_rank: "1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3196,7 +3196,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "5",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3206,7 +3206,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "9",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3216,7 +3216,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "18",
           closing_rank: "25",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3225,7 +3225,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "34",
           closing_rank: "34",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3235,7 +3235,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "30",
           closing_rank: "45",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3244,7 +3244,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "50",
           closing_rank: "64",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3253,7 +3253,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "86",
           closing_rank: "86",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3263,7 +3263,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "40",
           closing_rank: "88",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3272,7 +3272,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "54",
           closing_rank: "92",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3282,7 +3282,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "95",
           closing_rank: "105",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -3291,7 +3291,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "131",
           closing_rank: "131",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3301,7 +3301,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "56",
           closing_rank: "133",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3311,7 +3311,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "57",
           closing_rank: "153",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3320,7 +3320,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "143",
           closing_rank: "181",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3330,7 +3330,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "125",
           closing_rank: "184",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3339,7 +3339,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "59",
           closing_rank: "186",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3349,7 +3349,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "95",
           closing_rank: "217",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3359,7 +3359,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "207",
           closing_rank: "231",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3368,7 +3368,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "115",
           closing_rank: "245",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3377,7 +3377,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "245",
           closing_rank: "245",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -3386,7 +3386,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "288",
           closing_rank: "332",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3395,7 +3395,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "139",
           closing_rank: "342",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3405,7 +3405,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "165",
           closing_rank: "346",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3414,7 +3414,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "336",
           closing_rank: "349",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -3423,7 +3423,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "310",
           closing_rank: "357",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3432,7 +3432,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "74",
           closing_rank: "362",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3441,7 +3441,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "405",
           closing_rank: "452",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3451,7 +3451,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "232",
           closing_rank: "453",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3460,7 +3460,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "401",
           closing_rank: "502",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3470,7 +3470,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "459",
           closing_rank: "516",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3479,7 +3479,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "506",
           closing_rank: "541",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -3488,7 +3488,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "439",
           closing_rank: "555",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3497,7 +3497,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "306",
           closing_rank: "556",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3506,7 +3506,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "312",
           closing_rank: "576",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3516,7 +3516,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "333",
           closing_rank: "583",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3526,7 +3526,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "218",
           closing_rank: "585",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -3535,7 +3535,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "598",
           closing_rank: "598",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -3544,7 +3544,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "398",
           closing_rank: "608",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3554,7 +3554,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "609",
           closing_rank: "609",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -3563,7 +3563,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "558",
           closing_rank: "637",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3572,7 +3572,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "393",
           closing_rank: "638",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3582,7 +3582,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "633",
           closing_rank: "663.1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3591,7 +3591,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "634",
           closing_rank: "683",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -3600,7 +3600,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "702",
           closing_rank: "755",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -3609,7 +3609,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "782",
           closing_rank: "822",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -3618,7 +3618,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "695",
           closing_rank: "877",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3627,7 +3627,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "620",
           closing_rank: "890",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3636,7 +3636,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "898",
           closing_rank: "898",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3646,7 +3646,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "479",
           closing_rank: "919",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3656,7 +3656,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "939",
           closing_rank: "977",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3666,7 +3666,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "832",
           closing_rank: "986",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3675,7 +3675,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "431",
           closing_rank: "994",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3684,7 +3684,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "639",
           closing_rank: "1030",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3694,7 +3694,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "446",
           closing_rank: "1059",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -3703,7 +3703,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "729",
           closing_rank: "1083",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -3712,7 +3712,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "227",
           closing_rank: "1084",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -3721,7 +3721,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "715",
           closing_rank: "1109",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -3730,7 +3730,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1160",
           closing_rank: "1160",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3740,7 +3740,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "985",
           closing_rank: "1191",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3749,7 +3749,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1199",
           closing_rank: "1199",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3758,7 +3758,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1004",
           closing_rank: "1331",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3767,7 +3767,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1436",
           closing_rank: "1436",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -3776,7 +3776,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1458",
           closing_rank: "1458",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -3785,7 +3785,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1431",
           closing_rank: "1458",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3795,7 +3795,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1541",
           closing_rank: "1541",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -3804,7 +3804,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1244",
           closing_rank: "1550",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3813,7 +3813,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1277",
           closing_rank: "1584",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -3822,7 +3822,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1608",
           closing_rank: "1608",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3831,7 +3831,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "904",
           closing_rank: "1629",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -3840,7 +3840,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1267",
           closing_rank: "1684",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -3849,7 +3849,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1049",
           closing_rank: "1717",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3858,7 +3858,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1335",
           closing_rank: "1787",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -3867,7 +3867,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1121",
           closing_rank: "1922",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3877,7 +3877,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1086",
           closing_rank: "1929",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3887,7 +3887,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1930",
           closing_rank: "2006",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -3896,7 +3896,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1254",
           closing_rank: "2108",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3906,7 +3906,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1481",
           closing_rank: "2115",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3915,7 +3915,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2159",
           closing_rank: "2159",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -3924,7 +3924,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1337",
           closing_rank: "2166",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3934,7 +3934,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1607",
           closing_rank: "2341",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -3943,7 +3943,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2036",
           closing_rank: "2415",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -3952,7 +3952,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2305",
           closing_rank: "2438",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -3961,7 +3961,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1681",
           closing_rank: "2463",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3971,7 +3971,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1842",
           closing_rank: "2696",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3981,7 +3981,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2874",
           closing_rank: "2874",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -3991,7 +3991,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1801",
           closing_rank: "2887",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4000,7 +4000,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1365",
           closing_rank: "2974",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -4009,7 +4009,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3076",
           closing_rank: "3076",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -4018,7 +4018,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2478",
           closing_rank: "3131",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4027,7 +4027,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2673",
           closing_rank: "3187",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -4036,7 +4036,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3322",
           closing_rank: "3322",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -4045,7 +4045,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3329",
           closing_rank: "3329",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4055,7 +4055,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2789",
           closing_rank: "3399",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -4064,7 +4064,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2152",
           closing_rank: "3430",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -4073,7 +4073,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1854",
           closing_rank: "3497",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -4082,7 +4082,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3434",
           closing_rank: "3548",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -4091,7 +4091,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1871",
           closing_rank: "3808",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -4100,7 +4100,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3414",
           closing_rank: "3819",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -4109,7 +4109,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2643",
           closing_rank: "3965",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -4118,7 +4118,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3385",
           closing_rank: "3993",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -4127,7 +4127,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3565",
           closing_rank: "4431",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -4136,7 +4136,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3395",
           closing_rank: "4681",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -4145,7 +4145,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1062",
           closing_rank: "5055",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4155,7 +4155,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3514",
           closing_rank: "5188",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (4 Years, Bachelor of Science)",
@@ -4164,7 +4164,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4936",
           closing_rank: "5722",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4174,7 +4174,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5762",
           closing_rank: "5822",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4184,7 +4184,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4683",
           closing_rank: "6002",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4193,7 +4193,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3390",
           closing_rank: "6033",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4203,7 +4203,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4785",
           closing_rank: "6292",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -4212,7 +4212,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6300",
           closing_rank: "6396",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -4221,7 +4221,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6555",
           closing_rank: "6616",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -4230,7 +4230,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6749",
           closing_rank: "6749",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -4239,7 +4239,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4421",
           closing_rank: "6923",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -4248,7 +4248,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5012",
           closing_rank: "7418",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -4257,7 +4257,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6437",
           closing_rank: "7516",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -4266,7 +4266,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6431",
           closing_rank: "8007",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -4275,7 +4275,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7451",
           closing_rank: "9158",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4285,7 +4285,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7847",
           closing_rank: "10143",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -4294,7 +4294,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7185",
           closing_rank: "11273",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4304,7 +4304,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10439",
           closing_rank: "11887",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -4313,7 +4313,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12585",
           closing_rank: "13639",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -4322,7 +4322,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10255",
           closing_rank: "13703",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -4331,7 +4331,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1025",
           closing_rank: "1025",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Earth Sciences (4 Years, Bachelor of Science)",
@@ -4340,7 +4340,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1101",
           closing_rank: "1101",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (4 Years, Bachelor of Science)",
@@ -4349,7 +4349,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1258",
           closing_rank: "1258",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -4358,7 +4358,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "148",
           closing_rank: "195",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -4367,7 +4367,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "20",
           closing_rank: "20",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (4 Years, Bachelor of Science)",
@@ -4376,7 +4376,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1142",
           closing_rank: "29",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4386,7 +4386,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "422",
           closing_rank: "422",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4395,7 +4395,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "28",
           closing_rank: "49",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4404,7 +4404,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "20",
           closing_rank: "58",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4413,7 +4413,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "23",
           closing_rank: "61",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4422,7 +4422,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1120",
           closing_rank: "61",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -4431,7 +4431,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "29",
           closing_rank: "62",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4441,7 +4441,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "66",
           closing_rank: "66",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -4450,7 +4450,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "63",
           closing_rank: "67",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4460,13 +4460,13 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "801",
           closing_rank: "801",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology Kharagpur",
-      state: "",
+      type: "iit",
       
       branches: [
         {
@@ -4477,7 +4477,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3",
           closing_rank: "3",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4487,7 +4487,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6",
           closing_rank: "6",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4497,7 +4497,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8",
           closing_rank: "8",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4507,7 +4507,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "12",
           closing_rank: "12",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4517,7 +4517,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "20",
           closing_rank: "20",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4527,7 +4527,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "20",
           closing_rank: "20",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4537,7 +4537,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "31",
           closing_rank: "31",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4547,7 +4547,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "33",
           closing_rank: "33",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4557,7 +4557,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "36",
           closing_rank: "36",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4566,7 +4566,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "37",
           closing_rank: "37",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4576,7 +4576,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "17",
           closing_rank: "39",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4586,7 +4586,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "72",
           closing_rank: "72",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4596,7 +4596,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "17",
           closing_rank: "72",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4605,7 +4605,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "72",
           closing_rank: "72",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4615,7 +4615,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "67",
           closing_rank: "74",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4624,7 +4624,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "88",
           closing_rank: "91",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4634,7 +4634,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "97",
           closing_rank: "97",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4644,7 +4644,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "99",
           closing_rank: "99",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4654,7 +4654,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "92",
           closing_rank: "100",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4664,7 +4664,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "104",
           closing_rank: "104",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4674,7 +4674,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "115",
           closing_rank: "115",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4684,7 +4684,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "81",
           closing_rank: "119",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4694,7 +4694,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "77",
           closing_rank: "139",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4704,7 +4704,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "147",
           closing_rank: "147",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4714,7 +4714,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "155",
           closing_rank: "155",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4724,7 +4724,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "51",
           closing_rank: "166",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4733,7 +4733,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "141",
           closing_rank: "178",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4742,7 +4742,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "168",
           closing_rank: "178",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4752,7 +4752,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "186",
           closing_rank: "186",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4762,7 +4762,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "211",
           closing_rank: "211",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4772,7 +4772,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "219",
           closing_rank: "219",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4782,7 +4782,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "221",
           closing_rank: "221",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4792,7 +4792,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "229",
           closing_rank: "229",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4802,7 +4802,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "140",
           closing_rank: "258",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -4811,7 +4811,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "239",
           closing_rank: "263",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -4820,7 +4820,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "149",
           closing_rank: "268",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -4829,7 +4829,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "277",
           closing_rank: "277",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4839,7 +4839,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "204",
           closing_rank: "283",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4848,7 +4848,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "283",
           closing_rank: "283",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4857,7 +4857,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "278",
           closing_rank: "296",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4867,7 +4867,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "202",
           closing_rank: "299",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -4876,7 +4876,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "301",
           closing_rank: "314",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4886,7 +4886,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "278",
           closing_rank: "332",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4896,7 +4896,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "259",
           closing_rank: "339",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4906,7 +4906,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "265",
           closing_rank: "343",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4916,7 +4916,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "344",
           closing_rank: "350",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4926,7 +4926,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "107",
           closing_rank: "353",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4936,7 +4936,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "287",
           closing_rank: "372",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -4945,7 +4945,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "204",
           closing_rank: "378",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4955,7 +4955,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "382",
           closing_rank: "382",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -4964,7 +4964,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "398",
           closing_rank: "398",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4974,7 +4974,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "212",
           closing_rank: "407",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4984,7 +4984,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "418",
           closing_rank: "418",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -4994,7 +4994,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "287",
           closing_rank: "441",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -5003,7 +5003,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "114",
           closing_rank: "453",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -5012,7 +5012,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "440",
           closing_rank: "463",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -5021,7 +5021,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "472",
           closing_rank: "472",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5031,7 +5031,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "351",
           closing_rank: "477",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5041,7 +5041,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "153",
           closing_rank: "491",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5051,7 +5051,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "494",
           closing_rank: "494",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5061,7 +5061,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "510",
           closing_rank: "510",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5071,7 +5071,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "521",
           closing_rank: "521",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -5080,7 +5080,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "373",
           closing_rank: "571",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5090,7 +5090,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "582",
           closing_rank: "582",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5100,7 +5100,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "588",
           closing_rank: "588",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -5109,7 +5109,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "383",
           closing_rank: "590",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -5118,7 +5118,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "406",
           closing_rank: "598",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -5127,7 +5127,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "602",
           closing_rank: "602",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5137,7 +5137,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "535",
           closing_rank: "615",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5147,7 +5147,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "476",
           closing_rank: "625",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5157,7 +5157,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "548",
           closing_rank: "638",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5167,7 +5167,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "649",
           closing_rank: "649",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5177,7 +5177,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "420",
           closing_rank: "653",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5187,7 +5187,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "462",
           closing_rank: "657",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5197,7 +5197,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "463",
           closing_rank: "666",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5207,7 +5207,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "688",
           closing_rank: "688",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5217,7 +5217,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "701",
           closing_rank: "701",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5227,7 +5227,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "516",
           closing_rank: "703",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5237,7 +5237,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "318",
           closing_rank: "710",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5247,7 +5247,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "364",
           closing_rank: "721",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5257,7 +5257,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "727",
           closing_rank: "727",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5267,7 +5267,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "728",
           closing_rank: "728",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5277,7 +5277,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "402",
           closing_rank: "739",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -5286,7 +5286,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "743",
           closing_rank: "743",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -5295,7 +5295,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "754",
           closing_rank: "754",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5305,7 +5305,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "679",
           closing_rank: "762",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5315,7 +5315,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "586",
           closing_rank: "794",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -5324,7 +5324,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "748",
           closing_rank: "809",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5334,7 +5334,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "828",
           closing_rank: "828",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5344,7 +5344,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "543",
           closing_rank: "832",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5354,7 +5354,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "694",
           closing_rank: "843",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5364,7 +5364,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "595",
           closing_rank: "871",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5374,7 +5374,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "880",
           closing_rank: "880",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -5383,7 +5383,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "884",
           closing_rank: "884",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5393,7 +5393,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "889",
           closing_rank: "889",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5403,7 +5403,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "892",
           closing_rank: "892",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -5412,7 +5412,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "893",
           closing_rank: "893",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5422,7 +5422,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "903",
           closing_rank: "903",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -5431,7 +5431,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "905",
           closing_rank: "905",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5441,7 +5441,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "906",
           closing_rank: "907",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -5450,7 +5450,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "626",
           closing_rank: "908",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -5459,7 +5459,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "787",
           closing_rank: "921",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5469,7 +5469,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "876",
           closing_rank: "927",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -5478,7 +5478,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "867",
           closing_rank: "930",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5488,7 +5488,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "560",
           closing_rank: "932",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -5497,7 +5497,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "960",
           closing_rank: "960",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5507,7 +5507,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "520",
           closing_rank: "980",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5517,7 +5517,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "981",
           closing_rank: "981",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5527,7 +5527,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "997",
           closing_rank: "997",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5537,7 +5537,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "764",
           closing_rank: "999",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5547,7 +5547,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "928",
           closing_rank: "1003",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5557,7 +5557,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "910",
           closing_rank: "1013",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5567,7 +5567,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1019",
           closing_rank: "1019",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5577,7 +5577,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1019",
           closing_rank: "1024",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5587,7 +5587,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1029",
           closing_rank: "1029",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5597,7 +5597,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "814",
           closing_rank: "1045",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -5606,7 +5606,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "819",
           closing_rank: "1057",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5616,7 +5616,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "968",
           closing_rank: "1061",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5626,7 +5626,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1054",
           closing_rank: "1062",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -5635,7 +5635,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "621",
           closing_rank: "1079",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5645,7 +5645,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1091",
           closing_rank: "1091",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -5654,7 +5654,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "591",
           closing_rank: "1093",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5664,7 +5664,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1133",
           closing_rank: "1133",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5674,7 +5674,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "763",
           closing_rank: "1135",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5684,7 +5684,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "937",
           closing_rank: "1136",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5694,7 +5694,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "901",
           closing_rank: "1145",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5704,7 +5704,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1156",
           closing_rank: "1156",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5714,7 +5714,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "938",
           closing_rank: "1166",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5724,7 +5724,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1167",
           closing_rank: "1167",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5734,7 +5734,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1191",
           closing_rank: "1191",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -5743,7 +5743,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1197",
           closing_rank: "1197",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -5752,7 +5752,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1197",
           closing_rank: "1197",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -5761,7 +5761,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1202",
           closing_rank: "1202",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -5770,7 +5770,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1214",
           closing_rank: "1214",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5780,7 +5780,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "946",
           closing_rank: "1220",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -5789,7 +5789,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1270",
           closing_rank: "1294",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5799,7 +5799,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1339",
           closing_rank: "1339",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5809,7 +5809,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "976",
           closing_rank: "1355",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5819,7 +5819,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "475",
           closing_rank: "1385",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -5828,7 +5828,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1387",
           closing_rank: "1387",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5838,7 +5838,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1054",
           closing_rank: "1415",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -5847,7 +5847,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "781",
           closing_rank: "1417",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5857,7 +5857,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1422",
           closing_rank: "1422",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5867,7 +5867,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "936",
           closing_rank: "1436",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5877,7 +5877,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "390",
           closing_rank: "1522",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5887,7 +5887,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1369",
           closing_rank: "1532",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5897,7 +5897,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1389",
           closing_rank: "1543",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5907,7 +5907,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1172",
           closing_rank: "1578",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5917,7 +5917,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1623",
           closing_rank: "1623",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -5926,7 +5926,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1328",
           closing_rank: "1651",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5936,7 +5936,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1269",
           closing_rank: "1683",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -5945,7 +5945,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1411",
           closing_rank: "1723",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -5955,7 +5955,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1595",
           closing_rank: "1737",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -5964,7 +5964,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1151",
           closing_rank: "1743",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -5973,7 +5973,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1745",
           closing_rank: "1745",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:"Manufacturing Science and Engineering with M.Tech. in Industrial and Systems Engineering and Management (5 Years, Bachelor and Master of Technology (Dual Degree))",
@@ -5982,7 +5982,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1797",
           closing_rank: "1812",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -5991,7 +5991,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1018",
           closing_rank: "1813",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6001,7 +6001,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1510",
           closing_rank: "1819",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6011,7 +6011,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1828",
           closing_rank: "1828",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6021,7 +6021,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1658",
           closing_rank: "1831",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6031,7 +6031,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1831",
           closing_rank: "1831",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6041,7 +6041,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1846",
           closing_rank: "1846",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6051,7 +6051,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1846",
           closing_rank: "1846",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6061,7 +6061,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1805",
           closing_rank: "1892",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -6070,7 +6070,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1206",
           closing_rank: "1897",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6080,7 +6080,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1444",
           closing_rank: "1923",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6090,7 +6090,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1367",
           closing_rank: "1924",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6100,7 +6100,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1949",
           closing_rank: "1949",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6110,7 +6110,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1402",
           closing_rank: "1993",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -6119,7 +6119,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1175",
           closing_rank: "2014",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6129,7 +6129,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1711",
           closing_rank: "2019",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6139,7 +6139,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2085",
           closing_rank: "2085",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6149,7 +6149,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2033",
           closing_rank: "2101",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6159,7 +6159,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "966",
           closing_rank: "2134",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6169,7 +6169,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2071",
           closing_rank: "2155",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6179,7 +6179,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2179",
           closing_rank: "2179",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6189,7 +6189,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2184",
           closing_rank: "2184",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6199,7 +6199,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1913",
           closing_rank: "2185",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6209,7 +6209,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2220",
           closing_rank: "2220",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -6218,7 +6218,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1104",
           closing_rank: "2227",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6228,7 +6228,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1470",
           closing_rank: "2238",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6238,7 +6238,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1997",
           closing_rank: "2252",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -6247,7 +6247,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1518",
           closing_rank: "2259",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6257,7 +6257,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1248",
           closing_rank: "2277",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6267,7 +6267,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2207",
           closing_rank: "2298",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6277,7 +6277,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1950",
           closing_rank: "2312",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6287,7 +6287,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1911",
           closing_rank: "2317",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6297,7 +6297,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2083",
           closing_rank: "2352",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -6306,7 +6306,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2384",
           closing_rank: "2384",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6316,7 +6316,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2395",
           closing_rank: "2395",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6326,7 +6326,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1385",
           closing_rank: "2410",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -6335,7 +6335,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2415",
           closing_rank: "2415",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6345,7 +6345,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1878",
           closing_rank: "2443",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6355,7 +6355,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2461",
           closing_rank: "2461",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6365,7 +6365,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2466",
           closing_rank: "2466",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -6374,7 +6374,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1757",
           closing_rank: "2523",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6384,7 +6384,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2238",
           closing_rank: "2552",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6394,7 +6394,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1980",
           closing_rank: "2564",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -6403,7 +6403,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1895",
           closing_rank: "2606",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -6412,7 +6412,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2098",
           closing_rank: "2607",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6422,7 +6422,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2588",
           closing_rank: "2648",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6432,7 +6432,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2697",
           closing_rank: "2697",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -6441,7 +6441,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1683",
           closing_rank: "2715",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6451,7 +6451,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2360",
           closing_rank: "2768",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6461,7 +6461,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2452",
           closing_rank: "2786",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -6470,7 +6470,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2834",
           closing_rank: "2834",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -6479,7 +6479,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2819",
           closing_rank: "2855",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6489,7 +6489,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2909",
           closing_rank: "2909",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6499,7 +6499,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2931",
           closing_rank: "2931",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -6508,7 +6508,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3025",
           closing_rank: "3025",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -6517,7 +6517,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2421",
           closing_rank: "3026",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6527,7 +6527,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2429",
           closing_rank: "3056",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6537,7 +6537,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2195",
           closing_rank: "3154",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6547,7 +6547,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2620",
           closing_rank: "3155",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -6556,7 +6556,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3362",
           closing_rank: "3362",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -6565,7 +6565,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3363",
           closing_rank: "3363",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6575,7 +6575,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2618",
           closing_rank: "3384",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6585,7 +6585,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3416",
           closing_rank: "3416",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6595,7 +6595,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3034",
           closing_rank: "3431",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6605,7 +6605,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3434",
           closing_rank: "3434",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -6614,7 +6614,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2559",
           closing_rank: "3443",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6624,7 +6624,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3458",
           closing_rank: "3458",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6634,7 +6634,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2683",
           closing_rank: "3509",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -6643,7 +6643,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2309",
           closing_rank: "3516",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6653,7 +6653,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2562",
           closing_rank: "3594",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -6662,7 +6662,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3218",
           closing_rank: "3629",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6672,7 +6672,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3647",
           closing_rank: "3647",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6682,7 +6682,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3344",
           closing_rank: "3669",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -6691,7 +6691,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3360",
           closing_rank: "3670",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -6700,7 +6700,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3679",
           closing_rank: "3708",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -6709,7 +6709,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2730",
           closing_rank: "3714",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6719,7 +6719,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2847",
           closing_rank: "3767",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6729,7 +6729,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2726",
           closing_rank: "3785",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6739,7 +6739,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3468",
           closing_rank: "3803",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -6748,7 +6748,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2418",
           closing_rank: "3822",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6758,7 +6758,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3988",
           closing_rank: "3988",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6768,7 +6768,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3625",
           closing_rank: "4123",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6778,7 +6778,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4124",
           closing_rank: "4124",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6788,7 +6788,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3559",
           closing_rank: "4229",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6798,7 +6798,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4249",
           closing_rank: "4253",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6808,7 +6808,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4268",
           closing_rank: "4309",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6818,7 +6818,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4324",
           closing_rank: "4324",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6828,7 +6828,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3586",
           closing_rank: "4440",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -6837,7 +6837,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3274",
           closing_rank: "4458",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6847,7 +6847,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4514",
           closing_rank: "4514",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6857,7 +6857,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4155",
           closing_rank: "4544",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -6866,7 +6866,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3977",
           closing_rank: "4701",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6876,7 +6876,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3651",
           closing_rank: "4713",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6886,7 +6886,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4802",
           closing_rank: "4910",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -6895,7 +6895,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3593",
           closing_rank: "4955",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -6904,7 +6904,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3404",
           closing_rank: "4983",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6914,7 +6914,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3880",
           closing_rank: "4990",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6924,7 +6924,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5175",
           closing_rank: "5175",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6934,7 +6934,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3962",
           closing_rank: "5177",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -6943,7 +6943,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2959",
           closing_rank: "5310",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6953,7 +6953,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4941",
           closing_rank: "5402",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6963,7 +6963,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5423",
           closing_rank: "5423",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6973,7 +6973,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3903",
           closing_rank: "5454",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6983,7 +6983,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5495",
           closing_rank: "5495",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -6993,7 +6993,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5532",
           closing_rank: "5532",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7003,7 +7003,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5751",
           closing_rank: "5751",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7013,7 +7013,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3720",
           closing_rank: "5780",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7023,7 +7023,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4559",
           closing_rank: "5940",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -7032,7 +7032,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6054",
           closing_rank: "6054",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7042,7 +7042,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4226",
           closing_rank: "6124",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7052,7 +7052,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5984",
           closing_rank: "6127",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -7061,7 +7061,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4932",
           closing_rank: "6169",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7071,7 +7071,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4511",
           closing_rank: "6312",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -7080,7 +7080,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6389",
           closing_rank: "6389",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7090,7 +7090,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5857",
           closing_rank: "6468",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7100,7 +7100,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6080",
           closing_rank: "6658",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7110,7 +7110,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5277",
           closing_rank: "6833",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -7119,7 +7119,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4315",
           closing_rank: "6965",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7129,7 +7129,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7005",
           closing_rank: "7005",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7139,7 +7139,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5568",
           closing_rank: "7112",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -7148,7 +7148,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6429",
           closing_rank: "7203",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -7157,7 +7157,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6947",
           closing_rank: "7240",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -7166,7 +7166,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5792",
           closing_rank: "7250",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -7175,7 +7175,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7259",
           closing_rank: "7259",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -7184,7 +7184,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4434",
           closing_rank: "7275",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7194,7 +7194,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7331",
           closing_rank: "7331",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -7203,7 +7203,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3901",
           closing_rank: "7344",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7213,7 +7213,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6990",
           closing_rank: "7380",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -7222,7 +7222,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5752",
           closing_rank: "7615",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7232,7 +7232,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5816",
           closing_rank: "7807",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7242,7 +7242,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6129",
           closing_rank: "7989",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7252,7 +7252,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7547",
           closing_rank: "8060",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7262,7 +7262,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5247",
           closing_rank: "8104",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7272,7 +7272,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6239",
           closing_rank: "8312",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -7281,7 +7281,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7613",
           closing_rank: "8478",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7291,7 +7291,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7429",
           closing_rank: "8497",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7301,7 +7301,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8204",
           closing_rank: "8592",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7311,7 +7311,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6654",
           closing_rank: "8696",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -7320,7 +7320,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7926",
           closing_rank: "8707",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7330,7 +7330,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9218",
           closing_rank: "9545",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7340,7 +7340,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8482",
           closing_rank: "9563",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7350,7 +7350,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7383",
           closing_rank: "9655",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7360,7 +7360,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9873",
           closing_rank: "9873",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7370,7 +7370,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9424",
           closing_rank: "9903",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7380,7 +7380,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9731",
           closing_rank: "9944",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7390,7 +7390,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8767",
           closing_rank: "10112",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7400,7 +7400,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8114",
           closing_rank: "10278",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7410,7 +7410,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9678",
           closing_rank: "10364",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -7419,7 +7419,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7533",
           closing_rank: "10645",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7429,7 +7429,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10791",
           closing_rank: "10947",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -7438,7 +7438,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8739",
           closing_rank: "11021",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7448,7 +7448,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11356",
           closing_rank: "11356",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7458,7 +7458,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9222",
           closing_rank: "11534",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7468,7 +7468,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12099",
           closing_rank: "12443",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7478,7 +7478,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12500",
           closing_rank: "12786",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -7487,7 +7487,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12029",
           closing_rank: "12864",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7497,7 +7497,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8358",
           closing_rank: "12915",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -7506,7 +7506,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11292",
           closing_rank: "13405",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7516,7 +7516,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13496",
           closing_rank: "13802",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7526,7 +7526,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14284",
           closing_rank: "14555",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -7535,7 +7535,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14393",
           closing_rank: "15264",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7545,7 +7545,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15588",
           closing_rank: "16022",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -7554,7 +7554,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16403",
           closing_rank: "18448",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7564,7 +7564,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13823",
           closing_rank: "18626",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -7573,7 +7573,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6601",
           closing_rank: "19024",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -7582,7 +7582,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14499",
           closing_rank: "19044",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7592,7 +7592,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1182",
           closing_rank: "101",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7602,7 +7602,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11",
           closing_rank: "11",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7612,7 +7612,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "137",
           closing_rank: "137",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7622,7 +7622,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "14",
           closing_rank: "14",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -7631,7 +7631,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "182",
           closing_rank: "182",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7641,7 +7641,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "206",
           closing_rank: "206",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7651,7 +7651,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "244",
           closing_rank: "244",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -7660,7 +7660,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "29",
           closing_rank: "29",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -7669,7 +7669,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "301",
           closing_rank: "301",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7679,7 +7679,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "38",
           closing_rank: "38",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7689,7 +7689,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "401",
           closing_rank: "401",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Economics (5 Years, Integrated Master of Science)",
@@ -7698,7 +7698,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "43",
           closing_rank: "43",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7708,7 +7708,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "446",
           closing_rank: "446",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7718,7 +7718,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "516",
           closing_rank: "516",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -7727,7 +7727,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "51",
           closing_rank: "51",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -7736,7 +7736,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "535",
           closing_rank: "535",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -7745,7 +7745,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1145",
           closing_rank: "56",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -7754,7 +7754,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "59",
           closing_rank: "59",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7764,7 +7764,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "60",
           closing_rank: "60",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -7773,7 +7773,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1211",
           closing_rank: "646",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7783,7 +7783,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "721",
           closing_rank: "721",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -7792,7 +7792,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "75",
           closing_rank: "75",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -7801,7 +7801,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1184",
           closing_rank: "77",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7811,7 +7811,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "799",
           closing_rank: "799",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -7820,7 +7820,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7",
           closing_rank: "7",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7830,7 +7830,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "943",
           closing_rank: "943",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7840,7 +7840,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "956",
           closing_rank: "956",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Applied Geology (5 Years, Integrated Master of Science)",
@@ -7849,13 +7849,13 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "976",
           closing_rank: "976",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology Madras",
-      state: "",
+      type: "iit",
       
       branches: [
         {
@@ -7865,7 +7865,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "4",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -7874,7 +7874,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6",
           closing_rank: "6",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7884,7 +7884,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "16",
           closing_rank: "17",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7894,7 +7894,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "16",
           closing_rank: "28",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7904,7 +7904,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "28",
           closing_rank: "28",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7914,7 +7914,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8",
           closing_rank: "48",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7924,7 +7924,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "57",
           closing_rank: "57",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -7933,7 +7933,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "47",
           closing_rank: "61",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -7942,7 +7942,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "58",
           closing_rank: "74",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7952,7 +7952,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "45",
           closing_rank: "83",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -7961,7 +7961,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "111",
           closing_rank: "111",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7971,7 +7971,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "113",
           closing_rank: "113",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -7980,7 +7980,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "48",
           closing_rank: "137",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -7990,7 +7990,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "128",
           closing_rank: "151",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -7999,7 +7999,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "82",
           closing_rank: "154",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8008,7 +8008,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "145",
           closing_rank: "167",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8018,7 +8018,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "90",
           closing_rank: "188",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8027,7 +8027,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "160",
           closing_rank: "216",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8036,7 +8036,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "136",
           closing_rank: "222",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8046,7 +8046,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "156",
           closing_rank: "248",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8055,7 +8055,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "252",
           closing_rank: "252",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8064,7 +8064,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "127",
           closing_rank: "253",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8073,7 +8073,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "51",
           closing_rank: "257",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8082,7 +8082,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "289",
           closing_rank: "291",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8091,7 +8091,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "226",
           closing_rank: "295",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8100,7 +8100,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "320",
           closing_rank: "320",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8109,7 +8109,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "88",
           closing_rank: "336",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8118,7 +8118,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "345",
           closing_rank: "371",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8127,7 +8127,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "461",
           closing_rank: "470",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8136,7 +8136,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "332",
           closing_rank: "473",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8146,7 +8146,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "441",
           closing_rank: "484",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8155,7 +8155,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "491",
           closing_rank: "491",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8164,7 +8164,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "496",
           closing_rank: "496",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8173,7 +8173,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "59",
           closing_rank: "534",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8182,7 +8182,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "55",
           closing_rank: "613",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8192,7 +8192,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "479",
           closing_rank: "615",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8202,7 +8202,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "349",
           closing_rank: "690",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8211,7 +8211,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "500",
           closing_rank: "700",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8220,7 +8220,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "182",
           closing_rank: "722",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8230,7 +8230,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "425",
           closing_rank: "730",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8239,7 +8239,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "735",
           closing_rank: "735",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8249,7 +8249,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "621",
           closing_rank: "774",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8259,7 +8259,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "765",
           closing_rank: "812",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8269,7 +8269,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "759",
           closing_rank: "840",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8278,7 +8278,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "370",
           closing_rank: "846",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8287,7 +8287,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "588",
           closing_rank: "866",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8296,7 +8296,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "650",
           closing_rank: "872",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8305,7 +8305,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "890",
           closing_rank: "890",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8314,7 +8314,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "900",
           closing_rank: "900",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8323,7 +8323,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "920",
           closing_rank: "920",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8333,7 +8333,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "884",
           closing_rank: "935",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8343,7 +8343,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "952",
           closing_rank: "952",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8352,7 +8352,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "737",
           closing_rank: "1012",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8361,7 +8361,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "397",
           closing_rank: "1021",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8370,7 +8370,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "619",
           closing_rank: "1064",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8379,7 +8379,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1107",
           closing_rank: "1107",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8389,7 +8389,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1111",
           closing_rank: "1111",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8399,7 +8399,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1103",
           closing_rank: "1115",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8408,7 +8408,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "419",
           closing_rank: "1122",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8417,7 +8417,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "944",
           closing_rank: "1128",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8426,7 +8426,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "481",
           closing_rank: "1133",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8436,7 +8436,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1192",
           closing_rank: "1192",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8446,7 +8446,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1268",
           closing_rank: "1268",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8455,7 +8455,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "484",
           closing_rank: "1304",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8464,7 +8464,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1177",
           closing_rank: "1324",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8474,7 +8474,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1322",
           closing_rank: "1442",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8483,7 +8483,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "937",
           closing_rank: "1471",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8493,7 +8493,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1497",
           closing_rank: "1497",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8503,7 +8503,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1131",
           closing_rank: "1513",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8513,7 +8513,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "587",
           closing_rank: "1560",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8522,7 +8522,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1099",
           closing_rank: "1594",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8531,7 +8531,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "869",
           closing_rank: "1690",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8541,7 +8541,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1052",
           closing_rank: "1712",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8551,7 +8551,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1848",
           closing_rank: "1848",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8561,7 +8561,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "794",
           closing_rank: "1854",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8571,7 +8571,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1511",
           closing_rank: "1924",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8580,7 +8580,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "741",
           closing_rank: "2032",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8590,7 +8590,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2055",
           closing_rank: "2055",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -8599,7 +8599,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "805",
           closing_rank: "2074",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8609,7 +8609,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1283",
           closing_rank: "2123",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8619,7 +8619,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1676",
           closing_rank: "2132",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8629,7 +8629,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1472",
           closing_rank: "2160",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8638,7 +8638,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2224",
           closing_rank: "2224",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8647,7 +8647,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1709",
           closing_rank: "2312",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8657,7 +8657,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2325",
           closing_rank: "2325",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8667,7 +8667,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2158",
           closing_rank: "2397",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8677,7 +8677,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1843",
           closing_rank: "2418",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8686,7 +8686,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1537",
           closing_rank: "2569",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8695,7 +8695,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2348",
           closing_rank: "2694",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8705,7 +8705,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2704",
           closing_rank: "2704",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8715,7 +8715,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2320",
           closing_rank: "2715",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8725,7 +8725,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2731",
           closing_rank: "2731",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8734,7 +8734,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2007",
           closing_rank: "2938",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8743,7 +8743,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1790",
           closing_rank: "3041",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8752,7 +8752,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1831",
           closing_rank: "3308",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8762,7 +8762,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2558",
           closing_rank: "3343",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8771,7 +8771,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2874",
           closing_rank: "3356",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8781,7 +8781,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1845",
           closing_rank: "3391",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8791,7 +8791,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3589",
           closing_rank: "3589",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8800,7 +8800,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2075",
           closing_rank: "3612",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8810,7 +8810,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2080",
           closing_rank: "3650",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8820,7 +8820,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2549",
           closing_rank: "4010",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8830,7 +8830,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3516",
           closing_rank: "4238",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8840,7 +8840,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3432",
           closing_rank: "4398",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8850,7 +8850,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3897",
           closing_rank: "4569",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8859,7 +8859,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2220",
           closing_rank: "4839",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -8868,7 +8868,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2721",
           closing_rank: "4934",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8878,7 +8878,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3407",
           closing_rank: "5112",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8888,7 +8888,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3067",
           closing_rank: "5231",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8898,7 +8898,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3895",
           closing_rank: "5324",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8908,7 +8908,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5463",
           closing_rank: "5463",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -8917,7 +8917,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3181",
           closing_rank: "5839",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -8926,7 +8926,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4562",
           closing_rank: "6314",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8936,7 +8936,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4463",
           closing_rank: "6618",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8946,7 +8946,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6070",
           closing_rank: "6703",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -8955,7 +8955,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4805",
           closing_rank: "6859",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8965,7 +8965,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4118",
           closing_rank: "7028",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8975,7 +8975,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2247",
           closing_rank: "7509",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -8985,7 +8985,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7882",
           closing_rank: "7882",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -8994,7 +8994,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5710",
           closing_rank: "7956",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9004,7 +9004,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9127",
           closing_rank: "9127",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9014,7 +9014,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7119",
           closing_rank: "9332",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9024,7 +9024,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6622",
           closing_rank: "10190",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9034,7 +9034,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7149",
           closing_rank: "10982",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9044,7 +9044,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11311",
           closing_rank: "12924",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9054,7 +9054,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13695",
           closing_rank: "14832",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9064,7 +9064,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "79",
           closing_rank: "121",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9073,7 +9073,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "79",
           closing_rank: "126",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -9082,7 +9082,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "220",
           closing_rank: "220",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9092,7 +9092,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "253",
           closing_rank: "253",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9101,7 +9101,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "36",
           closing_rank: "36",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9111,7 +9111,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "379",
           closing_rank: "379",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9120,7 +9120,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "45",
           closing_rank: "45",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9129,7 +9129,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "44",
           closing_rank: "47",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9138,7 +9138,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7",
           closing_rank: "48",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9148,7 +9148,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "4",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9158,7 +9158,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "793",
           closing_rank: "793",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Aerospace Engineering (4 Years, Bachelor of Technology)",
@@ -9167,7 +9167,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "88",
           closing_rank: "83",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9177,13 +9177,13 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "954",
           closing_rank: "954",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology Roorkee",
-      state: "",
+      type: "iit",
       
       branches: [
         {
@@ -9194,7 +9194,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5",
           closing_rank: "5",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9204,7 +9204,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "13",
           closing_rank: "15",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9214,7 +9214,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "30",
           closing_rank: "33",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9224,7 +9224,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "38",
           closing_rank: "38",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9234,7 +9234,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "39",
           closing_rank: "47",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9244,7 +9244,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "42",
           closing_rank: "68",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9253,7 +9253,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "45",
           closing_rank: "87",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9262,7 +9262,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "98",
           closing_rank: "98",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9271,7 +9271,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "91",
           closing_rank: "101",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9281,7 +9281,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "71",
           closing_rank: "102",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9291,7 +9291,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "82",
           closing_rank: "104",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9301,7 +9301,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "109.1",
           closing_rank: "109.1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9310,7 +9310,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "115",
           closing_rank: "139",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9320,7 +9320,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "135",
           closing_rank: "195",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9330,7 +9330,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "99",
           closing_rank: "199",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9339,7 +9339,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "180",
           closing_rank: "218",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9348,7 +9348,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "202",
           closing_rank: "231",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9357,7 +9357,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "189",
           closing_rank: "264",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9367,7 +9367,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "270",
           closing_rank: "270",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9377,7 +9377,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "284",
           closing_rank: "284",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9387,7 +9387,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "197",
           closing_rank: "292",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9397,7 +9397,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "288",
           closing_rank: "302",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9406,7 +9406,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "269",
           closing_rank: "329",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9416,7 +9416,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "368",
           closing_rank: "368",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9426,7 +9426,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "140",
           closing_rank: "391",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9436,7 +9436,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "234",
           closing_rank: "412",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -9445,7 +9445,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "450",
           closing_rank: "450",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9454,7 +9454,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "422",
           closing_rank: "495",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9463,7 +9463,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "305",
           closing_rank: "514",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9472,7 +9472,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "492",
           closing_rank: "515",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9482,7 +9482,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "467",
           closing_rank: "539",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9492,7 +9492,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "290",
           closing_rank: "567",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9501,7 +9501,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "601",
           closing_rank: "601",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9511,7 +9511,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "619",
           closing_rank: "636",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9520,7 +9520,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "512",
           closing_rank: "654",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9529,7 +9529,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "652",
           closing_rank: "659",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9539,7 +9539,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "612",
           closing_rank: "679",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9548,7 +9548,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "612",
           closing_rank: "720",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9558,7 +9558,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "533",
           closing_rank: "729",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -9567,7 +9567,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "732",
           closing_rank: "732",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9576,7 +9576,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "633",
           closing_rank: "733",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9585,7 +9585,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "301",
           closing_rank: "735",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9595,7 +9595,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "673",
           closing_rank: "746",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -9604,7 +9604,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "703",
           closing_rank: "760",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9614,7 +9614,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "793",
           closing_rank: "797",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9624,7 +9624,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "832",
           closing_rank: "832",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -9633,7 +9633,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "772",
           closing_rank: "872",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9642,7 +9642,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "508",
           closing_rank: "911",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -9651,7 +9651,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "917",
           closing_rank: "917",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -9660,7 +9660,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "943",
           closing_rank: "943",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9669,7 +9669,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "944",
           closing_rank: "944",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9679,7 +9679,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "961",
           closing_rank: "961",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9689,7 +9689,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "818",
           closing_rank: "992",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9699,7 +9699,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "999",
           closing_rank: "1031",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9708,7 +9708,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "382",
           closing_rank: "1048",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9717,7 +9717,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "926",
           closing_rank: "1074",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9726,7 +9726,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "610",
           closing_rank: "1084",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9736,7 +9736,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1095",
           closing_rank: "1095",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9746,7 +9746,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1068",
           closing_rank: "1098",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9756,7 +9756,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1125",
           closing_rank: "1130",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9765,7 +9765,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1183",
           closing_rank: "1183",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9774,7 +9774,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1186",
           closing_rank: "1186",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9784,7 +9784,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "852",
           closing_rank: "1198",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9793,7 +9793,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "696",
           closing_rank: "1240",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -9802,7 +9802,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1271",
           closing_rank: "1271",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9811,7 +9811,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1311",
           closing_rank: "1311",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9821,7 +9821,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "638",
           closing_rank: "1360",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9831,7 +9831,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1076",
           closing_rank: "1386",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9840,7 +9840,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1378",
           closing_rank: "1566",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9850,7 +9850,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "898",
           closing_rank: "1570",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9860,7 +9860,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1640",
           closing_rank: "1640",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9870,7 +9870,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1365",
           closing_rank: "1646",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -9879,7 +9879,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1519",
           closing_rank: "1674",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -9888,7 +9888,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1234",
           closing_rank: "1701",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -9897,7 +9897,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1780",
           closing_rank: "1780",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9907,7 +9907,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1194",
           closing_rank: "1850",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -9916,7 +9916,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1269",
           closing_rank: "1856",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9926,7 +9926,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1504",
           closing_rank: "1887",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9935,7 +9935,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1334",
           closing_rank: "1891",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9945,7 +9945,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1985",
           closing_rank: "1985",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -9954,7 +9954,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1520",
           closing_rank: "1990",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -9963,7 +9963,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1367",
           closing_rank: "1992",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -9973,7 +9973,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1332",
           closing_rank: "2067",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -9982,7 +9982,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1843",
           closing_rank: "2096",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -9991,7 +9991,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2131",
           closing_rank: "2131",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -10000,7 +10000,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1638",
           closing_rank: "2162",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10010,7 +10010,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1894",
           closing_rank: "2213",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -10019,7 +10019,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1661",
           closing_rank: "2282",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10029,7 +10029,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1551",
           closing_rank: "2298",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -10038,7 +10038,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2306",
           closing_rank: "2306",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10048,7 +10048,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1791",
           closing_rank: "2311",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -10057,7 +10057,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1769",
           closing_rank: "2376",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10067,7 +10067,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1914",
           closing_rank: "2524",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10076,7 +10076,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2243",
           closing_rank: "2546",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -10085,7 +10085,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2366",
           closing_rank: "2650",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10095,7 +10095,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2392",
           closing_rank: "2679",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -10104,7 +10104,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1677",
           closing_rank: "2748",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -10113,7 +10113,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2785",
           closing_rank: "2785",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10123,7 +10123,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2801",
           closing_rank: "2801",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10132,7 +10132,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2912",
           closing_rank: "2912",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10142,7 +10142,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2278",
           closing_rank: "2978",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10152,7 +10152,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1903",
           closing_rank: "3109",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10162,7 +10162,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3133",
           closing_rank: "3133",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10172,7 +10172,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3198",
           closing_rank: "3198",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10182,7 +10182,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3232",
           closing_rank: "3232",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -10191,7 +10191,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2889",
           closing_rank: "3358",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -10200,7 +10200,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3366",
           closing_rank: "3366",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10210,7 +10210,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2688",
           closing_rank: "3579",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -10219,7 +10219,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3729",
           closing_rank: "3729",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10229,7 +10229,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3353",
           closing_rank: "3894",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10239,7 +10239,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2806",
           closing_rank: "3954",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -10248,7 +10248,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2588",
           closing_rank: "4069",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -10257,7 +10257,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3375",
           closing_rank: "4183",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10267,7 +10267,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3303",
           closing_rank: "4203",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -10276,7 +10276,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3503",
           closing_rank: "4274",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -10285,7 +10285,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3301",
           closing_rank: "4285",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -10294,7 +10294,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3310",
           closing_rank: "4384",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -10303,7 +10303,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4083",
           closing_rank: "4642",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10313,7 +10313,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4508",
           closing_rank: "4673",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -10322,7 +10322,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3960",
           closing_rank: "4716",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -10331,7 +10331,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3032",
           closing_rank: "4938",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10341,7 +10341,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3744",
           closing_rank: "5235",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -10350,7 +10350,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3433",
           closing_rank: "5261",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -10359,7 +10359,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5224",
           closing_rank: "5276",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -10368,7 +10368,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5688",
           closing_rank: "5688",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10378,7 +10378,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5530",
           closing_rank: "5814",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10388,7 +10388,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5420",
           closing_rank: "5892",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10398,7 +10398,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6081",
           closing_rank: "6081",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10408,7 +10408,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5145",
           closing_rank: "6607",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -10417,7 +10417,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4561",
           closing_rank: "6615",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10426,7 +10426,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4103",
           closing_rank: "6985",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10436,7 +10436,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5134",
           closing_rank: "6988",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10445,7 +10445,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6538",
           closing_rank: "7163",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -10454,7 +10454,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7465",
           closing_rank: "7465",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -10463,7 +10463,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7505",
           closing_rank: "7505",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -10472,7 +10472,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6022",
           closing_rank: "7566",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -10481,7 +10481,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7298",
           closing_rank: "7726",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -10490,7 +10490,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6513",
           closing_rank: "8140",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10500,7 +10500,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6962",
           closing_rank: "8365",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10510,7 +10510,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5519",
           closing_rank: "8439",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -10519,7 +10519,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5110",
           closing_rank: "8907",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10529,7 +10529,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8230",
           closing_rank: "9247",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -10538,7 +10538,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8734",
           closing_rank: "9982",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10548,7 +10548,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8179",
           closing_rank: "10314",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -10557,7 +10557,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7965",
           closing_rank: "10384",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -10566,7 +10566,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8452",
           closing_rank: "10541",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10576,7 +10576,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10090",
           closing_rank: "11369",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10586,7 +10586,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10207",
           closing_rank: "11832",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10596,7 +10596,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12613",
           closing_rank: "14418",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Physics (5 Years, Integrated Master of Science)",
@@ -10605,7 +10605,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13122",
           closing_rank: "15160",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -10614,7 +10614,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15561",
           closing_rank: "15909",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10623,7 +10623,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10527",
           closing_rank: "17756",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10633,7 +10633,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16141",
           closing_rank: "18037",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10642,7 +10642,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12795",
           closing_rank: "19658",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10652,7 +10652,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1102",
           closing_rank: "1102",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10662,7 +10662,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "114",
           closing_rank: "114",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10672,7 +10672,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "11",
           closing_rank: "11",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -10681,7 +10681,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "18",
           closing_rank: "18",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -10690,7 +10690,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "222",
           closing_rank: "222",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -10699,7 +10699,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4",
           closing_rank: "40",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10708,7 +10708,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "44",
           closing_rank: "44",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -10717,7 +10717,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "510",
           closing_rank: "510",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -10726,7 +10726,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "66",
           closing_rank: "66",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -10735,7 +10735,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "76",
           closing_rank: "76",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -10744,7 +10744,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "78",
           closing_rank: "78",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10754,7 +10754,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "837",
           closing_rank: "837",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -10763,7 +10763,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "838",
           closing_rank: "838",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -10772,7 +10772,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "112",
           closing_rank: "89",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemistry (5 Years, Integrated Master of Science)",
@@ -10781,7 +10781,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "89",
           closing_rank: "89",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -10791,7 +10791,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8",
           closing_rank: "8",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -10800,13 +10800,14 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "814",
           closing_rank: "914",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name:"Motilal Nehru National Institute of Technology Allahabad",
-      state: "",
+      type: "non-iit",
+      state: "Uttar Pradesh",
       
       branches: [
         {
@@ -12686,7 +12687,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Karnataka, Surathkal",
-      state: "",
+      type: "non-iit",
+      state: "Karnataka",
       
       branches: [
         {
@@ -14507,7 +14509,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Warangal",
-      state: "",
+      type: "non-iit",
+      state: "Telangana",
       
       branches: [
         {
@@ -16865,7 +16868,8 @@ const data = [
     },
     {
       institute_name: "Maulana Azad National Institute of Technology Bhopal",
-      state: "",
+      type: "non-iit",
+      state: "Madhya Pradesh",
       
       branches: [
         {
@@ -18751,8 +18755,9 @@ const data = [
       ],
     },
     {
-      institute_name: "National Institute of Technology, Tiruchirappalli",
-      state: "",
+      institute_name: "National Institute of Technology, Tiruchirappalli(Trichy)",
+      type: "non-iit",
+      state: "Tamil Nadu",
       
       branches: [
         {
@@ -20931,7 +20936,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Calicut",
-      state: "",
+      type: "non-iit",
+      state: "Kerala",
       
       branches: [
         {
@@ -23077,7 +23083,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Rourkela",
-      state: "",
+      type: "non-iit",
+      state: "Odisha",
       
       branches: [
         {
@@ -26311,7 +26318,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Hyderabad",
-      state: "",
+      type: "iit",
+      state: "Telangana",
       
       branches: [
         {
@@ -26322,7 +26330,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "14",
           closing_rank: "14",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26332,7 +26340,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "28",
           closing_rank: "28",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26342,7 +26350,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "35",
           closing_rank: "44",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26352,7 +26360,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "65",
           closing_rank: "65",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26362,7 +26370,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "47",
           closing_rank: "84",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26372,7 +26380,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "93",
           closing_rank: "93",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26382,7 +26390,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "93",
           closing_rank: "93",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26392,7 +26400,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "102",
           closing_rank: "102",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26401,7 +26409,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "116",
           closing_rank: "116",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26411,7 +26419,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "142",
           closing_rank: "142",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26420,7 +26428,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "183",
           closing_rank: "186",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26430,7 +26438,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "55",
           closing_rank: "208",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26440,7 +26448,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "225",
           closing_rank: "225",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26450,7 +26458,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "167",
           closing_rank: "232",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -26459,7 +26467,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "233",
           closing_rank: "233",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26469,7 +26477,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "238",
           closing_rank: "238",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26479,7 +26487,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "241",
           closing_rank: "241",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26488,7 +26496,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "240",
           closing_rank: "281",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26498,7 +26506,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "134",
           closing_rank: "287",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -26507,7 +26515,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "298",
           closing_rank: "298",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -26516,7 +26524,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "282",
           closing_rank: "345",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26525,7 +26533,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "366",
           closing_rank: "366",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26535,7 +26543,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "148",
           closing_rank: "368",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26545,7 +26553,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "389",
           closing_rank: "389",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -26554,7 +26562,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "290",
           closing_rank: "390",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -26563,7 +26571,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "438",
           closing_rank: "438",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26573,7 +26581,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "307",
           closing_rank: "472",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26583,7 +26591,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "335",
           closing_rank: "521",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26592,7 +26600,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "420",
           closing_rank: "563",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -26601,7 +26609,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "593",
           closing_rank: "593",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26610,7 +26618,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "607",
           closing_rank: "607",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26620,7 +26628,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "203",
           closing_rank: "616",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -26629,7 +26637,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "629",
           closing_rank: "629",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26639,7 +26647,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "478",
           closing_rank: "657",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26649,7 +26657,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "661",
           closing_rank: "694",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26659,7 +26667,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "697",
           closing_rank: "697",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26669,7 +26677,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "698",
           closing_rank: "698",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26679,7 +26687,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "699",
           closing_rank: "699",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -26688,7 +26696,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "624",
           closing_rank: "736",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26698,7 +26706,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "743",
           closing_rank: "743",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -26707,7 +26715,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "778",
           closing_rank: "778",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -26716,7 +26724,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "560",
           closing_rank: "840",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26725,7 +26733,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "561",
           closing_rank: "859",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -26734,7 +26742,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "885",
           closing_rank: "885",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -26743,7 +26751,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "436",
           closing_rank: "905",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -26752,7 +26760,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "890",
           closing_rank: "1214",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -26761,7 +26769,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "615",
           closing_rank: "1260",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -26770,7 +26778,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1441",
           closing_rank: "1441",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26779,7 +26787,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1163",
           closing_rank: "1451",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26789,7 +26797,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1026",
           closing_rank: "1586",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26799,7 +26807,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1453",
           closing_rank: "1601",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -26808,7 +26816,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1227",
           closing_rank: "1603",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26818,7 +26826,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1656",
           closing_rank: "1656",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -26827,7 +26835,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1659",
           closing_rank: "1659",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -26836,7 +26844,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1499",
           closing_rank: "1714",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -26845,7 +26853,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1602",
           closing_rank: "1770",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -26854,7 +26862,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1544",
           closing_rank: "1789",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -26863,7 +26871,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "808",
           closing_rank: "1868",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -26872,7 +26880,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1912",
           closing_rank: "1912",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -26881,7 +26889,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1945",
           closing_rank: "1945",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -26890,7 +26898,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1996",
           closing_rank: "1996",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26900,7 +26908,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1824",
           closing_rank: "2080",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -26909,7 +26917,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2126",
           closing_rank: "2126",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26919,7 +26927,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2129",
           closing_rank: "2129",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -26928,7 +26936,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1897",
           closing_rank: "2225",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -26937,7 +26945,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1776",
           closing_rank: "2364",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -26946,7 +26954,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1697",
           closing_rank: "2378",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26956,7 +26964,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2520",
           closing_rank: "2520",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -26965,7 +26973,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1404",
           closing_rank: "2733",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -26974,7 +26982,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2415",
           closing_rank: "2962",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -26983,7 +26991,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3022",
           closing_rank: "3022",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -26993,7 +27001,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2619",
           closing_rank: "3035",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27002,7 +27010,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3143",
           closing_rank: "3143",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27011,7 +27019,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2100",
           closing_rank: "3288",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -27020,7 +27028,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2289",
           closing_rank: "3609",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -27029,7 +27037,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2491",
           closing_rank: "3854",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -27038,7 +27046,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1372",
           closing_rank: "4242",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Science (4 Years, Bachelor of Technology)",
@@ -27047,7 +27055,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3379",
           closing_rank: "4941",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27057,7 +27065,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5477",
           closing_rank: "5477",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -27066,7 +27074,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3435",
           closing_rank: "5923",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27075,7 +27083,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3729",
           closing_rank: "6357",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -27084,7 +27092,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5896",
           closing_rank: "6817",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27094,7 +27102,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6034",
           closing_rank: "6998",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -27103,7 +27111,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7674",
           closing_rank: "7819",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -27112,7 +27120,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8351",
           closing_rank: "10564",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27122,7 +27130,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10927",
           closing_rank: "11047",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27131,7 +27139,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7102",
           closing_rank: "11564",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27140,7 +27148,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "17",
           closing_rank: "17",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -27149,7 +27157,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "41",
           closing_rank: "41",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -27158,7 +27166,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "44",
           closing_rank: "44",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27167,13 +27175,14 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "54",
           closing_rank: "54",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology (BHU) Varanasi",
-      state: "",
+      type: "iit",
+      state: "Uttar Pradesh",
       
       branches: [
         {
@@ -27184,7 +27193,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "15",
           closing_rank: "15",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27194,7 +27203,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "27",
           closing_rank: "27",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27204,7 +27213,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "48",
           closing_rank: "83",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27214,7 +27223,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "84",
           closing_rank: "90",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27224,7 +27233,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "125",
           closing_rank: "125",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27234,7 +27243,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "109",
           closing_rank: "131",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27243,7 +27252,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "136",
           closing_rank: "136",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27253,7 +27262,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "110",
           closing_rank: "147",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27263,7 +27272,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "176",
           closing_rank: "176",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27273,7 +27282,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "78",
           closing_rank: "214",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27283,7 +27292,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "164",
           closing_rank: "249",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27293,7 +27302,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "151",
           closing_rank: "254",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27302,7 +27311,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "253",
           closing_rank: "287",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27312,7 +27321,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "256",
           closing_rank: "293",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27321,7 +27330,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "300",
           closing_rank: "337",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27330,7 +27339,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "296",
           closing_rank: "357",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27340,7 +27349,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "244",
           closing_rank: "367",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27350,7 +27359,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "342",
           closing_rank: "386",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27360,7 +27369,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "201",
           closing_rank: "440",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27370,7 +27379,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "444",
           closing_rank: "444",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -27379,7 +27388,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "364",
           closing_rank: "446",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27389,7 +27398,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "382",
           closing_rank: "449",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -27398,7 +27407,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "372",
           closing_rank: "491",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27408,7 +27417,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "499",
           closing_rank: "499",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27418,7 +27427,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "502",
           closing_rank: "502",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27428,7 +27437,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "367",
           closing_rank: "504",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27438,7 +27447,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "416",
           closing_rank: "512",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27448,7 +27457,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "512",
           closing_rank: "530",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27458,7 +27467,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "557",
           closing_rank: "569",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27468,7 +27477,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "483",
           closing_rank: "584",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27478,7 +27487,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "350",
           closing_rank: "628",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27488,7 +27497,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "642",
           closing_rank: "642",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27497,7 +27506,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "676",
           closing_rank: "676",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27507,7 +27516,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "700",
           closing_rank: "700",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -27516,7 +27525,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "606",
           closing_rank: "748",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27525,7 +27534,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "586",
           closing_rank: "765",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27534,7 +27543,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "687",
           closing_rank: "768",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27544,7 +27553,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "531",
           closing_rank: "778",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27554,7 +27563,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "456",
           closing_rank: "792",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27564,7 +27573,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "509",
           closing_rank: "796",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -27573,7 +27582,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "712",
           closing_rank: "810",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27583,7 +27592,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "821",
           closing_rank: "856",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27593,7 +27602,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "806",
           closing_rank: "857",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27603,7 +27612,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "851",
           closing_rank: "859",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27612,7 +27621,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "878",
           closing_rank: "884",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27622,7 +27631,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "753",
           closing_rank: "938",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27632,7 +27641,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "824",
           closing_rank: "970",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -27641,7 +27650,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "933",
           closing_rank: "1023",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27651,7 +27660,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "970",
           closing_rank: "1043",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27661,7 +27670,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "718",
           closing_rank: "1045",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -27670,7 +27679,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "630",
           closing_rank: "1046",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27680,7 +27689,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1032",
           closing_rank: "1046",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27690,7 +27699,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "843",
           closing_rank: "1056",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27700,7 +27709,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1070",
           closing_rank: "1070",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27710,7 +27719,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "998",
           closing_rank: "1071",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27720,7 +27729,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1079",
           closing_rank: "1079",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27730,7 +27739,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "786",
           closing_rank: "1089",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -27739,7 +27748,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1084",
           closing_rank: "1114",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27749,7 +27758,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1117",
           closing_rank: "1117",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27759,7 +27768,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1123",
           closing_rank: "1123",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27769,7 +27778,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1127",
           closing_rank: "1127",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27778,7 +27787,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1119",
           closing_rank: "1141",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27788,7 +27797,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1169",
           closing_rank: "1169",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -27797,7 +27806,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "783",
           closing_rank: "1183",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27807,7 +27816,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1195",
           closing_rank: "1195",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27817,7 +27826,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1138",
           closing_rank: "1205",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27827,7 +27836,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1210",
           closing_rank: "1210",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27837,7 +27846,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1227",
           closing_rank: "1227",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27847,7 +27856,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1038",
           closing_rank: "1230",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -27856,7 +27865,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1061",
           closing_rank: "1276",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27866,7 +27875,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1244",
           closing_rank: "1326",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27876,7 +27885,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1237",
           closing_rank: "1333",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -27885,7 +27894,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1124",
           closing_rank: "1342",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27895,7 +27904,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1345",
           closing_rank: "1345",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27905,7 +27914,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1359",
           closing_rank: "1359",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27915,7 +27924,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1386",
           closing_rank: "1386",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27925,7 +27934,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1388",
           closing_rank: "1388",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -27934,7 +27943,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1035",
           closing_rank: "1390",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27944,7 +27953,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1215",
           closing_rank: "1414",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27954,7 +27963,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1417",
           closing_rank: "1417",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27964,7 +27973,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1247",
           closing_rank: "1424",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27974,7 +27983,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1426",
           closing_rank: "1426",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27984,7 +27993,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "991",
           closing_rank: "1503",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -27994,7 +28003,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1303",
           closing_rank: "1510",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28004,7 +28013,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1142",
           closing_rank: "1521",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -28013,7 +28022,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1272",
           closing_rank: "1545",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -28022,7 +28031,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1432",
           closing_rank: "1613",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28032,7 +28041,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1625",
           closing_rank: "1625",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -28041,7 +28050,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1213",
           closing_rank: "1680",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -28050,7 +28059,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1575",
           closing_rank: "1692",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -28059,7 +28068,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1185",
           closing_rank: "1728",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -28068,7 +28077,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1726",
           closing_rank: "1779",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28078,7 +28087,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1883",
           closing_rank: "1943",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28088,7 +28097,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1441",
           closing_rank: "1970",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28098,7 +28107,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2018",
           closing_rank: "2018",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -28107,7 +28116,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2058",
           closing_rank: "2058",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28117,7 +28126,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2046",
           closing_rank: "2153",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28127,7 +28136,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1693",
           closing_rank: "2197",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28137,7 +28146,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2128",
           closing_rank: "2240",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28147,7 +28156,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1776",
           closing_rank: "2295",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28157,7 +28166,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2349",
           closing_rank: "2349",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28167,7 +28176,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1794",
           closing_rank: "2376",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -28176,7 +28185,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1939",
           closing_rank: "2405",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -28185,7 +28194,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1958",
           closing_rank: "2410",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28195,7 +28204,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2465",
           closing_rank: "2465",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -28204,7 +28213,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1657",
           closing_rank: "2475",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28214,7 +28223,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2307",
           closing_rank: "2480",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -28223,7 +28232,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1691",
           closing_rank: "2483",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28233,7 +28242,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2468",
           closing_rank: "2486",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28243,7 +28252,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1915",
           closing_rank: "2493",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28253,7 +28262,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2532",
           closing_rank: "2570",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -28262,7 +28271,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2222",
           closing_rank: "2606",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -28271,7 +28280,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2378",
           closing_rank: "2620",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28281,7 +28290,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2221",
           closing_rank: "2628",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28291,7 +28300,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2665",
           closing_rank: "2665",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28301,7 +28310,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2703",
           closing_rank: "2703",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28311,7 +28320,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2634",
           closing_rank: "2716",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28321,7 +28330,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2557",
           closing_rank: "2729",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -28330,7 +28339,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2532",
           closing_rank: "2732",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28340,7 +28349,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2223",
           closing_rank: "2736",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -28349,7 +28358,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2023",
           closing_rank: "2757",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28359,7 +28368,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2017",
           closing_rank: "2773",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -28368,7 +28377,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2287",
           closing_rank: "2794",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28378,7 +28387,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2370",
           closing_rank: "2865",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -28387,7 +28396,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2655",
           closing_rank: "2905",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28397,7 +28406,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2777",
           closing_rank: "2929",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28407,7 +28416,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2641",
           closing_rank: "3014",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -28416,7 +28425,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2054",
           closing_rank: "3026",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28426,7 +28435,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2284",
           closing_rank: "3058",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28436,7 +28445,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2513",
           closing_rank: "3313",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28446,7 +28455,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3396",
           closing_rank: "3396",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28456,7 +28465,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2460",
           closing_rank: "3412",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28466,7 +28475,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3080",
           closing_rank: "3620",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28476,7 +28485,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3218",
           closing_rank: "3645",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28486,7 +28495,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3325",
           closing_rank: "3683",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -28495,7 +28504,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3590",
           closing_rank: "3743",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28505,7 +28514,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3745",
           closing_rank: "3745",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28515,7 +28524,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3776",
           closing_rank: "3776",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -28524,7 +28533,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2701",
           closing_rank: "3880",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -28533,7 +28542,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3331",
           closing_rank: "3887",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28543,7 +28552,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3914",
           closing_rank: "4179",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28553,7 +28562,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2939",
           closing_rank: "4250",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -28562,7 +28571,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3177",
           closing_rank: "4268",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28572,7 +28581,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3847",
           closing_rank: "4302",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -28581,7 +28590,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3715",
           closing_rank: "4421",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28591,7 +28600,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4349",
           closing_rank: "4445",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28601,7 +28610,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3525",
           closing_rank: "4476",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28611,7 +28620,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4498",
           closing_rank: "4498",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28621,7 +28630,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4463",
           closing_rank: "4523",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28631,7 +28640,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4006",
           closing_rank: "4536",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28641,7 +28650,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4257",
           closing_rank: "4615",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28651,7 +28660,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4158",
           closing_rank: "4650",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28661,7 +28670,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4322",
           closing_rank: "4886",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28671,7 +28680,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5052",
           closing_rank: "5052",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -28680,7 +28689,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4394",
           closing_rank: "5347",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28690,7 +28699,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4605",
           closing_rank: "5572",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -28699,7 +28708,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4679",
           closing_rank: "5630",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28709,7 +28718,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6019",
           closing_rank: "6019",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -28718,7 +28727,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5473",
           closing_rank: "6024",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28728,7 +28737,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6307",
           closing_rank: "6307",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -28737,7 +28746,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4048",
           closing_rank: "6421",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -28746,7 +28755,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5450",
           closing_rank: "6566",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -28755,7 +28764,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6584",
           closing_rank: "6584",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28765,7 +28774,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6614",
           closing_rank: "6614",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28775,7 +28784,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6744",
           closing_rank: "6744",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28785,7 +28794,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6958",
           closing_rank: "6958",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28795,7 +28804,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6969",
           closing_rank: "6969",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -28804,7 +28813,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4928",
           closing_rank: "6984",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28814,7 +28823,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6401",
           closing_rank: "7045",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28824,7 +28833,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7433",
           closing_rank: "7433",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -28833,7 +28842,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7530",
           closing_rank: "7530",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -28842,7 +28851,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5319",
           closing_rank: "7540",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28852,7 +28861,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4450",
           closing_rank: "7729",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28862,7 +28871,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5935",
           closing_rank: "8004",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28872,7 +28881,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6026",
           closing_rank: "8169",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28882,7 +28891,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8660",
           closing_rank: "9757",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28892,7 +28901,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8671",
           closing_rank: "9973",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -28901,7 +28910,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8263",
           closing_rank: "10212",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -28910,7 +28919,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8335",
           closing_rank: "10448",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -28919,7 +28928,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9368",
           closing_rank: "10950",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28929,7 +28938,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11009",
           closing_rank: "11078",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28939,7 +28948,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7836",
           closing_rank: "11363",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28949,7 +28958,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10158",
           closing_rank: "11392",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28959,7 +28968,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10376",
           closing_rank: "11454",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28969,7 +28978,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9308",
           closing_rank: "11691",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28979,7 +28988,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10560",
           closing_rank: "11947",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -28988,7 +28997,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8168",
           closing_rank: "12066",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -28998,7 +29007,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8583",
           closing_rank: "12094",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29008,7 +29017,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10047",
           closing_rank: "12420",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -29017,7 +29026,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10838",
           closing_rank: "12423",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29027,7 +29036,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12447",
           closing_rank: "12913",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29037,7 +29046,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11671",
           closing_rank: "13434",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29047,7 +29056,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14730",
           closing_rank: "14730",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29057,7 +29066,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12540",
           closing_rank: "14907",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29067,7 +29076,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14491",
           closing_rank: "15473",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29077,7 +29086,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15663",
           closing_rank: "15663",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29087,7 +29096,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16030",
           closing_rank: "16346",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29097,7 +29106,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15619",
           closing_rank: "17199",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -29106,7 +29115,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14362",
           closing_rank: "18113",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29116,7 +29125,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16985",
           closing_rank: "18456",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29126,7 +29135,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14441",
           closing_rank: "19572",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29136,7 +29145,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14647",
           closing_rank: "19954",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -29145,7 +29154,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14116",
           closing_rank: "20406",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29155,7 +29164,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "18668",
           closing_rank: "20787",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -29164,7 +29173,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "19632",
           closing_rank: "20929",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -29173,7 +29182,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "11197",
           closing_rank: "22641",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -29182,7 +29191,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "102",
           closing_rank: "102",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -29191,7 +29200,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "241",
           closing_rank: "1038",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -29200,7 +29209,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1041",
           closing_rank: "1041",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29210,7 +29219,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1060",
           closing_rank: "1060",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29220,7 +29229,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1064",
           closing_rank: "1064",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -29229,7 +29238,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1135",
           closing_rank: "1135",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29239,7 +29248,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1151",
           closing_rank: "119",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29249,7 +29258,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1313",
           closing_rank: "1313",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29259,7 +29268,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1362",
           closing_rank: "1362",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Ceramic Engineering (4 Years, Bachelor of Technology)",
@@ -29268,7 +29277,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1389",
           closing_rank: "1389",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29278,7 +29287,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1413",
           closing_rank: "1413",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -29287,7 +29296,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "207",
           closing_rank: "224",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29297,7 +29306,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "24",
           closing_rank: "24",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -29306,7 +29315,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "304",
           closing_rank: "304",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -29315,7 +29324,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2940",
           closing_rank: "329",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -29324,7 +29333,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "32",
           closing_rank: "32",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29334,7 +29343,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "32",
           closing_rank: "32",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29344,7 +29353,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "366",
           closing_rank: "366",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29354,7 +29363,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "40",
           closing_rank: "40",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29364,7 +29373,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "472",
           closing_rank: "472",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29374,7 +29383,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "630",
           closing_rank: "630",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -29384,13 +29393,14 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "845",
           closing_rank: "845",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name:"Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
-      state: "",
+      type: "non-iit",
+      state: "Madhya Pradesh",
       
       branches: [
         {
@@ -29727,7 +29737,8 @@ const data = [
     },
     {
       institute_name: "Malaviya National Institute of Technology Jaipur",
-      state: "",
+      type: "non-iit",
+      state: "Rajasthan",
       
       branches: [
         {
@@ -31412,7 +31423,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Guwahati",
-      state: "",
+      type: "iit",
+      state: "Assam",
       
       branches: [
         {
@@ -31423,7 +31435,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "29",
           closing_rank: "31",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31433,7 +31445,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "37",
           closing_rank: "41",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31443,7 +31455,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "46",
           closing_rank: "46",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31453,7 +31465,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "66",
           closing_rank: "66",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31463,7 +31475,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "81",
           closing_rank: "86",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31473,7 +31485,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "92",
           closing_rank: "92",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31483,7 +31495,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "70",
           closing_rank: "117",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31493,7 +31505,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "107",
           closing_rank: "119",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31503,7 +31515,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "97",
           closing_rank: "129",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31513,7 +31525,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "163",
           closing_rank: "171",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31523,7 +31535,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "62",
           closing_rank: "176",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31533,7 +31545,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "200",
           closing_rank: "200",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31543,7 +31555,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "137",
           closing_rank: "288",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -31552,7 +31564,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "266",
           closing_rank: "304",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -31561,7 +31573,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "277",
           closing_rank: "305",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31571,7 +31583,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "211",
           closing_rank: "314",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31581,7 +31593,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "242",
           closing_rank: "321",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31591,7 +31603,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "157",
           closing_rank: "349",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31601,7 +31613,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "383",
           closing_rank: "383",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -31610,7 +31622,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "352",
           closing_rank: "402",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31620,7 +31632,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "404",
           closing_rank: "404",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31630,7 +31642,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "298",
           closing_rank: "424",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31640,7 +31652,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "301",
           closing_rank: "475",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31650,7 +31662,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "492",
           closing_rank: "492",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31660,7 +31672,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "264",
           closing_rank: "497",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31670,7 +31682,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "281",
           closing_rank: "503",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -31679,7 +31691,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "532",
           closing_rank: "556",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31689,7 +31701,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "450",
           closing_rank: "559",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -31698,7 +31710,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "564",
           closing_rank: "578",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31708,7 +31720,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "398",
           closing_rank: "588",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31718,7 +31730,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "693",
           closing_rank: "693",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -31727,7 +31739,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "619",
           closing_rank: "717",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31737,7 +31749,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "573",
           closing_rank: "744",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31747,7 +31759,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "739",
           closing_rank: "745",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -31756,7 +31768,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "634",
           closing_rank: "793",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31766,7 +31778,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "801",
           closing_rank: "801",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31776,7 +31788,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "627",
           closing_rank: "803",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -31785,7 +31797,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "537",
           closing_rank: "808",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31795,7 +31807,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "659",
           closing_rank: "815",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31805,7 +31817,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "784",
           closing_rank: "844",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31815,7 +31827,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "851",
           closing_rank: "851",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -31824,7 +31836,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "800",
           closing_rank: "932",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31834,7 +31846,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "813",
           closing_rank: "955",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31844,7 +31856,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1001",
           closing_rank: "1001",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -31853,7 +31865,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "784",
           closing_rank: "1028",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -31862,7 +31874,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1038",
           closing_rank: "1038",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -31871,7 +31883,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1049",
           closing_rank: "1049",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31881,7 +31893,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "844",
           closing_rank: "1059",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31891,7 +31903,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "622",
           closing_rank: "1085",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -31900,7 +31912,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1116",
           closing_rank: "1116",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -31909,7 +31921,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "924",
           closing_rank: "1122",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -31918,7 +31930,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1128",
           closing_rank: "1128",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31928,7 +31940,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1132",
           closing_rank: "1132",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -31937,7 +31949,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "821",
           closing_rank: "1178",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -31946,7 +31958,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "936",
           closing_rank: "1358",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -31955,7 +31967,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1263",
           closing_rank: "1457",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -31964,7 +31976,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1473",
           closing_rank: "1473",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -31973,7 +31985,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1694",
           closing_rank: "1694",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31983,7 +31995,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1144",
           closing_rank: "1729",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -31993,7 +32005,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1174",
           closing_rank: "1740",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32003,7 +32015,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1761",
           closing_rank: "1761",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32013,7 +32025,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1462",
           closing_rank: "1800",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32022,7 +32034,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1258",
           closing_rank: "1813",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32031,7 +32043,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1861",
           closing_rank: "1861",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32040,7 +32052,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1859",
           closing_rank: "1866",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32050,7 +32062,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1652",
           closing_rank: "1937",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32060,7 +32072,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1345",
           closing_rank: "2028",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -32069,7 +32081,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1437",
           closing_rank: "2091",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32079,7 +32091,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2231",
           closing_rank: "2231",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32089,7 +32101,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1857",
           closing_rank: "2255",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32098,7 +32110,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1952",
           closing_rank: "2343",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32107,7 +32119,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1932",
           closing_rank: "2345",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32116,7 +32128,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2014",
           closing_rank: "2382",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32125,7 +32137,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1849",
           closing_rank: "2408",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -32134,7 +32146,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1747",
           closing_rank: "2419",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32144,7 +32156,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1888",
           closing_rank: "2652",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32154,7 +32166,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2500",
           closing_rank: "2764",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -32163,7 +32175,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2733",
           closing_rank: "2941",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32173,7 +32185,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1537",
           closing_rank: "2984",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32182,7 +32194,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3207",
           closing_rank: "3271",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32191,7 +32203,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2102",
           closing_rank: "3417",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32200,7 +32212,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3247",
           closing_rank: "3971",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32210,7 +32222,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3161",
           closing_rank: "4240",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32220,7 +32232,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4408",
           closing_rank: "4504",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32229,7 +32241,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4299",
           closing_rank: "4854",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32238,7 +32250,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4881",
           closing_rank: "5225",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -32247,7 +32259,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2440",
           closing_rank: "5284",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32256,7 +32268,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3922",
           closing_rank: "5537",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -32265,7 +32277,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4752",
           closing_rank: "5674",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32274,7 +32286,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4262",
           closing_rank: "5697",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32284,7 +32296,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5819",
           closing_rank: "5878",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32293,7 +32305,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6194",
           closing_rank: "6350",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32302,7 +32314,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4948",
           closing_rank: "6487",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32312,7 +32324,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4595",
           closing_rank: "7685",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32321,7 +32333,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6281",
           closing_rank: "8643",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32330,7 +32342,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6778",
           closing_rank: "9024",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32339,7 +32351,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8448",
           closing_rank: "10199",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -32348,7 +32360,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8037",
           closing_rank: "10669",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32357,7 +32369,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10577",
           closing_rank: "11904",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32367,7 +32379,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11938",
           closing_rank: "12336",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32376,7 +32388,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12132",
           closing_rank: "12991",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Technology (4 Years, Bachelor of Technology)",
@@ -32385,7 +32397,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1057",
           closing_rank: "1057",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32394,7 +32406,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "78",
           closing_rank: "118",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32403,7 +32415,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "79",
           closing_rank: "152",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32413,7 +32425,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "246",
           closing_rank: "246",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32423,7 +32435,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "326",
           closing_rank: "326",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32433,7 +32445,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "39",
           closing_rank: "39",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -32442,13 +32454,14 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "727",
           closing_rank: "727",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology Gandhinagar",
-      state: "",
+      type: "iit",
+      state: "Gujarat",
       
       branches: [
         {
@@ -32459,7 +32472,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "32",
           closing_rank: "32",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32469,7 +32482,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "103",
           closing_rank: "103",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32479,7 +32492,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "171",
           closing_rank: "226",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32488,7 +32501,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "338",
           closing_rank: "375",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32497,7 +32510,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "384",
           closing_rank: "384",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32506,7 +32519,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "369",
           closing_rank: "408",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32516,7 +32529,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "286",
           closing_rank: "473",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32525,7 +32538,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "493",
           closing_rank: "493",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32534,7 +32547,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "447",
           closing_rank: "529",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32544,7 +32557,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "509",
           closing_rank: "616",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32553,7 +32566,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "719",
           closing_rank: "719",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32562,7 +32575,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "820",
           closing_rank: "820",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32571,7 +32584,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "758",
           closing_rank: "855",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32581,7 +32594,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1032",
           closing_rank: "1032",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32590,7 +32603,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "984",
           closing_rank: "1055",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32600,7 +32613,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1120",
           closing_rank: "1120",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32610,7 +32623,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1064",
           closing_rank: "1146",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32619,7 +32632,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "909",
           closing_rank: "1350",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32629,7 +32642,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1110",
           closing_rank: "1548",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32638,7 +32651,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1509",
           closing_rank: "1632",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32647,7 +32660,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1350",
           closing_rank: "1636",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32657,7 +32670,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1624",
           closing_rank: "1685",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32666,7 +32679,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1644",
           closing_rank: "1775",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32675,7 +32688,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1931",
           closing_rank: "1931",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32684,7 +32697,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2002",
           closing_rank: "2002",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32693,7 +32706,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1617",
           closing_rank: "2263",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32702,7 +32715,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2273",
           closing_rank: "2273",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32712,7 +32725,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2353",
           closing_rank: "2490",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32722,7 +32735,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2626",
           closing_rank: "2626",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32731,7 +32744,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2846",
           closing_rank: "2846",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32740,7 +32753,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2293",
           closing_rank: "2872",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32749,7 +32762,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2815",
           closing_rank: "3182",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32759,7 +32772,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2304",
           closing_rank: "3182",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32768,7 +32781,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1564",
           closing_rank: "3299",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32778,7 +32791,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3200",
           closing_rank: "4030",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32787,7 +32800,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3597",
           closing_rank: "4279",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32796,7 +32809,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3259",
           closing_rank: "4476",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32805,7 +32818,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5458",
           closing_rank: "5525",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32814,7 +32827,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5669",
           closing_rank: "6061",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32823,7 +32836,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6292",
           closing_rank: "6325",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32832,7 +32845,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4744",
           closing_rank: "6671",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32841,7 +32854,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4798",
           closing_rank: "7035",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32851,7 +32864,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7529",
           closing_rank: "7529",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32860,7 +32873,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6729",
           closing_rank: "8122",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32870,7 +32883,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5127",
           closing_rank: "9291",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32879,7 +32892,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8986",
           closing_rank: "11901",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -32888,7 +32901,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12207",
           closing_rank: "13557",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -32897,7 +32910,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10104",
           closing_rank: "14026",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -32907,7 +32920,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14031",
           closing_rank: "14740",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32916,7 +32929,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "63",
           closing_rank: "63",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -32925,7 +32938,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "72",
           closing_rank: "72",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -32934,13 +32947,14 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "77",
           closing_rank: "77",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute of Information Technology, Allahabad",
-      state: "",
+      type: "non-iit",
+      state: "Uttar Pradesh",
       
       branches: [
         {
@@ -33332,7 +33346,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Bhubaneswar",
-      state: "",
+      type: "iit",
+      state: "Odisha",
       
       branches: [
         {
@@ -33343,7 +33358,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "34",
           closing_rank: "34",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33353,7 +33368,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "99",
           closing_rank: "99",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33363,7 +33378,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "136",
           closing_rank: "137",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33373,7 +33388,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "175",
           closing_rank: "272",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33383,7 +33398,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "98",
           closing_rank: "402",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33393,7 +33408,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "459",
           closing_rank: "459",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33403,7 +33418,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "462",
           closing_rank: "462",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -33412,7 +33427,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "403",
           closing_rank: "486",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33421,7 +33436,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "412",
           closing_rank: "495",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33430,7 +33445,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "480",
           closing_rank: "539.1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33440,7 +33455,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "597",
           closing_rank: "597",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33450,7 +33465,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "556",
           closing_rank: "623",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33460,7 +33475,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "656",
           closing_rank: "656",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33470,7 +33485,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "670",
           closing_rank: "670",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33480,7 +33495,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "687",
           closing_rank: "687",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33490,7 +33505,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "698",
           closing_rank: "698",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33500,7 +33515,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "756",
           closing_rank: "756",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33510,7 +33525,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "766",
           closing_rank: "766",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33520,7 +33535,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "468",
           closing_rank: "776",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33530,7 +33545,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "838",
           closing_rank: "838",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33540,7 +33555,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "859",
           closing_rank: "859",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33550,7 +33565,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "954",
           closing_rank: "954",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -33559,7 +33574,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "936",
           closing_rank: "965",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33568,7 +33583,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1109",
           closing_rank: "1109",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33578,7 +33593,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1193",
           closing_rank: "1193",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33587,7 +33602,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "694",
           closing_rank: "1203",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33597,7 +33612,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1291",
           closing_rank: "1291",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33607,7 +33622,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1463",
           closing_rank: "1463",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33617,7 +33632,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1348",
           closing_rank: "1585",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33626,7 +33641,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1176",
           closing_rank: "1630",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -33635,7 +33650,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1238",
           closing_rank: "1655",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33645,7 +33660,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1671",
           closing_rank: "1671",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33655,7 +33670,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1675",
           closing_rank: "1675",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33665,7 +33680,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1702",
           closing_rank: "1702",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33675,7 +33690,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1760",
           closing_rank: "1760",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33685,7 +33700,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1505",
           closing_rank: "1766",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33694,7 +33709,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1531",
           closing_rank: "1829",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -33703,7 +33718,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1847",
           closing_rank: "1847",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33713,7 +33728,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1914",
           closing_rank: "1914",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33723,7 +33738,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2058",
           closing_rank: "2058",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33733,7 +33748,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1246",
           closing_rank: "2088",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33743,7 +33758,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2123",
           closing_rank: "2215",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33753,7 +33768,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2407",
           closing_rank: "2442",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -33762,7 +33777,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2680",
           closing_rank: "2680",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33772,7 +33787,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2717",
           closing_rank: "2717",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33782,7 +33797,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2554",
           closing_rank: "2921",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33792,7 +33807,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2841",
           closing_rank: "3072",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -33801,7 +33816,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2486",
           closing_rank: "3095",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33811,7 +33826,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3205",
           closing_rank: "3205",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33821,7 +33836,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3331",
           closing_rank: "3331",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33831,7 +33846,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3352",
           closing_rank: "3616",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33841,7 +33856,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3122",
           closing_rank: "3643",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33851,7 +33866,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3703",
           closing_rank: "3744",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33861,7 +33876,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3946",
           closing_rank: "3999",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33870,7 +33885,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3250",
           closing_rank: "4111",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33880,7 +33895,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4377",
           closing_rank: "4377",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33890,7 +33905,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2951",
           closing_rank: "4509",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -33899,7 +33914,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2276",
           closing_rank: "4915",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33909,7 +33924,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5788",
           closing_rank: "5788",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33919,7 +33934,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6011",
           closing_rank: "6011",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33929,7 +33944,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4855",
           closing_rank: "6028",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -33938,7 +33953,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4337",
           closing_rank: "6205",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33948,7 +33963,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6386",
           closing_rank: "6386",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33958,7 +33973,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7080",
           closing_rank: "7080",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33968,7 +33983,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6179",
           closing_rank: "7160",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33978,7 +33993,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7450",
           closing_rank: "7450",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33988,7 +34003,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7337",
           closing_rank: "8145",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -33998,7 +34013,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7328",
           closing_rank: "8332",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -34007,7 +34022,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7126",
           closing_rank: "8787",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -34016,7 +34031,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7054",
           closing_rank: "9269",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34026,7 +34041,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9433",
           closing_rank: "9433",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34036,7 +34051,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9374",
           closing_rank: "10804",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34046,7 +34061,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9807",
           closing_rank: "10874",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34056,7 +34071,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10472",
           closing_rank: "10981",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34066,7 +34081,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10435",
           closing_rank: "11646",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34076,7 +34091,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12989",
           closing_rank: "12989",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34086,7 +34101,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13944",
           closing_rank: "13944",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -34095,7 +34110,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11238",
           closing_rank: "14844",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34105,7 +34120,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14749",
           closing_rank: "15226",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34115,7 +34130,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15293",
           closing_rank: "15293",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34125,7 +34140,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15617",
           closing_rank: "15617",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34135,7 +34150,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "17190",
           closing_rank: "17190",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -34145,7 +34160,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "17319",
           closing_rank: "17900",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -34154,7 +34169,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "119",
           closing_rank: "119",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -34163,13 +34178,14 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "50",
           closing_rank: "50",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "National Institute of Technology, Andhra Pradesh",
-      state: "",
+      type: "non-iit",
+      state: "Andhra Pradesh",
       
       branches: [
         {
@@ -35455,7 +35471,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Durgapur",
-      state: "",
+      type: "non-iit",
+      state: "West Bengal",
       
       branches: [
         {
@@ -37258,7 +37275,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology (ISM) Dhanbad",
-      state: "",
+      type: "iit",
+      state: "Jharkhand",
       
       branches: [
         {
@@ -37269,7 +37287,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "37",
           closing_rank: "40",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37279,7 +37297,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "55",
           closing_rank: "113",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37289,7 +37307,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "232",
           closing_rank: "251",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37299,7 +37317,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "119",
           closing_rank: "365",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37309,7 +37327,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "373",
           closing_rank: "373",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -37318,7 +37336,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "400",
           closing_rank: "472",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37328,7 +37346,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "464",
           closing_rank: "488",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37338,7 +37356,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "166",
           closing_rank: "499",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37348,7 +37366,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "525",
           closing_rank: "525",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37358,7 +37376,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "322",
           closing_rank: "527",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -37367,7 +37385,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "479",
           closing_rank: "533",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -37376,7 +37394,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "548",
           closing_rank: "555",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -37385,7 +37403,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "487",
           closing_rank: "570",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37395,7 +37413,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "516",
           closing_rank: "671",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -37404,7 +37422,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "728",
           closing_rank: "736",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37414,7 +37432,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "796",
           closing_rank: "839",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37424,7 +37442,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "644",
           closing_rank: "852",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -37433,7 +37451,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "728",
           closing_rank: "854",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -37442,7 +37460,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "773",
           closing_rank: "865",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -37451,7 +37469,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "888",
           closing_rank: "888",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -37460,7 +37478,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "865",
           closing_rank: "895",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -37469,7 +37487,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "763",
           closing_rank: "914",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37479,7 +37497,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "936",
           closing_rank: "936",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -37488,7 +37506,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "958",
           closing_rank: "958",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37498,7 +37516,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "947",
           closing_rank: "969",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37508,7 +37526,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "417",
           closing_rank: "1005",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -37517,7 +37535,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1014",
           closing_rank: "1014",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -37526,7 +37544,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "931",
           closing_rank: "1016",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37536,7 +37554,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "968",
           closing_rank: "1026",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37546,7 +37564,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1073",
           closing_rank: "1073",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37556,7 +37574,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "750",
           closing_rank: "1077",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -37565,7 +37583,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "959",
           closing_rank: "1086",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -37574,7 +37592,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1119",
           closing_rank: "1145",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37584,7 +37602,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1163",
           closing_rank: "1163",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -37593,7 +37611,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1186",
           closing_rank: "1186",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37603,7 +37621,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1212",
           closing_rank: "1212",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -37612,7 +37630,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "846",
           closing_rank: "1241",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -37621,7 +37639,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1265",
           closing_rank: "1265",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -37630,7 +37648,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1313",
           closing_rank: "1313",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37640,7 +37658,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "786",
           closing_rank: "1359",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -37649,7 +37667,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "814",
           closing_rank: "1380",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37659,7 +37677,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1403",
           closing_rank: "1403",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37669,7 +37687,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1427",
           closing_rank: "1427",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37679,7 +37697,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1443",
           closing_rank: "1443",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37689,7 +37707,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1021",
           closing_rank: "1491",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -37698,7 +37716,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1130",
           closing_rank: "1557",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -37707,7 +37725,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1654",
           closing_rank: "1654",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37717,7 +37735,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1011",
           closing_rank: "1655",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -37726,7 +37744,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1317",
           closing_rank: "1904",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37736,7 +37754,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1235",
           closing_rank: "1916",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -37745,7 +37763,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1523",
           closing_rank: "1970",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -37754,7 +37772,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1682",
           closing_rank: "2013",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37764,7 +37782,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1623",
           closing_rank: "2089",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -37773,7 +37791,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1853",
           closing_rank: "2225",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37783,7 +37801,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2340",
           closing_rank: "2340",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -37792,7 +37810,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1668",
           closing_rank: "2342",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -37801,7 +37819,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2407",
           closing_rank: "2407",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -37810,7 +37828,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1861",
           closing_rank: "2420",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -37819,7 +37837,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1815",
           closing_rank: "2424",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -37828,7 +37846,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2425",
           closing_rank: "2425",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37838,7 +37856,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1966",
           closing_rank: "2440",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -37847,7 +37865,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2253",
           closing_rank: "2582",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37857,7 +37875,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1953",
           closing_rank: "2608",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37867,7 +37885,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2462",
           closing_rank: "2610",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37877,7 +37895,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2611",
           closing_rank: "2611",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37887,7 +37905,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2509",
           closing_rank: "2659",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -37896,7 +37914,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2629",
           closing_rank: "2741",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -37905,7 +37923,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2522",
           closing_rank: "2818",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37915,7 +37933,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1619",
           closing_rank: "2856",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -37924,7 +37942,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2216",
           closing_rank: "3013",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -37933,7 +37951,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2457",
           closing_rank: "3033",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -37942,7 +37960,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2748",
           closing_rank: "3224",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -37951,7 +37969,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3273",
           closing_rank: "3479",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -37960,7 +37978,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3593",
           closing_rank: "3593",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37970,7 +37988,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3532",
           closing_rank: "3618",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -37980,7 +37998,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3731",
           closing_rank: "3731",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -37989,7 +38007,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2675",
           closing_rank: "3782",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -37998,7 +38016,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3417",
           closing_rank: "3937",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38008,7 +38026,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2897",
           closing_rank: "4000",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38018,7 +38036,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2615",
           closing_rank: "4060",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38028,7 +38046,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3594",
           closing_rank: "4097",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -38037,7 +38055,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3416",
           closing_rank: "4278",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38047,7 +38065,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3774",
           closing_rank: "4368",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38057,7 +38075,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4495",
           closing_rank: "4700",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38067,7 +38085,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4684",
           closing_rank: "4731",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38076,7 +38094,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4409",
           closing_rank: "5036",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38086,7 +38104,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2755",
           closing_rank: "5106",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38096,7 +38114,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2877",
           closing_rank: "5657",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38105,7 +38123,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3189",
           closing_rank: "5873",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -38114,7 +38132,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5337",
           closing_rank: "5886",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -38123,7 +38141,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5930",
           closing_rank: "5930",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38132,7 +38150,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5617",
           closing_rank: "6071",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38141,7 +38159,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5653",
           closing_rank: "6233",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -38150,7 +38168,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6385",
           closing_rank: "6385",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38159,7 +38177,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4974",
           closing_rank: "6740",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -38168,7 +38186,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6194",
           closing_rank: "7023",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -38177,7 +38195,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7397",
           closing_rank: "7397",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38187,7 +38205,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6924",
           closing_rank: "7583",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -38196,7 +38214,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7056",
           closing_rank: "8484",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -38205,7 +38223,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6592",
           closing_rank: "8546",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -38214,7 +38232,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6763",
           closing_rank: "8743",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38223,7 +38241,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6930",
           closing_rank: "8895",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38233,7 +38251,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6497",
           closing_rank: "9144",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -38242,7 +38260,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6890",
           closing_rank: "10636",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38251,7 +38269,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8094",
           closing_rank: "11247",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38261,7 +38279,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8762",
           closing_rank: "11443",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38271,7 +38289,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9884",
           closing_rank: "12048",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -38280,7 +38298,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5304",
           closing_rank: "12125",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38290,7 +38308,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10064",
           closing_rank: "12361",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38300,7 +38318,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "11131",
           closing_rank: "12660",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38309,7 +38327,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12021",
           closing_rank: "13273",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -38318,7 +38336,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13623",
           closing_rank: "14252",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -38327,7 +38345,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13707",
           closing_rank: "14991",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -38336,7 +38354,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11000",
           closing_rank: "15019",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38345,7 +38363,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13182",
           closing_rank: "15724",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38355,7 +38373,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14878",
           closing_rank: "17578",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38365,7 +38383,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "17730",
           closing_rank: "18430",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -38374,7 +38392,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "18642",
           closing_rank: "19237",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38384,7 +38402,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "17514",
           closing_rank: "19879",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -38393,7 +38411,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15100",
           closing_rank: "20194",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38403,7 +38421,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "20488",
           closing_rank: "21528",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38413,7 +38431,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1217",
           closing_rank: "1217",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38422,7 +38440,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "176",
           closing_rank: "176",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38431,7 +38449,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "196",
           closing_rank: "196",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38440,7 +38458,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "122",
           closing_rank: "239",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -38449,7 +38467,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "270",
           closing_rank: "270",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -38458,7 +38476,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3421",
           closing_rank: "308",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38468,7 +38486,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "342",
           closing_rank: "342",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -38477,7 +38495,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "395",
           closing_rank: "395",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Petroleum Engineering (4 Years, Bachelor of Technology)",
@@ -38486,7 +38504,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "416",
           closing_rank: "416",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38495,7 +38513,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "579",
           closing_rank: "579",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38505,7 +38523,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5",
           closing_rank: "5",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38514,7 +38532,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "60",
           closing_rank: "60",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38524,7 +38542,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "637",
           closing_rank: "637",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38534,7 +38552,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "642",
           closing_rank: "642",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mining Engineering  (4 Years, Bachelor of Technology)",
@@ -38543,7 +38561,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "777",
           closing_rank: "777",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38552,7 +38570,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "79",
           closing_rank: "79",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38562,7 +38580,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "140",
           closing_rank: "80",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38572,7 +38590,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "825",
           closing_rank: "825",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38582,7 +38600,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "82",
           closing_rank: "82",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38592,7 +38610,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "868",
           closing_rank: "868",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -38601,7 +38619,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "870",
           closing_rank: "870",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mineral Engineering (4 Years, Bachelor of Technology)",
@@ -38610,13 +38628,14 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "930",
           closing_rank: "930",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Indian Institute  of Technology Indore",
-      state: "",
+      type: "iit",
+      state: "Madhya Pradesh",
       
       branches: [
         {
@@ -38627,7 +38646,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "41",
           closing_rank: "41",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38637,7 +38656,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "65",
           closing_rank: "105",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38646,7 +38665,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "128",
           closing_rank: "128",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38656,7 +38675,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "123",
           closing_rank: "191",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38666,7 +38685,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "233",
           closing_rank: "271",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38675,7 +38694,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "363",
           closing_rank: "380",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38684,7 +38703,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "381",
           closing_rank: "407",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38694,7 +38713,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "303",
           closing_rank: "444",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38704,7 +38723,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "436",
           closing_rank: "466",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38713,7 +38732,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "409",
           closing_rank: "475",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38723,7 +38742,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "517",
           closing_rank: "517",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38732,7 +38751,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "315",
           closing_rank: "881",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38742,7 +38761,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "640",
           closing_rank: "1067",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38752,7 +38771,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1018",
           closing_rank: "1069",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38761,7 +38780,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1129",
           closing_rank: "1129",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38770,7 +38789,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "775",
           closing_rank: "1170",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38780,7 +38799,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "599",
           closing_rank: "1237",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38789,7 +38808,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1181",
           closing_rank: "1405",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38798,7 +38817,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1196",
           closing_rank: "1502",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38807,7 +38826,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1565",
           closing_rank: "1617",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38816,7 +38835,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1290.1",
           closing_rank: "2027",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38826,7 +38845,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1677",
           closing_rank: "2199",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38835,7 +38854,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2444",
           closing_rank: "2444",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38844,7 +38863,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2272",
           closing_rank: "2547",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38854,7 +38873,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1816",
           closing_rank: "2803",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38863,7 +38882,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2405",
           closing_rank: "2894",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38873,7 +38892,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3373",
           closing_rank: "3373",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38882,7 +38901,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2164",
           closing_rank: "3635",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38892,7 +38911,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2916",
           closing_rank: "3712",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38901,7 +38920,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3150",
           closing_rank: "4029",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38910,7 +38929,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4633",
           closing_rank: "4879",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38919,7 +38938,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3797",
           closing_rank: "5279",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38928,7 +38947,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5305",
           closing_rank: "5745",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38938,7 +38957,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7336",
           closing_rank: "7416",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -38947,7 +38966,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5133",
           closing_rank: "7542",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38956,7 +38975,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6442",
           closing_rank: "7971",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38966,7 +38985,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7985",
           closing_rank: "9795",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -38975,7 +38994,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11233",
           closing_rank: "12510",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -38984,7 +39003,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12755",
           closing_rank: "13838",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -38994,7 +39013,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14257",
           closing_rank: "15975",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -39003,7 +39022,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "204",
           closing_rank: "204",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -39012,7 +39031,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "231",
           closing_rank: "231",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -39021,7 +39040,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "349",
           closing_rank: "349",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -39031,13 +39050,14 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "821",
           closing_rank: "821",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
     {
       institute_name: "Visvesvaraya National Institute of Technology, Nagpur",
-      state: "",
+      type: "non-iit",
+      state: "Maharashtra",
       
       branches: [
         {
@@ -40944,7 +40964,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Raipur",
-      state: "",
+      type: "non-iit",
+      state: "Chattisgarh",
       
       branches: [
         {
@@ -43234,7 +43255,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "53",
           closing_rank: "53",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43244,7 +43265,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "138",
           closing_rank: "190",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43254,7 +43275,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "356",
           closing_rank: "356",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43264,7 +43285,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "303",
           closing_rank: "433",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43274,7 +43295,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "488",
           closing_rank: "488",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43283,7 +43304,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "475",
           closing_rank: "503",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43292,7 +43313,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "454",
           closing_rank: "513",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43302,7 +43323,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "531",
           closing_rank: "531",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43311,7 +43332,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "580",
           closing_rank: "614",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43321,7 +43342,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "645",
           closing_rank: "645",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43330,7 +43351,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "618",
           closing_rank: "665",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43340,7 +43361,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "338",
           closing_rank: "709",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43349,7 +43370,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "685",
           closing_rank: "729",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43359,7 +43380,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "878",
           closing_rank: "878",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43369,7 +43390,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "925",
           closing_rank: "925",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43378,7 +43399,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "930",
           closing_rank: "930",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43388,7 +43409,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "903",
           closing_rank: "969",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43397,7 +43418,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "924",
           closing_rank: "988",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43406,7 +43427,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "996",
           closing_rank: "996",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43416,7 +43437,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "450",
           closing_rank: "1010",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43426,7 +43447,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "978",
           closing_rank: "1037",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43436,7 +43457,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "996",
           closing_rank: "1126",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43445,7 +43466,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1170",
           closing_rank: "1170",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43454,7 +43475,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "941",
           closing_rank: "1200",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43464,7 +43485,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1245",
           closing_rank: "1245",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43474,7 +43495,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "851",
           closing_rank: "1280",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43483,7 +43504,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1329",
           closing_rank: "1329",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43492,7 +43513,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1358",
           closing_rank: "1694",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43501,7 +43522,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1597",
           closing_rank: "1729",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43511,7 +43532,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1726",
           closing_rank: "1773",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43520,7 +43541,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1814",
           closing_rank: "1977",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43530,7 +43551,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1082",
           closing_rank: "2049",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43539,7 +43560,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1429",
           closing_rank: "2218",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43549,7 +43570,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2210",
           closing_rank: "2285",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43558,7 +43579,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2086",
           closing_rank: "2347",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43567,7 +43588,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2620",
           closing_rank: "2620",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43577,7 +43598,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2775",
           closing_rank: "2775",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43586,7 +43607,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2430",
           closing_rank: "2828",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43596,7 +43617,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2501",
           closing_rank: "2907",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43605,7 +43626,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2954",
           closing_rank: "2954",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43615,7 +43636,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2848",
           closing_rank: "2994",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43624,7 +43645,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2575",
           closing_rank: "3115",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43634,7 +43655,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3132",
           closing_rank: "3132",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43644,7 +43665,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2253",
           closing_rank: "3293",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43653,7 +43674,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2996",
           closing_rank: "3350",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43662,7 +43683,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3138",
           closing_rank: "3501",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43672,7 +43693,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3986",
           closing_rank: "3986",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43682,7 +43703,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3823",
           closing_rank: "4070",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43692,7 +43713,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3303",
           closing_rank: "4418",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43701,7 +43722,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3643",
           closing_rank: "5057",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43710,7 +43731,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4449",
           closing_rank: "5232",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43720,7 +43741,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4621",
           closing_rank: "5262",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43729,7 +43750,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6696",
           closing_rank: "6696",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43738,7 +43759,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5273",
           closing_rank: "6838",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43747,7 +43768,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6824",
           closing_rank: "6935",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43757,7 +43778,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7251",
           closing_rank: "7251",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43766,7 +43787,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7021",
           closing_rank: "7312",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43776,7 +43797,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6992",
           closing_rank: "8043",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43785,7 +43806,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "6907",
           closing_rank: "8692",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43794,7 +43815,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5860",
           closing_rank: "8920",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43803,7 +43824,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7446",
           closing_rank: "9826",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43813,7 +43834,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10682",
           closing_rank: "11546",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43822,7 +43843,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12355",
           closing_rank: "13483",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43832,7 +43853,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14318",
           closing_rank: "14318",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -43841,7 +43862,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14098",
           closing_rank: "15368",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -43850,7 +43871,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15051",
           closing_rank: "16680",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43860,7 +43881,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16774",
           closing_rank: "17095",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43869,7 +43890,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "309",
           closing_rank: "309",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -43878,7 +43899,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "74",
           closing_rank: "74",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -43887,7 +43908,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "904",
           closing_rank: "904",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -43897,7 +43918,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9",
           closing_rank: "9",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -49143,7 +49164,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "70",
           closing_rank: "70",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49153,7 +49174,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "213",
           closing_rank: "213",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49163,7 +49184,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "294",
           closing_rank: "397",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49173,7 +49194,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "407",
           closing_rank: "407",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49182,7 +49203,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "474",
           closing_rank: "530",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49191,7 +49212,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "534",
           closing_rank: "574",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49200,7 +49221,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "577",
           closing_rank: "577",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49209,7 +49230,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "468",
           closing_rank: "616",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49219,7 +49240,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "356",
           closing_rank: "726",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49228,7 +49249,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "749",
           closing_rank: "749",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49238,7 +49259,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "863",
           closing_rank: "863",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49248,7 +49269,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "925",
           closing_rank: "925",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49257,7 +49278,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "941",
           closing_rank: "941",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49266,7 +49287,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "979",
           closing_rank: "979",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49275,7 +49296,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1088",
           closing_rank: "1088",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49285,7 +49306,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1092",
           closing_rank: "1092",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49294,7 +49315,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1105",
           closing_rank: "1105",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49304,7 +49325,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1026",
           closing_rank: "1140",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49314,7 +49335,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1027",
           closing_rank: "1167",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49323,7 +49344,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1141",
           closing_rank: "1326",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49333,7 +49354,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "965",
           closing_rank: "1394",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49342,7 +49363,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1244",
           closing_rank: "1443",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49352,7 +49373,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1444",
           closing_rank: "1444",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49362,7 +49383,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "999",
           closing_rank: "1625",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49371,7 +49392,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1483",
           closing_rank: "1723",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49381,7 +49402,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1930",
           closing_rank: "1930",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49390,7 +49411,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1956",
           closing_rank: "2003",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49399,7 +49420,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1875",
           closing_rank: "2209",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49408,7 +49429,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1996",
           closing_rank: "2392",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49417,7 +49438,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2476",
           closing_rank: "2476",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49427,7 +49448,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1384",
           closing_rank: "2693",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49437,7 +49458,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2358",
           closing_rank: "2722",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49447,7 +49468,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2240",
           closing_rank: "2842",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49456,7 +49477,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2857",
           closing_rank: "2857",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49465,7 +49486,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2454",
           closing_rank: "2915",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49474,7 +49495,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2934",
           closing_rank: "3278",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49484,7 +49505,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3388",
           closing_rank: "3388",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49493,7 +49514,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3482",
           closing_rank: "3482",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49503,7 +49524,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2359",
           closing_rank: "3773",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49512,7 +49533,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3180",
           closing_rank: "4017",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49522,7 +49543,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4522",
           closing_rank: "4743",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49531,7 +49552,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4757",
           closing_rank: "5309",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49541,7 +49562,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4426",
           closing_rank: "5361",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49550,7 +49571,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3768",
           closing_rank: "5366",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49559,7 +49580,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5795",
           closing_rank: "6285",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49568,7 +49589,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6505",
           closing_rank: "6505",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49578,7 +49599,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6644",
           closing_rank: "6735",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49587,7 +49608,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6433",
           closing_rank: "7199",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49596,7 +49617,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5368",
           closing_rank: "7222",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49605,7 +49626,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5788",
           closing_rank: "9139",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49614,7 +49635,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7158",
           closing_rank: "9388",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49623,7 +49644,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6184",
           closing_rank: "9929",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49633,7 +49654,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9796",
           closing_rank: "12267",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49642,7 +49663,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13106",
           closing_rank: "13416",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49651,7 +49672,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13757",
           closing_rank: "14137",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49660,7 +49681,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13878",
           closing_rank: "14897",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49670,7 +49691,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13745",
           closing_rank: "19319",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49680,7 +49701,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1040",
           closing_rank: "1040",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Engineering Physics (4 Years, Bachelor of Technology)",
@@ -49689,7 +49710,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1387",
           closing_rank: "1387",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49699,7 +49720,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1401",
           closing_rank: "1401",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49709,7 +49730,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "145",
           closing_rank: "145",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -49718,7 +49739,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "251",
           closing_rank: "251",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49727,7 +49748,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "262",
           closing_rank: "262",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49736,7 +49757,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "418",
           closing_rank: "418",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49746,7 +49767,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5",
           closing_rank: "5",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49756,7 +49777,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "647",
           closing_rank: "647",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -49877,7 +49898,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "77",
           closing_rank: "77",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49887,7 +49908,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "196",
           closing_rank: "196",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49897,7 +49918,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "353",
           closing_rank: "434",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49907,7 +49928,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "547",
           closing_rank: "547",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49917,7 +49938,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "573",
           closing_rank: "573",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49927,7 +49948,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "550",
           closing_rank: "579",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49936,7 +49957,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "366",
           closing_rank: "585",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49946,7 +49967,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "377",
           closing_rank: "612",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49955,7 +49976,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "594",
           closing_rank: "681",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -49964,7 +49985,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "785",
           closing_rank: "785",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -49974,7 +49995,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "798",
           closing_rank: "798",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -49983,7 +50004,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "893",
           closing_rank: "893",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -49992,7 +50013,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "891",
           closing_rank: "929",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50002,7 +50023,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "568",
           closing_rank: "977",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -50011,7 +50032,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1023",
           closing_rank: "1023",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50021,7 +50042,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1072",
           closing_rank: "1112",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50030,7 +50051,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1136",
           closing_rank: "1136",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50040,7 +50061,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "956",
           closing_rank: "1146",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50050,7 +50071,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1290",
           closing_rank: "1290",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50060,7 +50081,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "924",
           closing_rank: "1335",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -50069,7 +50090,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1419",
           closing_rank: "1700",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -50078,7 +50099,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1310",
           closing_rank: "1750",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50087,7 +50108,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1978",
           closing_rank: "2100",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50097,7 +50118,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1262",
           closing_rank: "2194",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50107,7 +50128,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2183",
           closing_rank: "2195",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50117,7 +50138,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1844",
           closing_rank: "2475",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50127,7 +50148,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2309",
           closing_rank: "2527",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50137,7 +50158,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1127",
           closing_rank: "2617",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -50146,7 +50167,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1856",
           closing_rank: "2783",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -50155,7 +50176,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2890",
           closing_rank: "2890",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50164,7 +50185,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2949",
           closing_rank: "2949",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -50173,7 +50194,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2886",
           closing_rank: "3179",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50183,7 +50204,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3254",
           closing_rank: "3254",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -50192,7 +50213,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2937",
           closing_rank: "3450",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50201,7 +50222,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3109",
           closing_rank: "3843",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50211,7 +50232,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3798",
           closing_rank: "4260",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50221,7 +50242,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4796",
           closing_rank: "5172",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50231,7 +50252,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4641",
           closing_rank: "5912",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50241,7 +50262,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3509",
           closing_rank: "5995",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -50250,7 +50271,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6202",
           closing_rank: "6638",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -50259,7 +50280,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6421",
           closing_rank: "6976",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50268,7 +50289,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7197",
           closing_rank: "7197",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -50277,7 +50298,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5932",
           closing_rank: "7872",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -50286,7 +50307,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8087",
           closing_rank: "10163",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50295,7 +50316,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8266",
           closing_rank: "10497",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50305,7 +50326,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "10045",
           closing_rank: "11371",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50315,7 +50336,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10330",
           closing_rank: "12148",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -50324,7 +50345,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14085",
           closing_rank: "15106",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -50333,7 +50354,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14770",
           closing_rank: "16636",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50342,7 +50363,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14426",
           closing_rank: "17519",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50352,7 +50373,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16673",
           closing_rank: "19843",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50361,7 +50382,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "212",
           closing_rank: "212",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50371,7 +50392,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "46",
           closing_rank: "46",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -50380,7 +50401,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "613",
           closing_rank: "613",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -50390,7 +50411,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "68",
           closing_rank: "68",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -50399,7 +50420,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "783",
           closing_rank: "783",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -58558,7 +58579,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "75",
           closing_rank: "126",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58568,7 +58589,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "243",
           closing_rank: "346",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58578,7 +58599,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "316",
           closing_rank: "461",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58587,7 +58608,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "441",
           closing_rank: "588",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58596,7 +58617,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "523",
           closing_rank: "685",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58605,7 +58626,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "592",
           closing_rank: "707",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58615,7 +58636,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "568",
           closing_rank: "825",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58625,7 +58646,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "904",
           closing_rank: "904",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58634,7 +58655,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "770",
           closing_rank: "910",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58643,7 +58664,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1076",
           closing_rank: "1076",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58653,7 +58674,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1070",
           closing_rank: "1102",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58663,7 +58684,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1144",
           closing_rank: "1165",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58673,7 +58694,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "949",
           closing_rank: "1279",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58682,7 +58703,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1205",
           closing_rank: "1366",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58691,7 +58712,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1327",
           closing_rank: "1470",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58700,7 +58721,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1343",
           closing_rank: "1536",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58709,7 +58730,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1650",
           closing_rank: "1730",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58718,7 +58739,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1392",
           closing_rank: "1731",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58727,7 +58748,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2156",
           closing_rank: "2156",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58736,7 +58757,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2446",
           closing_rank: "2597",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58745,7 +58766,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2385",
           closing_rank: "2712",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58754,7 +58775,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2390",
           closing_rank: "2735",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58763,7 +58784,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1795",
           closing_rank: "2794",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58773,7 +58794,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2209",
           closing_rank: "3110",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58782,7 +58803,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2071",
           closing_rank: "3125",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58792,7 +58813,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2760",
           closing_rank: "3389",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58801,7 +58822,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4234",
           closing_rank: "4666",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58810,7 +58831,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4846",
           closing_rank: "5363",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58819,7 +58840,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3235",
           closing_rank: "6135",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58829,7 +58850,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4628",
           closing_rank: "6538",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58838,7 +58859,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5994",
           closing_rank: "7116",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58847,7 +58868,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5644",
           closing_rank: "7783",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -58856,7 +58877,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7679",
           closing_rank: "11397",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58865,7 +58886,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9177",
           closing_rank: "12522",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58874,7 +58895,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13228",
           closing_rank: "15014",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58883,7 +58904,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14771",
           closing_rank: "19143",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58892,7 +58913,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1260",
           closing_rank: "1260",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58901,7 +58922,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1162",
           closing_rank: "175",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58910,7 +58931,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "179",
           closing_rank: "179",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Bio Engineering (4 Years, Bachelor of Technology)",
@@ -58919,7 +58940,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3670",
           closing_rank: "580",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -58929,7 +58950,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "64",
           closing_rank: "64",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -58938,7 +58959,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "690",
           closing_rank: "690",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -61605,7 +61626,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "144",
           closing_rank: "144",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61615,7 +61636,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "339",
           closing_rank: "377",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61625,7 +61646,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "423",
           closing_rank: "464",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61634,7 +61655,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "603",
           closing_rank: "708",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61643,7 +61664,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "696",
           closing_rank: "710",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61653,7 +61674,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "454",
           closing_rank: "750",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61663,7 +61684,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "858",
           closing_rank: "858",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61673,7 +61694,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "783",
           closing_rank: "859",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61682,7 +61703,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "853",
           closing_rank: "980",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61691,7 +61712,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "984",
           closing_rank: "1052",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61701,7 +61722,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "485",
           closing_rank: "1057",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61710,7 +61731,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "687",
           closing_rank: "1583",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61720,7 +61741,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1294",
           closing_rank: "1662",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61730,7 +61751,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1455",
           closing_rank: "1716",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61739,7 +61760,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1224",
           closing_rank: "1741",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61748,7 +61769,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1948",
           closing_rank: "1948",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61758,7 +61779,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1951",
           closing_rank: "1951",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61768,7 +61789,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1904",
           closing_rank: "2153",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61777,7 +61798,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2505",
           closing_rank: "2505",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61786,7 +61807,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2470",
           closing_rank: "3103",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61795,7 +61816,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2935",
           closing_rank: "3113",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61805,7 +61826,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2130",
           closing_rank: "3463",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61814,7 +61835,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2990",
           closing_rank: "3605",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61824,7 +61845,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2495",
           closing_rank: "3865",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61834,7 +61855,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5067",
           closing_rank: "5067",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61844,7 +61865,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3487",
           closing_rank: "5067",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61853,7 +61874,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5370",
           closing_rank: "5484",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61862,7 +61883,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6262",
           closing_rank: "6514",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61871,7 +61892,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5985",
           closing_rank: "7048",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61881,7 +61902,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7266",
           closing_rank: "7508",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61891,7 +61912,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9096",
           closing_rank: "9096",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61900,7 +61921,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7625",
           closing_rank: "9473",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61909,7 +61930,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9951",
           closing_rank: "11296",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61918,7 +61939,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15580",
           closing_rank: "15644",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61928,7 +61949,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "285",
           closing_rank: "285",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61937,7 +61958,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "714",
           closing_rank: "714",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -61953,7 +61974,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "119",
           closing_rank: "145",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61963,7 +61984,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "540",
           closing_rank: "628",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -61973,7 +61994,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "536",
           closing_rank: "650",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -61982,7 +62003,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "690",
           closing_rank: "693",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -61991,7 +62012,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "781",
           closing_rank: "848",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62000,7 +62021,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "840",
           closing_rank: "975",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62009,7 +62030,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1054",
           closing_rank: "1118",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62019,7 +62040,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1087",
           closing_rank: "1261",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62028,7 +62049,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1735",
           closing_rank: "1870",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62038,7 +62059,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1379",
           closing_rank: "1972",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62047,7 +62068,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1461",
           closing_rank: "1975",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62057,7 +62078,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1990",
           closing_rank: "1990",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62066,7 +62087,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2701",
           closing_rank: "2701",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62075,7 +62096,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2858",
           closing_rank: "2858",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62084,7 +62105,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2782",
           closing_rank: "3255",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62093,7 +62114,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3372",
           closing_rank: "3652",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62103,7 +62124,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3517",
           closing_rank: "3730",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62113,7 +62134,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4016",
           closing_rank: "5146",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62122,7 +62143,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5617",
           closing_rank: "5700",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62131,7 +62152,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6269",
           closing_rank: "6629",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62140,7 +62161,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7072",
           closing_rank: "8424",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62150,7 +62171,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6500",
           closing_rank: "8796",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62159,7 +62180,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8701",
           closing_rank: "9835",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62168,7 +62189,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11357",
           closing_rank: "13371",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62177,7 +62198,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "13749",
           closing_rank: "17028",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -62187,7 +62208,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "497",
           closing_rank: "497",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -62196,7 +62217,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "630",
           closing_rank: "630",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -62205,7 +62226,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "996",
           closing_rank: "996",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -67772,7 +67793,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "321",
           closing_rank: "321",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -67782,7 +67803,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "376",
           closing_rank: "467",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -67791,7 +67812,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "659",
           closing_rank: "659",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -67800,7 +67821,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "649",
           closing_rank: "686",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -67810,7 +67831,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "713",
           closing_rank: "713",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -67819,7 +67840,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "505",
           closing_rank: "742",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -67828,7 +67849,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "560",
           closing_rank: "780",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -67837,7 +67858,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "825",
           closing_rank: "890",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -67847,7 +67868,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "934",
           closing_rank: "934",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -67856,7 +67877,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "954",
           closing_rank: "954",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -67865,7 +67886,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1005",
           closing_rank: "1005",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -67875,7 +67896,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "672",
           closing_rank: "1023",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -67884,7 +67905,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1095",
           closing_rank: "1095",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -67894,7 +67915,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1138",
           closing_rank: "1138",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -67903,7 +67924,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1213",
           closing_rank: "1213",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -67912,7 +67933,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1254",
           closing_rank: "1254",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -67922,7 +67943,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "984",
           closing_rank: "1318",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -67931,7 +67952,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1639",
           closing_rank: "1639",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -67940,7 +67961,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1308",
           closing_rank: "1746",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -67949,7 +67970,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1808",
           closing_rank: "1808",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -67958,7 +67979,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1831.1",
           closing_rank: "1831.1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -67967,7 +67988,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1869",
           closing_rank: "1869",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -67976,7 +67997,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1249",
           closing_rank: "1895",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -67985,7 +68006,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1952",
           closing_rank: "2029",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -67995,7 +68016,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1858",
           closing_rank: "2072",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68004,7 +68025,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2198",
           closing_rank: "2198",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -68013,7 +68034,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2043",
           closing_rank: "2263",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68022,7 +68043,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2539",
           closing_rank: "2539",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68031,7 +68052,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1759",
           closing_rank: "2569",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -68040,7 +68061,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2737",
           closing_rank: "2737",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68049,7 +68070,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2432",
           closing_rank: "3243",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68059,7 +68080,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2749",
           closing_rank: "3551",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68068,7 +68089,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3210",
           closing_rank: "3767",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -68077,7 +68098,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3327",
           closing_rank: "4048",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68086,7 +68107,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4069",
           closing_rank: "4069",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68095,7 +68116,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4098",
           closing_rank: "4425.1",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68104,7 +68125,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4611",
           closing_rank: "5279",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68114,7 +68135,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4586",
           closing_rank: "5700",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -68123,7 +68144,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5737",
           closing_rank: "5737",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68132,7 +68153,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3574",
           closing_rank: "6966",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68141,7 +68162,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5918",
           closing_rank: "9179",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68150,7 +68171,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8525",
           closing_rank: "9630",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -68159,7 +68180,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8775",
           closing_rank: "11424",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68168,7 +68189,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9406",
           closing_rank: "11814",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68177,7 +68198,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12387",
           closing_rank: "13492",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68186,7 +68207,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "12580",
           closing_rank: "15421",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -68195,7 +68216,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15187",
           closing_rank: "16627",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68205,7 +68226,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "114",
           closing_rank: "114",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68215,7 +68236,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "18",
           closing_rank: "18",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68224,7 +68245,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "257",
           closing_rank: "257",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -68568,7 +68589,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "526",
           closing_rank: "526",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68578,7 +68599,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "645",
           closing_rank: "669",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68587,7 +68608,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "722",
           closing_rank: "761",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68596,7 +68617,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "610",
           closing_rank: "790",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68605,7 +68626,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "879",
           closing_rank: "879",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68615,7 +68636,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "599",
           closing_rank: "1036",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68624,7 +68645,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1050",
           closing_rank: "1050",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68633,7 +68654,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1766",
           closing_rank: "1766",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68642,7 +68663,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1512",
           closing_rank: "1827",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68652,7 +68673,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1394",
           closing_rank: "1891",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68661,7 +68682,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1769",
           closing_rank: "1984",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68671,7 +68692,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2244",
           closing_rank: "2244",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68680,7 +68701,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2980",
           closing_rank: "2980",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68689,7 +68710,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2301",
           closing_rank: "3231",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68698,7 +68719,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2706",
           closing_rank: "3620",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68708,7 +68729,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3046",
           closing_rank: "3702",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68718,7 +68739,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2796",
           closing_rank: "4689",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68727,7 +68748,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5735",
           closing_rank: "6121",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68736,7 +68757,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6790",
           closing_rank: "7015",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68746,7 +68767,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6076",
           closing_rank: "7437",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68755,7 +68776,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5010",
           closing_rank: "7714",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68764,7 +68785,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7005",
           closing_rank: "10341",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68773,7 +68794,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8697",
           closing_rank: "14041",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68782,7 +68803,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14808",
           closing_rank: "15776",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68792,7 +68813,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "141",
           closing_rank: "141",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68801,7 +68822,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "555",
           closing_rank: "555",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68810,7 +68831,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "836",
           closing_rank: "836",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -68827,7 +68848,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "434",
           closing_rank: "540",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68837,7 +68858,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "280",
           closing_rank: "572",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68846,7 +68867,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "606",
           closing_rank: "653",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68855,7 +68876,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "704",
           closing_rank: "739",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68865,7 +68886,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "797",
           closing_rank: "797",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68874,7 +68895,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "717",
           closing_rank: "817",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68883,7 +68904,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "869",
           closing_rank: "986",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68893,7 +68914,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1022",
           closing_rank: "1022",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68902,7 +68923,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1057",
           closing_rank: "1076",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68912,7 +68933,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "982",
           closing_rank: "1190",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68921,7 +68942,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1211",
           closing_rank: "1262",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68930,7 +68951,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1671",
           closing_rank: "1671",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -68939,7 +68960,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1537",
           closing_rank: "1768",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68948,7 +68969,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "960",
           closing_rank: "1834",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68958,7 +68979,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1333",
           closing_rank: "1876",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68967,7 +68988,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1707",
           closing_rank: "1921",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -68977,7 +68998,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1934",
           closing_rank: "1934",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -68986,7 +69007,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2324",
           closing_rank: "2324",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -68995,7 +69016,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2646",
           closing_rank: "2646",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69004,7 +69025,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2889",
           closing_rank: "2889",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69013,7 +69034,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1814",
           closing_rank: "3068",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69022,7 +69043,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2645",
           closing_rank: "3467",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69032,7 +69053,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2758",
           closing_rank: "3685",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69041,7 +69062,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3409",
           closing_rank: "3969",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69051,7 +69072,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3659",
           closing_rank: "4656",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69060,7 +69081,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4009",
           closing_rank: "4971",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69069,7 +69090,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6077",
           closing_rank: "6416",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69078,7 +69099,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "6312",
           closing_rank: "6861",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69087,7 +69108,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "5389",
           closing_rank: "7925",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69097,7 +69118,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5263",
           closing_rank: "8091",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69106,7 +69127,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7304",
           closing_rank: "9885",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69115,7 +69136,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "9152",
           closing_rank: "11394",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69124,7 +69145,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "9491",
           closing_rank: "13678",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69133,7 +69154,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "14096",
           closing_rank: "15064",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69142,7 +69163,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "15368",
           closing_rank: "17173",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69151,7 +69172,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "387",
           closing_rank: "387",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69161,7 +69182,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "40",
           closing_rank: "40",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69170,7 +69191,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "722",
           closing_rank: "722",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69179,7 +69200,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "962",
           closing_rank: "962",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
@@ -69619,7 +69640,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "614",
           closing_rank: "617",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69628,7 +69649,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "617",
           closing_rank: "655",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69637,7 +69658,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "629",
           closing_rank: "701",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69646,7 +69667,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "720",
           closing_rank: "723",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69656,7 +69677,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "738",
           closing_rank: "747",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -69665,7 +69686,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "961",
           closing_rank: "991",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69674,7 +69695,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1000",
           closing_rank: "1000",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69683,7 +69704,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1047",
           closing_rank: "1130",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69692,7 +69713,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1301",
           closing_rank: "1304",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69702,7 +69723,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1228",
           closing_rank: "1311",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -69711,7 +69732,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1279",
           closing_rank: "1341",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69721,7 +69742,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1400",
           closing_rank: "1400",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69730,7 +69751,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1552",
           closing_rank: "2041",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69739,7 +69760,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1761",
           closing_rank: "2051",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69748,7 +69769,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1927",
           closing_rank: "2090",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69757,7 +69778,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2154",
           closing_rank: "2154",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69767,7 +69788,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1974",
           closing_rank: "2332",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -69776,7 +69797,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2274",
           closing_rank: "2365",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69786,7 +69807,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2308",
           closing_rank: "2507",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69796,7 +69817,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "2428",
           closing_rank: "2624",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69805,7 +69826,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2816",
           closing_rank: "2816",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69814,7 +69835,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2888",
           closing_rank: "2888",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69824,7 +69845,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "2945",
           closing_rank: "2945",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -69833,7 +69854,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3032",
           closing_rank: "3032",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69842,7 +69863,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "3300",
           closing_rank: "3300",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69851,7 +69872,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3249",
           closing_rank: "3689",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69860,7 +69881,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3695",
           closing_rank: "3828",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69869,7 +69890,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3411",
           closing_rank: "4037",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -69878,7 +69899,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3999",
           closing_rank: "4266",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69888,7 +69909,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "4429",
           closing_rank: "4620",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69898,7 +69919,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "4087",
           closing_rank: "5103",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69908,7 +69929,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "3726",
           closing_rank: "5536",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69917,7 +69938,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "5643",
           closing_rank: "6393",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69926,7 +69947,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "7278",
           closing_rank: "7278",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69935,7 +69956,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "7319",
           closing_rank: "8916",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -69944,7 +69965,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "8564",
           closing_rank: "10404",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69954,7 +69975,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "8676",
           closing_rank: "11262",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -69963,7 +69984,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10489",
           closing_rank: "12057",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -69972,7 +69993,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "10689",
           closing_rank: "12391",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -69982,7 +70003,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "11406",
           closing_rank: "12931",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -69991,7 +70012,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "11960",
           closing_rank: "14762",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Mechanical Engineering (4 Years, Bachelor of Technology)",
@@ -70000,7 +70021,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16086",
           closing_rank: "17178",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -70009,7 +70030,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16886",
           closing_rank: "18454",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -70018,7 +70039,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "16208",
           closing_rank: "19786",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -70028,7 +70049,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "20039",
           closing_rank: "21284",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -70038,7 +70059,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "111",
           closing_rank: "111",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -70048,7 +70069,7 @@ const data = [
           seat_pool: "Gender-Neutral",
           opening_rank: "1147",
           closing_rank: "115",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -70057,7 +70078,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1229",
           closing_rank: "1229",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -70067,7 +70088,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "1269",
           closing_rank: "1269",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name:
@@ -70077,7 +70098,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "210",
           closing_rank: "210",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -70086,7 +70107,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "590",
           closing_rank: "590",
-          iit: "true",
+          // iit: "true",
         },
         {
           branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -70095,7 +70116,7 @@ const data = [
           seat_pool: "Female-Only",
           opening_rank: "686",
           closing_rank: "686",
-          iit: "true",
+          // iit: "true",
         },
       ],
     },
