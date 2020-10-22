@@ -13,7 +13,7 @@ mongoose.connect("mongodb://localhost:27017/rank_predictor", {
 });
 
 // seeding the database
-// seedDB(); 
+// seedDB();
 
 // configuring different plugins
 app.use(bodyParser.urlencoded({ extended: true }));
