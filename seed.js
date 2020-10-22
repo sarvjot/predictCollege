@@ -4,7 +4,7 @@ const College = require("./models/college");
 const data = [
     {
       institute_name: "Indian Institute  of Technology Bombay",
-      state: "", 
+      state: "",
       type: "iit",
       branches: [
         {
@@ -1613,6 +1613,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Delhi",
+      state: "",
       type: "iit",
       branches: [
         {
@@ -3175,6 +3176,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Kanpur",
+      state: "",
       type: "iit",
       
       branches: [
@@ -4466,6 +4468,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Kharagpur",
+      state: "",
       type: "iit",
       
       branches: [
@@ -7855,6 +7858,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Madras",
+      state: "",
       type: "iit",
       
       branches: [
@@ -9183,6 +9187,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Roorkee",
+      state: "",
       type: "iit",
       
       branches: [
@@ -26319,7 +26324,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology Hyderabad",
       type: "iit",
-      state: "Telangana",
+      state: "",
       
       branches: [
         {
@@ -27182,7 +27187,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology (BHU) Varanasi",
       type: "iit",
-      state: "Uttar Pradesh",
+      state: "",
       
       branches: [
         {
@@ -31424,7 +31429,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology Guwahati",
       type: "iit",
-      state: "Assam",
+      state: "",
       
       branches: [
         {
@@ -32461,7 +32466,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology Gandhinagar",
       type: "iit",
-      state: "Gujarat",
+      state: "",
       
       branches: [
         {
@@ -33347,7 +33352,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology Bhubaneswar",
       type: "iit",
-      state: "Odisha",
+      state: "",
       
       branches: [
         {
@@ -37276,7 +37281,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology (ISM) Dhanbad",
       type: "iit",
-      state: "Jharkhand",
+      state: "",
       
       branches: [
         {
@@ -38635,7 +38640,7 @@ const data = [
     {
       institute_name: "Indian Institute  of Technology Indore",
       type: "iit",
-      state: "Madhya Pradesh",
+      state: "",
       
       branches: [
         {
@@ -43244,6 +43249,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Ropar",
+      type: "iit",
       state: "",
       
       branches: [
@@ -43924,7 +43930,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Kurukshetra",
-      state: "",
+      type: "non-iit",
+      state: "Haryana",
       
       branches: [
         {
@@ -45394,7 +45401,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Hamirpur",
-      state: "",
+      type: "non-iit",
+      state: "Himachal Pradesh",
       
       branches: [
         {
@@ -47369,7 +47377,8 @@ const data = [
     },
     {
       institute_name: "School of Planning & Architecture, New Delhi",
-      state: "",
+      type: "non-iit",
+      state: "Delhi",
       
       branches: [
         {
@@ -47475,7 +47484,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Patna",
-      state: "",
+      type: "non-iit",
+      state: "Bihar",
       
       branches: [
         {
@@ -49152,7 +49162,8 @@ const data = [
       ],
     },
     {
-      institute_name: "Indian Institute  of Technology Mandi",
+      institute_name: "Indian Institute of Technology Mandi",
+      type: "iit",
       state: "",
       
       branches: [
@@ -49783,7 +49794,8 @@ const data = [
     },
     {
       institute_name: "School of Planning & Architecture: Vijayawada",
-      state: "",
+      type: "non-iit",
+      state: "Andhra Pradesh",
       branches: [
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -49888,6 +49900,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Patna",
+      type: "iit",
       state: "",
       branches: [
         {
@@ -50426,7 +50439,8 @@ const data = [
     },
     {
       institute_name:"Sardar Vallabhbhai National Institute of Technology, Surat",
-      state: "",
+      type: "non-iit",
+      state: "Gujurat",
         
       branches: [
         {
@@ -52030,7 +52044,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology  Agartala",
-      state: "",
+      type: "non-iit",
+      state: "Tripura",
       branches: [
         {
           branch_name:
@@ -53500,7 +53515,8 @@ const data = [
     },
     {
       institute_name:"Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
-      state: "",
+      type: "non-iit",
+      state: "Madhya Pradesh",
         
       branches: [
         {
@@ -53837,7 +53853,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
-      state: "",
+      type: "non-iit",
+      state: "Tamil Nadu",
         
       branches: [
         {
@@ -54143,7 +54160,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Engineering Science and Technology, Shibpur",
-      state: "",
+      type: "non-iit",
+      state: "West Bengal",
         
       branches: [
         {
@@ -55875,7 +55893,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology Srirangam, Tiruchirappalli",
-      state: "",
+      type: "non-iit",
+      state: "Tamil Nadu",
         
       branches: [
         {
@@ -56002,7 +56021,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Silchar",
-      state: "",
+      type: "non-iit",
+      state: "Assam",
       branches: [
         {
           branch_name:
@@ -57233,7 +57253,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Jamshedpur",
-      state: "",
+      type: "non-iit",
+      state: "Jharkhand",
       branches: [
         {
           branch_name:
@@ -58569,6 +58590,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Jodhpur",
+      type: "iit",
       state: "",
       branches: [
         {
@@ -58965,7 +58987,8 @@ const data = [
     },
     {
       institute_name:"Dr. B R Ambedkar National Institute of Technology, Jalandhar",
-      state: "",
+      type: "non-iit",
+      state: "Punjab",
         
       branches: [
         {
@@ -61015,7 +61038,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Delhi",
-      state: "",
+      type: "non-iit",
+      state: "Delhi",
       branches: [
         {
           branch_name:
@@ -61511,7 +61535,8 @@ const data = [
     },
     {
       institute_name: "School of Planning & Architecture, Bhopal",
-      state: "",
+      type: "non-iit",
+      state: "Madhya Pradesh",
       branches: [
         {
           branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -61616,6 +61641,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Technology Goa",
+      type: "iit",
       state: "",
       branches: [
         {
@@ -61964,6 +61990,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Technology Bhilai",
+      type: "iit",
       state: "",
       branches: [
         {
@@ -62232,7 +62259,8 @@ const data = [
     },
     {
       institute_name: "Birla Institute of Technology, Mesra,  Ranchi",
-      state: "",
+      type: "non-iit",
+      state: "Jharkhand",
       branches: [
         {
           branch_name:
@@ -63148,7 +63176,8 @@ const data = [
     },
     {
       institute_name: "Punjab Engineering College, Chandigarh",
-      state: "",
+      type: "non-iit",
+      state: "Punjab",
       branches: [
         {
           branch_name:
@@ -63610,7 +63639,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Puducherry",
-      state: "",
+      type: "non-iit",
+      state: "Puducherry",
       branches: [
         {
           branch_name:
@@ -64300,7 +64330,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Srinagar",
-      state: "",
+      type: "non-iit",
+      state: "Jammu and Kashmir",
       branches: [
         {
           branch_name:
@@ -65824,7 +65855,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Uttarakhand",
-      state: "",
+      type: "non-iit",
+      state: "Uttarakhand",
       branches: [
         {
           branch_name:
@@ -66360,7 +66392,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Goa",
-      state: "",
+      type: "non-iit",
+      state: "Goa",
       branches: [
         {
           branch_name:
@@ -67096,7 +67129,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Manipur",
-      state: "",
+      type: "non-iit",
+      state: "Manipur",
       branches: [
         {
           branch_name:
@@ -67603,7 +67637,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
-      state: "",
+      type: "non-iit",
+      state: "Haryana",
       
       branches: [
         {
@@ -67715,7 +67750,8 @@ const data = [
     },
     {
       institute_name: "University of Hyderabad",
-      state: "",
+      type: "non-iit",
+      state: "Telangana",
       
       branches: [
         {
@@ -67782,7 +67818,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Tirupati",
-      state: "",
+      type: "non-iit",
+      state: "Andhra Pradesh",
       
       branches: [
         {
@@ -68251,7 +68288,8 @@ const data = [
     },
     {
       institute_name: "Jawaharlal Nehru University, Delhi",
-      state: "",
+      type: "non-iit",
+      state: "Delhi",
       
       branches: [
         {
@@ -68388,7 +68426,8 @@ const data = [
     },
     {
       institute_name: "Mizoram University, Aizawl",
-      state: "",
+      type: "non-iit",
+      state: "Mizoram",
       
       branches: [
         {
@@ -68578,6 +68617,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Technology Dharwad",
+      type: "iit",
       state: "",
       
       branches: [
@@ -68837,6 +68877,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute  of Technology Palakkad",
+      type: "iit",
       state: "",
       
       branches: [
@@ -69206,7 +69247,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology Lucknow",
-      state: "",
+      type: "non-iit",
+      state: "Uttar Pradesh",
       
       branches: [
         {
@@ -69429,7 +69471,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
-      state: "",
+      type: "non-iit",
+      state: "Andhra Pradesh",
       
       branches: [
         {
@@ -69629,6 +69672,7 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Technology Jammu",
+      type: "iit",
       state: "",
       
       branches: [
@@ -70122,7 +70166,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology Guwahati",
-      state: "",
+      type: "non-iit",
+      state: "Assam",
       
       branches: [
         {
@@ -70309,7 +70354,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology(IIIT), Kottayam",
-      state: "",
+      type: "non-iit",
+      state: "Kerala",
       
       branches: [
         {
@@ -70386,7 +70432,8 @@ const data = [
     },
     {
       institute_name:"Indian institute of information technology, Raichur, Karnataka",
-      state: "",
+      type: "non-iit",
+      state: "Karnataka",
       
       branches: [
         {
@@ -70492,225 +70539,9 @@ const data = [
       ],
     },
     {
-      institute_name:"Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
-      state: "",
-      
-      branches: [
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OBC-NCL-PwD",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "808",
-          closing_rank: "808",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and  M. Tech. Electronics and Communication Engineering with specialization in Communication Systems Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "ST",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "3149",
-          closing_rank: "3266",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and M. Tech. Electronics and Communication Engineering with specialization in VLSI Design  (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "ST",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "2955",
-          closing_rank: "3431",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. Mechanical Engineering with specialization in Advanced Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "ST",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "3658",
-          closing_rank: "3658",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "ST",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "3273",
-          closing_rank: "3964",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and  M. Tech. Electronics and Communication Engineering with specialization in Communication Systems Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "GEN-EWS",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "4329",
-          closing_rank: "4550",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and M. Tech. Electronics and Communication Engineering with specialization in VLSI Design  (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "GEN-EWS",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "4527",
-          closing_rank: "4660",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "GEN-EWS",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "4928",
-          closing_rank: "5237",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. Mechanical Engineering with specialization in Advanced Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "GEN-EWS",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "5367",
-          closing_rank: "5587",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "SC",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "5272",
-          closing_rank: "6895",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and M. Tech. Electronics and Communication Engineering with specialization in VLSI Design  (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "SC",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "6404",
-          closing_rank: "6982",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and  M. Tech. Electronics and Communication Engineering with specialization in Communication Systems Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "SC",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "4989",
-          closing_rank: "7214",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. Mechanical Engineering with specialization in Advanced Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "SC",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "7267",
-          closing_rank: "7999",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and  M. Tech. Electronics and Communication Engineering with specialization in Communication Systems Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OBC-NCL",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "8225",
-          closing_rank: "10980",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and M. Tech. Electronics and Communication Engineering with specialization in VLSI Design  (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OBC-NCL",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "9137",
-          closing_rank: "11471",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OBC-NCL",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "11546",
-          closing_rank: "13288",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. Mechanical Engineering with specialization in Advanced Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OBC-NCL",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "13103",
-          closing_rank: "13667",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and M. Tech. Electronics and Communication Engineering with specialization in VLSI Design  (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OPEN",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "21092",
-          closing_rank: "29735",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Electronics and Communication Engineering and  M. Tech. Electronics and Communication Engineering with specialization in Communication Systems Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OPEN",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "25468",
-          closing_rank: "32339",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OPEN",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "27722",
-          closing_rank: "38623",
-          iit: "false",
-        },
-        {
-          branch_name:
-            "B. Tech. Mechanical Engineering and M. Tech. Mechanical Engineering with specialization in Advanced Manufacturing (5 Years, Bachelor and Master of Technology (Dual Degree))",
-          alloted_quota: "AI",
-          Category: "OPEN",
-          seat_pool: "Gender-Neutral",
-          opening_rank: "33021",
-          closing_rank: "40529",
-          iit: "false",
-        },
-      ],
-    },
-    {
       institute_name: "National Institute of Technology Sikkim",
-      state: "",
+      type: "non-iit",
+      state: "Sikkim",
       
       branches: [
         {
@@ -71123,7 +70954,8 @@ const data = [
     },
     {
       institute_name: "Pondicherry Engineering College, Puducherry",
-      state: "",
+      type: "non-iit",
+      state: "Puducherry",
       
       branches: [
         {
@@ -71463,7 +71295,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology Bhopal",
-      state: "",
+      type: "non-iit",
+      state: "Madhya Pradesh",
       
       branches: [
         {
@@ -71663,7 +71496,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
-      state: "",
+      state: "Andhra Pradesh",
+      type: "non-iit",
       
       branches: [
         {
@@ -71800,7 +71634,8 @@ const data = [
     },
     {
       institute_name:"National Institute of Food Technology Entrepreneurship and Management, Sonepat, Haryana",
-      state: "",
+      state: "Haryana",
+      type: "non-iit",
       
       branches: [
         {
@@ -71867,7 +71702,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology (IIIT), Ranchi",
-      state: "",
+      type: "non-iit",
+      state: "Jharkhand",
       
       branches: [
         {
@@ -72084,7 +71920,8 @@ const data = [
     },
     {
       institute_name:"International Institute of Information Technology, Naya Raipur",
-      state: "",
+      type: "non-iit",
+      state: "Chattisgarh",
       
       branches: [
         {
@@ -72231,7 +72068,8 @@ const data = [
     },
     {
       institute_name:"J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
-      state: "",
+      type: "non-iit",
+      state: "Uttar Pradesh",
       
       branches: [
         {
@@ -72358,7 +72196,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology (IIIT) Pune",
-      state: "",
+      type: "non-iit",
+      state: "Maharashtra",
       
       branches: [
         {
@@ -72495,7 +72334,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology, Mizoram",
-      state: "",
+      type: "non-iit",
+      state: "Mizoram",
       
       branches: [
         {
@@ -72906,7 +72746,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology(IIIT) Dharwad",
-      state: "",
+      type: "non-iit",
+      state: "Karnataka",
       
       branches: [
         {
@@ -73043,7 +72884,8 @@ const data = [
     },
     {
       institute_name:"Institute of Technology, Guru Ghasidas Vishwavidyalaya (A Central University), Bilaspur, (C.G.)",
-      state: "",
+      state: "Chattisgarh",
+      type: "non-iit",
       
       branches: [
         {
@@ -73399,7 +73241,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Meghalaya",
-      state: "",
+      type: "non-iit",
+      state: "Meghalaya",
       
       branches: [
         {
@@ -73897,7 +73740,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
-      state: "",
+      state: "Rajasthan",
+      type: "non-iit",
       
       branches: [
         {
@@ -74024,7 +73868,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Arunachal Pradesh",
-      state: "",
+      type: "non-iit",
+      state: "Arunachal Pradesh",
       
       branches: [
         {
@@ -74529,7 +74374,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology (IIIT) Nagpur",
-      state: "",
+      type: "non-iit",
+      state: "Maharashtra",
       
       branches: [
         {
@@ -74756,7 +74602,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
-      state: "",
+      state: "Himachal Pradesh",
+      type: "non-iit",
       
       branches: [
         {
@@ -74928,7 +74775,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology Surat",
-      state: "",
+      type: "non-iit",
+      state: "Gujarat",
       
       branches: [
         {
@@ -75055,7 +74903,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
-      state: "",
+      state: "Gujarat",
+      type: "non-iit",
       
       branches: [
         {
@@ -75176,7 +75025,8 @@ const data = [
     },
     {
       institute_name: "Gurukula Kangri Vishwavidyalaya, Haridwar",
-      state: "",
+      state: "Uttarakhand",
+      type: "non-iit",
       
       branches: [
         {
@@ -75383,7 +75233,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology, Agartala",
-      state: "",
+      type: "non-iit",
+      state: "Tripura",
       
       branches: [
         {
@@ -75450,7 +75301,8 @@ const data = [
     },
     {
       institute_name:"Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
-      state: "",
+      state: "Bengal",
+      type: "non-iit",
       
       branches: [
         {
@@ -75517,7 +75369,8 @@ const data = [
     },
     {
       institute_name: "National Institute of Technology Nagaland",
-      state: "",
+      state: "Nagaland",
+      type: "non-iit",
       
       branches: [
         {
@@ -75996,7 +75849,8 @@ const data = [
     },
     {
       institute_name:"National Institute of Foundry & Forge Technology, Hatia, Ranchi",
-      state: "",
+      state: "Jharkhand",
+      type: "non-iit",
       
       branches: [
         {
@@ -76113,7 +75967,8 @@ const data = [
     },
     {
       institute_name: "HNB Garhwal University Srinagar (Garhwal)",
-      state: "",
+      state: "Jammu and Kashmir",
+      type: "non-iit",
       
       branches: [
         {
@@ -76540,8 +76395,9 @@ const data = [
       ],
     },
     {
+      type: "non-iit",
       institute_name: "Central University of Rajasthan, Rajasthan",
-      state: "",
+      state: "Rajasthan",
       
       branches: [
         {
@@ -76648,7 +76504,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology Bhagalpur",
-      state: "",
+      type: "non-iit",
+      state: "Bihar",
       
       branches: [
         {
@@ -76815,7 +76672,8 @@ const data = [
     },
     {
       institute_name:"School of Engineering, Tezpur University, Napaam, Tezpur",
-      state: "",
+      state: "Assam",
+      type: "non-iit",
       
       branches: [
         {
@@ -77050,7 +76908,8 @@ const data = [
     },
     {
       institute_name:"International Institute of Information Technology, Bhubaneswar",
-      state: "",
+      state: "Odisha",
+      type: "non-iit",
       
       branches: [
         {
@@ -77249,7 +77108,8 @@ const data = [
     },
     {
       institute_name:"National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
-      state: "",
+      state: "Maharashtra",
+      type: "non-iit",
       
       branches: [
         {
@@ -77306,7 +77166,8 @@ const data = [
     },
     {
       institute_name:"Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
-      state: "",
+      state: "Gujarat",
+      type: "non-iit",
       
       branches: [
         {
@@ -77448,7 +77309,8 @@ const data = [
     },
     {
       institute_name: "Assam University, Silchar",
-      state: "",
+      state: "Assam",
+      type: "non-iit",
       
       branches: [
         {
@@ -77905,7 +77767,8 @@ const data = [
     },
     {
       institute_name: "Central institute of Technology Kokrajar, Assam",
-      state: "",
+      state: "Assam",
+      type: "non-iit",
       
       branches: [
         {
@@ -78039,7 +77902,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Information Technology  Manipur",
-      state: "",
+      type: "non-iit",
+      state: "Manipur",
       
       branches: [
         {
@@ -78146,7 +78010,8 @@ const data = [
     },
     {
       institute_name: "Sant Longowal Institute of Engineering and Technology",
-      state: "",
+      state: "Punjab",
+      type: "non-iit",
       
       branches: [
         {
@@ -78483,7 +78348,8 @@ const data = [
     },
     {
       institute_name:"Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
-      state: "",
+      type: "non-iit",
+      state: "Jammu and Kashmir",
       
       branches: [
         {
@@ -78546,7 +78412,8 @@ const data = [
     },
     {
       institute_name:"Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
-      state: "",
+      state: "West Bengal",
+      type: "non-iit",
       
       branches: [
         {
@@ -78787,7 +78654,8 @@ const data = [
     },
     {
       institute_name: "Indian Institute of Carpet Technology,  Bhadohi",
-      state: "",
+      state: "Uttar Pradesh",
+      type: "non-iit",
       
       branches: [
         {
