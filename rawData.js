@@ -4,7 +4,7 @@ const data = [
       branch_name:
         "Computer Science and Engineering (4 Years, Bachelor of Technology)",
       alloted_quota: "AI",
-      Category: "OBC-NCL(PwD)",K)ZZ
+      Category: "OBC-NCL(PwD)",
       seat_pool: "Gender-Neutral",
       opening_rank: "1",
       closing_rank: "1",
