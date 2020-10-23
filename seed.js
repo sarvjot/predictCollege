@@ -41597,7 +41597,7 @@ const data = [
     institute_name:
       "Sardar Vallabhbhai National Institute of Technology, Surat",
     type: "non-iit",
-    state: ["Gujurat"],
+    state: ["Gujarat"],
     branches: [
       {
         branch_name:
@@ -74293,7 +74293,7 @@ const data = [
   {
     institute_name:
       "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
-    state: ["Bengal"],
+    state: ["West Bengal"],
     type: "non-iit",
     branches: [
       {
