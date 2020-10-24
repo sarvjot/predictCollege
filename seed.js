@@ -22521,6 +22521,7 @@ const data = [
       },
     ],
   },
+  // -----------------------NIT Plus System--------------------------------------
   {
     institute_name: "National Institute of Technology, Tiruchirappalli(Trichy)",
     type: "non-iit",
@@ -53214,7 +53215,7 @@ const data = [
   {
     institute_name: "National Institute of Technology Goa",
     type: "non-iit",
-    state: ["Goa"],
+    state: ["Goa", "Daman and Diu", "Dadra and Nagar Haveli", "Lakshadweep"],
     branches: [
       {
         branch_name:
@@ -64174,7 +64175,7 @@ const data = [
   {
     institute_name: "National Institute of Technology Puducherry",
     type: "non-iit",
-    state: ["Puducherry"],
+    state: ["Puducherry", "Andaman and Nicobar Islands"],
     branches: [
       {
         branch_name:
@@ -68822,7 +68823,7 @@ const data = [
   {
     institute_name: "National Institute of Technology, Srinagar",
     type: "non-iit",
-    state: ["Jammu and Kashmir"],
+    state: ["Jammu and Kashmir", "Ladakh"],
     branches: [
       {
         branch_name:
@@ -78390,7 +78391,7 @@ const data = [
   {
     institute_name:
       "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
-    state: ["West Bengal"],
+    state: ["West Bengal", "Arunachal Pradesh", "Assam", "Nagaland", "Manipur", "Meghalaya", "Mizoram", "Sikkim", "Tripura"],
     type: "non-iit",
     branches: [
       {
