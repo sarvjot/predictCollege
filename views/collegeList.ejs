@@ -12,12 +12,8 @@
         
         <% var ctr=0 %> 
         <% college.branches.forEach( (branch) => {%> 
-            <% if( rank <= branch.closing_rank 
-                && category == branch.Category 
-                && alloted_quota == branch.alloted_quota 
-                && seat_pool == branch.seat_pool 
-                && main_advanced == branch.iit 
-                && !(branch.branch_name.includes("Architecture"))){  %> 
+            <% var eligiblity = isEligible(branch, rank, category, state_of_eligibility, seat_pool, main_advanced, college.state); %> 
+            <% if(typeof eligiblity != "undefined") {%> 
                 <% ctr++ %> 
                 <% if(ctr==1){ %> 
                     <!-- Every college should begin with its own table -->
@@ -27,6 +23,9 @@
                             <thead>
                                 <tr>
                                     <th>Branch</th>
+                                    <th>Quota</th>
+                                    <th>Seat Pool</th>
+                                    <th>Category</th>
                                     <th>Cutoff 2019</th>
                                 </tr>
                             </thead>
@@ -34,8 +33,11 @@
                             <tbody>
                 <% } %>            
                 <tr>
-                    <td><%= branch.branch_name %></td>    
-                    <td><%= branch.closing_rank %></td>    
+                    <td><%= branch.branch_name %></td>      
+                    <td><%= eligiblity.alloted_quota %></td>   
+                    <td><%= branch.seat_pool %></td>    
+                    <td><%= branch.Category %></td>   
+                    <td><%= eligiblity.closing_rank %></td>    
                 </tr>
             <% } %> 
         <% }); %> 

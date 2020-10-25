@@ -4,6 +4,7 @@ var express = require("express"),
   bodyParser = require("body-parser"),
   College = require("./models/college"),
   seedDB = require("./seed"),
+  isEligible = require("./Eligibility.js"),
   port = 3000;
 
 // Connecting mongoose to the local database
@@ -30,11 +31,13 @@ app.post("/colleges", (req, res) => {
       console.log(err);
     } else {
       res.render("collegeList", {
+        isEligible: isEligible,
         colleges: allColleges,
         rank: req.body.rank,
         category: req.body.category,
         seat_pool: req.body.seat_pool,
-        alloted_quota: req.body.alloted_quota,
+        // alloted_quota: req.body.alloted_quota,
+        state_of_eligibility: req.body.state_of_eligibility,
         main_advanced: req.body.main_adv
       });
     }
