@@ -1,9 +1,8 @@
 var advancedBtn = document.querySelector("#advanced");
 var mainBtn = document.querySelector("#main");
 var rankInput = document.querySelector("#rank");
-var stateInput = document.querySelector("#state_input");
+var stateInput = document.querySelector("#state-input");
 
-console.log("I am in public directory!")
 advancedBtn.addEventListener("click", () => {
   stateInput.style.display = "none";
   rankInput.placeholder = "Enter Your JEE Advanced Rank";
