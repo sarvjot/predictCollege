@@ -9,8 +9,10 @@ var express = require("express"),
 
 // Connecting mongoose to the local database
 mongoose.connect("mongodb://localhost:27017/rank_predictor", {
+  useCreateIndex: true,
   useUnifiedTopology: true,
   useNewUrlParser: true,
+  useFindAndModify: false
 });
 
 // seeding the database
