@@ -26,44 +26,20 @@ body {
   font-size: 70px;
 }
 /* --------------------------------Form Styling-------------------------------- */
-#form-div {
+#my-form{
   width: 60%;
   height: 70vh;
-  background: #bc3908;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: none;
-  border-radius: 10px;
-}
-
-#my-form{
-  height: 70%;
-  
-}
-
-.small-div > label{
-  font-size: 60px;
-}
-
-.small-div > select, .small-div > input{
-  font-size: 50px;
-}
-
-/* Form tabs styling */
-.input-div{
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border-radius: 4px;
+  background: #ef233c;
 }
-.input-div h1, .input-div > label{
-  font-size: 50px;
-  font-weight: bold;
-}
+
+/* Form tabs styling */
 .switch-tabs {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -75,53 +51,56 @@ body {
   justify-content: center;
   align-items: center;
   
-  height: 150px;
+  height: 80px;
   width: 300px;
   background: #ffbe0b;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+.tab-label>p{
   font-size: 40px;
-  border-radius: 10px;
 }
 .tab {
   display: none;
 }
 .tab:checked + .tab-label {
-  border: 3px solid black;
+  opacity: 1;
 }
 
 /* Form inputs styling */
-.input-div {
-  display: none;
-  width: 100%;
-  justify-content: space-around;
+.input-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+  height: 35%;
+  width: 95%;
 }
+
 .input-div input,
 .input-div select {
-  width: 85%;
-  border-radius: 7px;
-  border-width: 0px;
+  width: 100%;
+  height: 100% !important;
+  border-radius: 2px;
+  border: 1px solid black;
   text-align-last: center;
-  height: 60px;
+}
+
+
+.select2-selection__rendered {
+  line-height: 100% !important;
+}
+.select2-container .select2-selection--single {
+  height: 100% !important;
+}
+.select2-selection__arrow {
+  height: 100% !important;
 }
 
 /* Form buttons styling*/
 button {
-  width: 150px;
-  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
   border-width: 0px;
-}
-
-/* Progress bar dots styling */ 
-.step{ 
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none;
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5;
-}
-
-.progress-bar{
-  margin-top: 20px;
+  font-size: 30px;
 }

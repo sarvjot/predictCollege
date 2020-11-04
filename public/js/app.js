@@ -1,47 +1,21 @@
 var advancedBtn = document.querySelector("#advanced");
 var mainBtn = document.querySelector("#main");
 var rankInput = document.querySelector("#rank");
-var stateInput = document.querySelector("#state-input");
+var stateInput = document.querySelector("#state_of_eligibility");
 var nextButton = document.querySelector("#next");
 var inputDivs = document.querySelectorAll(".input-div");
 
-// Adding Multi-Step Form Functionality
+// ADDING MAINS ADVANCED BUTTON FUNCTIONALITY
 
-var currentDiv = 0;
-showDiv(currentDiv);
+advancedBtn.addEventListener("change",() => {
+    stateInput.style.display = "none";
+})
+mainBtn.addEventListener("change",() => {
+    stateInput.style.display = "flex";
+})
 
-function showDiv(n){
-    inputDivs[n].style.display = "flex";
 
-    // fix the previous/next buttons:
-    if(n == 0){
-        document.getElementById("previous").style.display = "none";
-    }else{
-        document.getElementById("previous").style.display = "inline";
-    }
-    if(n == (inputDivs.length -1)){
-        document.getElementById("next").innerHTML = "Submit";
-    }else{
-        document.getElementById("next").innerHTML = "Next";
-    }
+document.addEventListener("DOMContentLoaded", () => {
+    $('.js-example-basic-single').select2();
+})
 
-    // run a function that modifies the progress bar:
-    // fixStepIndicator(n);
-}
-
-function nextPrev(n){
-    // Hide the current tab, if its not the last one!
-    if(currentDiv !== (inputDivs.length-1)){
-        inputDivs[currentDiv].style.display = "none";
-    }
-    // Increase or decrease the current div by n:
-    currentDiv += n;
-    // if you have reached the end of the form ...
-    if(currentDiv >= inputDivs.length){
-        // the document form gets submitted
-        document.getElementById("my-form").submit();
-        return false;
-    }
-    // Otherwise, display the correct Tab: 
-    showDiv(currentDiv);
-}
