@@ -7,6 +7,8 @@
   text-align: center;
   font-family: 'Zilla Slab', serif;
   font-size: 25px;
+  border-width: 0;
+  border-radius: 10px;
 }
 body {
   background: url(/images/BackgroundImage.svg) center no-repeat #ffda47;
@@ -33,7 +35,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border-radius: 4px;
   background: #ef233c;
 }
 
@@ -54,7 +55,6 @@ body {
   height: 80px;
   width: 300px;
   background: #ffbe0b;
-  border-radius: 2px;
   opacity: 0.5;
 }
 .tab-label>p{
@@ -68,27 +68,38 @@ body {
 }
 
 /* Form inputs styling */
-.input-div{
+#input-div{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-areas: "category-rank category"
+                       "seat-pool state";
   grid-gap: 6px;
   height: 35%;
   width: 95%;
 }
 
-.input-div input,
-.input-div select {
+#input-div input,
+#input-div select {
   width: 100%;
-  border-radius: 2px;
-  border: 1px solid black;
   text-align-last: center;
+}
+
+#rank{
+  grid-area: category-rank;
+}
+#category{
+  grid-area: category;
+}
+#seat_pool{
+  grid-area: seat-pool;
+}
+#state_of_eligibility{
+  grid-area: state;
 }
 
 /* Form buttons styling*/
 button {
   width: 200px;
   height: 50px;
-  border-radius: 3px;
-  border-width: 0px;
   font-size: 30px;
 }
