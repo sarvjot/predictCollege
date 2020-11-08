@@ -4,7 +4,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Madras",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -1326,7 +1326,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Delhi",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -2871,7 +2871,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Bombay",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -4454,7 +4454,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Kanpur",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -5739,7 +5739,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Kharagpur",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -9121,7 +9121,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Roorkee",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -10740,7 +10740,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Guwahati",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -11776,7 +11776,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Hyderabad",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -12638,7 +12638,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Indore",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -13059,7 +13059,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology (BHU) Varanasi",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -15276,7 +15276,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology (ISM) Dhanbad",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -16632,7 +16632,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Bhubaneswar",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -17469,7 +17469,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Gandhinagar",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -17961,7 +17961,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Ropar",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -18639,7 +18639,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Patna",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -19178,7 +19178,7 @@ const data = [
   {
     institute_name: "Indian Institute of Technology Mandi",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -19806,7 +19806,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Jodhpur",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -20203,7 +20203,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Tirupati",
     type: "iit",
-    state: ["Andhra Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -20676,7 +20676,7 @@ const data = [
   {
     institute_name: "Indian Institute of Technology Bhilai",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -20945,7 +20945,7 @@ const data = [
   {
     institute_name: "Indian Institute of Technology Goa",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -21294,7 +21294,7 @@ const data = [
   {
     institute_name: "Indian Institute of Technology Jammu",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -21787,7 +21787,7 @@ const data = [
   {
     institute_name: "Indian Institute of Technology Dharwad",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -22046,7 +22046,7 @@ const data = [
   {
     institute_name: "Indian Institute  of Technology Palakkad",
     type: "iit",
-    state: [""],
+    state: [],
     branches: [
       {
         branch_name:
@@ -32537,7 +32537,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology, Allahabad",
     type: "non-iit",
-    state: ["Uttar Pradesh"],
+    state: [],
     branches: [
       {
         branch_name: "Information Technology (4 Years, Bachelor of Technology)",
@@ -41209,7 +41209,7 @@ const data = [
     institute_name:
       "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
     type: "non-iit",
-    state: ["Madhya Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -46517,7 +46517,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology Lucknow",
     type: "non-iit",
-    state: ["Uttar Pradesh"],
+    state: [],
     branches: [
       {
         branch_name: "Information Technology (4 Years, Bachelor of Technology)",
@@ -47989,7 +47989,7 @@ const data = [
   {
     institute_name: "University of Hyderabad",
     type: "non-iit",
-    state: ["Telangana"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -48057,7 +48057,7 @@ const data = [
     institute_name:
       "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
     type: "non-iit",
-    state: ["Madhya Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -49520,7 +49520,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
     type: "non-iit",
-    state: ["Tamil Nadu"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -50219,7 +50219,7 @@ const data = [
   {
     institute_name: "Jawaharlal Nehru University, Delhi",
     type: "non-iit",
-    state: ["Delhi"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -50357,7 +50357,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
     type: "non-iit",
-    state: ["Haryana"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -50469,7 +50469,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology Guwahati",
     type: "non-iit",
-    state: ["Assam"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -50657,7 +50657,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology Srirangam, Tiruchirappalli",
     type: "non-iit",
-    state: ["Tamil Nadu"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -50785,7 +50785,7 @@ const data = [
     institute_name:
       "International Institute of Information Technology, Naya Raipur",
     type: "non-iit",
-    state: ["Chhattisgarh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -50933,7 +50933,7 @@ const data = [
     institute_name:
       "Indian institute of information technology, Raichur, Karnataka",
     type: "non-iit",
-    state: ["Karnataka"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -51041,7 +51041,7 @@ const data = [
     institute_name:
       "International Institute of Information Technology, Bhubaneswar",
     type: "non-iit",
-    state: ["Odisha"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -51240,7 +51240,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology Surat",
     type: "non-iit",
-    state: ["Gujarat"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -51368,7 +51368,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
     type: "non-iit",
-    state: ["Rajasthan"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -52436,7 +52436,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology (IIIT) Pune",
     type: "non-iit",
-    state: ["Maharashtra"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -53325,7 +53325,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
     type: "non-iit",
-    state: ["Andhra Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -54673,7 +54673,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
     type: "non-iit",
-    state: ["Gujarat"],
+    state: [],
     branches: [
       {
         branch_name: "Information Technology (4 Years, Bachelor of Technology)",
@@ -54794,7 +54794,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology Bhopal",
     type: "non-iit",
-    state: ["Madhya Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -54995,7 +54995,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
     type: "non-iit",
-    state: ["Himachal Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -55167,7 +55167,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology (IIIT) Nagpur",
     type: "non-iit",
-    state: ["Maharashtra"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -55395,7 +55395,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
     type: "non-iit",
-    state: ["Andhra Pradesh"],
+    state: [],
     branches: [
       {
         branch_name: "Computer Engineering (4 Years, Bachelor of Technology)",
@@ -55595,7 +55595,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology (IIIT), Ranchi",
     type: "non-iit",
-    state: ["Jharkhand"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -55813,7 +55813,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology(IIIT), Kottayam",
     type: "non-iit",
-    state: ["Kerala"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -55890,7 +55890,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology(IIIT) Dharwad",
     type: "non-iit",
-    state: ["Karnataka"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -56028,7 +56028,7 @@ const data = [
     institute_name:
       "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
     type: "non-iit",
-    state: ["West Bengal"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -56095,7 +56095,7 @@ const data = [
   {
     institute_name: "Central University of Rajasthan, Rajasthan",
     type: "non-iit",
-    state: ["Rajasthan"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -56473,7 +56473,7 @@ const data = [
     institute_name:
       "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
     type: "non-iit",
-    state: ["Uttar Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -56600,7 +56600,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology, Agartala",
     type: "non-iit",
-    state: ["Tripura"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -56667,7 +56667,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology Bhagalpur",
     type: "non-iit",
-    state: ["Bihar"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -56834,7 +56834,7 @@ const data = [
   {
     institute_name: "Indian Institute of Information Technology  Manipur",
     type: "non-iit",
-    state: ["Manipur"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -57241,7 +57241,7 @@ const data = [
   {
     institute_name: "Sant Longowal Institute of Engineering and Technology",
     type: "non-iit",
-    state: ["Punjab"],
+    state: [],
     branches: [
       {
         branch_name: "Electrical Engineering (4 Years, Bachelor of Technology)",
@@ -57579,7 +57579,7 @@ const data = [
     institute_name:
       "Institute of Technology, Guru Ghasidas Vishwavidyalaya (A Central University), Bilaspur, (C.G.)",
     type: "non-iit",
-    state: ["Chhattisgarh"],
+    state: [],
     branches: [
       {
         branch_name: "Chemical Engineering (4 Years, Bachelor of Technology)",
@@ -57935,7 +57935,7 @@ const data = [
   {
     institute_name: "School of Engineering, Tezpur University, Napaam, Tezpur",
     type: "non-iit",
-    state: ["Assam"],
+    state: [],
     branches: [
       {
         branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -58170,7 +58170,7 @@ const data = [
   {
     institute_name: "Gurukula Kangri Vishwavidyalaya, Haridwar",
     type: "non-iit",
-    state: ["Uttarakhand"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -58377,7 +58377,7 @@ const data = [
   {
     institute_name: "Central institute of Technology Kokrajar, Assam",
     type: "non-iit",
-    state: ["Assam"],
+    state: [],
     branches: [
       {
         branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -58511,7 +58511,7 @@ const data = [
   {
     institute_name: "HNB Garhwal University Srinagar (Garhwal)",
     type: "non-iit",
-    state: ["Jammu and Kashmir"],
+    state: [],
     branches: [
       {
         branch_name: "Information Technology (4 Years, Bachelor of Technology)",
@@ -58939,7 +58939,7 @@ const data = [
   {
     institute_name: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
     type: "non-iit",
-    state: ["Jammu and Kashmir"],
+    state: [],
     branches: [
       {
         branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -59002,7 +59002,7 @@ const data = [
   {
     institute_name: "School of Planning & Architecture, New Delhi",
     type: "non-iit",
-    state: ["Delhi"],
+    state: [],
     branches: [
       {
         branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -59108,7 +59108,7 @@ const data = [
   {
     institute_name: "School of Planning & Architecture: Vijayawada",
     type: "non-iit",
-    state: ["Andhra Pradesh"],
+    state: [],
     branches: [
       {
         branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -59214,7 +59214,7 @@ const data = [
   {
     institute_name: "School of Planning & Architecture, Bhopal",
     type: "non-iit",
-    state: ["Madhya Pradesh"],
+    state: [],
     branches: [
       {
         branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -59320,7 +59320,7 @@ const data = [
   {
     institute_name: "Mizoram University, Aizawl",
     type: "non-iit",
-    state: ["Mizoram"],
+    state: [],
     branches: [
       {
         branch_name: "Architecture  (5 Years, Bachelor of Architecture)",
@@ -59511,7 +59511,7 @@ const data = [
     institute_name:
       "National Institute of Food Technology Entrepreneurship and Management, Sonepat, Haryana",
     type: "non-iit",
-    state: ["Haryana"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -59579,7 +59579,7 @@ const data = [
     institute_name:
       "National Institute of Foundry & Forge Technology, Hatia, Ranchi",
     type: "non-iit",
-    state: ["Jharkhand"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -59697,7 +59697,7 @@ const data = [
     institute_name:
       "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
     type: "non-iit",
-    state: ["Maharashtra"],
+    state: [],
     branches: [
       {
         branch_name:
@@ -59755,7 +59755,7 @@ const data = [
     institute_name:
       "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
     type: "non-iit",
-    state: ["Gujarat"],
+    state: [],
     branches: [
       {
         branch_name: "Civil Engineering (4 Years, Bachelor of Technology)",
@@ -60081,7 +60081,7 @@ const data = [
   {
     institute_name: "Indian Institute of Carpet Technology,  Bhadohi",
     type: "non-iit",
-    state: ["Uttar Pradesh"],
+    state: [],
     branches: [
       {
         branch_name:

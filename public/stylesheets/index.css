@@ -1,3 +1,9 @@
+:root{
+  --light : white;
+  --dark: black;
+  --light-text: black;
+  --dark-text: white;
+}
 /* Styles are in increasing order of specificity*/
 /* --------------------------------Full Page Styling-------------------------------- */
 * {
@@ -35,7 +41,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: #ef233c;
 }
 
 /* Form tabs styling */
@@ -52,10 +57,17 @@ body {
   justify-content: center;
   align-items: center;
   
+  color: var(--dark-text);
   height: 80px;
   width: 300px;
-  background: #ffbe0b;
+  background: var(--dark);
   opacity: 0.5;
+  /* opacity is the transition property name, and ease is the transition timing function */
+  transition: opacity 0.5s ease;
+}
+.tab-label:hover{
+  cursor: pointer;
+  opacity: 0.8;
 }
 .tab-label>p{
   font-size: 40px;
@@ -76,12 +88,39 @@ body {
   grid-gap: 6px;
   height: 35%;
   width: 95%;
+  transition: 0.5s ease;
 }
 
 #input-div input,
 #input-div select {
+  color: var(--light-text);
+  box-sizing: border-box;
+  background: var(--light);
+  border: 2px solid var(--light-text);
   width: 100%;
   text-align-last: center;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    var(--light-text);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    var(--light-text);
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    var(--light-text);
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    var(--light-text);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:    var(--light-text);
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    var(--light-text);
 }
 
 #rank{
@@ -99,7 +138,23 @@ body {
 
 /* Form buttons styling*/
 button {
+  color: var(--dark-text);
   width: 200px;
   height: 50px;
   font-size: 30px;
+  background: var(--dark);
+  transition: filter 0.5s ease;
+}
+button:hover{
+  cursor: pointer;
+  filter: brightness(110%);
+}
+
+#input-div input:required:focus, 
+#input-div select:required:focus{
+  box-sizing: border-box;
+  border: 2px solid rgb(60, 197, 60);
+}
+*,*:focus,*:hover{
+  outline:none;
 }

@@ -15,7 +15,7 @@ function isEligibleForOtherStateQuota(quota, state_of_eligibility, college_home_
     // if the seat has a other state quota AND the candidate DOES NOT belong to the same state as that of the institute
     if(
         (quota.alloted_quota === "OS" || quota.alloted_quota === "AI") 
-        && college_home_states.includes(state_of_eligibility) === false 
+        && ((college_home_states.includes(state_of_eligibility) === false ) || college_home_states.length === 0)
     ){
         return true;
     }else{

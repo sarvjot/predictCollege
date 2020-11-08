@@ -41,8 +41,16 @@
         </div>
         
         <div id="input-div">
+          
+          <input
+            type="text"
+            id="rank"
+            name="rank"
+            placeholder="Enter JEE Mains Category Rank"
+            required
+          />
 
-          <select name="category" id="category" class="js-example-basic-single">
+          <select name="category" id="category" class="js-example-basic-single" required>
             <option value=""><span>Choose Your Category</span></option>
             <option value="OPEN"><span>OPEN</span></option>
             <option value="GEN-EWS">GEN-EWS</option>
@@ -56,20 +64,13 @@
             <option value="ST-PwD">ST-PwD</option>
           </select>
           
-          <input
-            type="text"
-            id="rank"
-            name="rank"
-            placeholder="Enter JEE Mains Category Rank"
-          />
-          
-          <select name="seat_pool" id="seat_pool" class="js-example-basic-single">
+          <select name="seat_pool" id="seat_pool" class="js-example-basic-single" required>
             <option value="">Choose Your Seat Pool</option>
             <option value="Gender-Neutral">Gender-Neutral</option>
             <option value="Female-Only">Female-Only</option>
           </select>
           
-          <select name="state_of_eligibility" id="state_of_eligibility" class="js-example-basic-single">
+          <select name="state_of_eligibility" id="state_of_eligibility" class="js-example-basic-single" required>
             <option value="">Choose Your State of Eligibility</option>
             <option value="Andhra Pradesh">Andhra Pradesh</option>
             <option value="Arunachal Pradesh">Arunachal Pradesh</option>
