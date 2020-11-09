@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="title">Welcome to IITJEE College Predictor</h1>
+      <h1 id="title">Welcome to IITJEE College Predictor</h1>
       
       <form id="my-form" action="/colleges" method="POST">
         
@@ -48,6 +48,7 @@
             name="rank"
             placeholder="Enter JEE Mains Category Rank"
             required
+            autocomplete="off"
           />
 
           <select name="category" id="category" class="js-example-basic-single" required>

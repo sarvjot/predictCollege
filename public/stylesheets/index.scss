@@ -1,0 +1,161 @@
+$light: white;
+$dark: black;
+$light-text: black;
+$dark-text: white;
+$font-size-base: 1rem;
+$font-sizes: (
+  "large": (
+    $font-size-base * 5,
+  ),
+  "medium": (
+    $font-size-base * 2.5,
+  ),
+  "small": (
+    $font-size-base * 1.5,
+  ),
+);
+
+/* Styles are in increasing order of specificity*/
+/* --------------------------------Full Page Styling-------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  border-width: 0;
+  border-radius: 10px;
+
+
+  &,&:focus,&:hover{
+    outline: none;
+  }
+}
+body {
+  background: url(/images/BackgroundImage.svg) center no-repeat #ffda47;
+  background-size: cover;
+}
+.container {
+  width: 98vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+/* --------------------------------Title Styling-------------------------------- */
+#title {
+  font-size: map-get($font-sizes, large);
+}
+/* --------------------------------Form Styling-------------------------------- */
+#my-form {
+  width: 60%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Form tabs styling */
+.switch-tabs {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tab-label {
+  box-sizing: border-box;
+  /* making it a flexbox just to vertically center the contents */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $dark-text;
+  height: 80px;
+  width: 300px;
+  background: $dark;
+  opacity: 0.5;
+  /* opacity is the transition property name, and ease is the transition timing function */
+  transition: opacity 0.5s ease;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  > p {
+    font-size: map-get($font-sizes, medium);
+  }
+}
+.tab {
+  display: none;
+
+  &:checked {
+    + .tab-label {
+      opacity: 1;
+    }
+  }
+}
+
+/* Form inputs styling */
+#input-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "category-rank category"
+    "seat-pool state";
+  grid-gap: 6px;
+  height: 35%;
+  width: 95%;
+  transition: 0.5s ease;
+
+  input,select{
+    color: $light-text;
+    box-sizing: border-box;
+    background: $light;
+    border: 2px solid $light-text;
+    width: 100%;
+    text-align-last: center;
+    font-size: map-get($font-sizes, small);
+  }
+
+  #rank {
+    grid-area: category-rank;
+  }
+  #category {
+    grid-area: category;
+  }
+  #seat_pool {
+    grid-area: seat-pool;
+  }
+  #state_of_eligibility {
+    grid-area: state;
+  }
+
+  
+  input:focus,
+  select:focus{
+    border: 2px solid rgb(60, 197, 60);
+  }
+
+  input::placeholder {
+    color: $light-text;
+  }
+}
+
+/* Form buttons styling*/
+button {
+  color: $dark-text;
+  width: 200px;
+  height: 50px;
+  font-size: map-get($font-sizes, small);
+  background: $dark;
+  transition: filter 0.5s ease;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
