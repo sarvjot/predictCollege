@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/stylesheets/collegeList.css">
     <title>Predict College</title>
   </head>
   <body> 
-
     <% colleges.forEach((college) => {  %> 
         
         <% var ctr=0 %> 
@@ -17,15 +17,15 @@
                 <% ctr++ %> 
                 <% if(ctr==1){ %> 
                     <!-- Every college should begin with its own table -->
-                    <div>
-                        <h1><%= college.institute_name %></h1>            
+                    <div class="college-container">
+                        <div class="flex-container">
+                        <h1><%= college.institute_name %></h1> 
+                        <h2>Seat Pool : <%= branch.seat_pool%> | Category : <%= branch.Category%></h2>           
                         <table>
                             <thead>
                                 <tr>
                                     <th>Branch</th>
                                     <th>Quota</th>
-                                    <th>Seat Pool</th>
-                                    <th>Category</th>
                                     <th>Cutoff 2019</th>
                                 </tr>
                             </thead>
@@ -35,19 +35,17 @@
                 <tr>
                     <td><%= branch.branch_name %></td>      
                     <td><%= eligiblity.alloted_quota %></td>   
-                    <td><%= branch.seat_pool %></td>    
-                    <td><%= branch.Category %></td>   
                     <td><%= eligiblity.closing_rank %></td>    
                 </tr>
             <% } %> 
         <% }); %> 
         <% if(ctr>0){ %> 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         <% } %> 
-    <% });  %> 
-
+    <% });  %>
 <%- include("./partials/footer") %> 
 
     
