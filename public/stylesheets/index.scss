@@ -14,6 +14,15 @@ $font-sizes: (
     $font-size-base * 1.5,
   ),
 );
+$font-family: "Zilla Slab", serif;
+$border-radius: 0.6rem;
+$border-width: 2px;
+$us: 450px; // ultra small screens
+$xs: 600px;
+$sm: 750px;
+$md: 900px;
+$lg: 1100px;
+$xl: 1300px;
 
 /* Styles are in increasing order of specificity*/
 /* --------------------------------Full Page Styling-------------------------------- */
@@ -21,9 +30,8 @@ $font-sizes: (
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: "Zilla Slab", serif;
-  border-width: 0;
-  border-radius: 10px;
+  font-family: $font-family;
+  border-radius: $border-radius;
 
 
   &,&:focus,&:hover{
@@ -58,7 +66,7 @@ body {
 }
 
 /* Form tabs styling */
-.switch-tabs {
+#switch-tabs {
   width: 80%;
   display: flex;
   justify-content: space-around;
@@ -72,8 +80,8 @@ body {
   align-items: center;
 
   color: $dark-text;
-  height: 80px;
-  width: 300px;
+  height: 5rem;
+  width: 18rem;
   background: $dark;
   opacity: 0.5;
   /* opacity is the transition property name, and ease is the transition timing function */
@@ -105,7 +113,7 @@ body {
   grid-template-areas:
     "category-rank category"
     "seat-pool state";
-  grid-gap: 6px;
+  grid-gap: 0.4rem;
   height: 35%;
   width: 95%;
   transition: 0.5s ease;
@@ -114,7 +122,7 @@ body {
     color: $light-text;
     box-sizing: border-box;
     background: $light;
-    border: 2px solid $light-text;
+    border: $border-width solid $light-text;
     width: 100%;
     text-align-last: center;
     font-size: map-get($font-sizes, small);
@@ -138,7 +146,7 @@ body {
   select:focus,
   input:hover,
   select:hover{
-    border: 2px solid rgb(60, 197, 60);
+    border: $border-width solid rgb(60, 197, 60);
   }
 
   input::placeholder {
@@ -148,9 +156,10 @@ body {
 
 /* Form buttons styling*/
 button {
+  border-width: 0;
   color: $dark-text;
-  width: 200px;
-  height: 50px;
+  width: 12rem;
+  height: 3rem;
   font-size: map-get($font-sizes, small);
   background: $dark;
   transition: opacity 0.3s ease;
@@ -164,3 +173,84 @@ button {
   }
 }
 
+@media(max-width: $xl){
+  #my-form{
+    width: 70%;
+  }
+}
+@media(max-width: $lg){
+  #my-form{
+    width: 85%;
+  }
+}
+@media(max-width: $md){
+  #my-form{
+    width: 100%;
+  }
+  /* Got to do this using sass variables*/
+  #title {
+    font-size: 4rem;
+  }
+  #input-div{
+    grid-template-columns: 1fr;
+    grid-template-areas: "category-rank"
+      "category"
+      "seat-pool"
+      "state";
+    width: 70%;
+    height: 45%;
+    input,select{
+      height: 3rem;
+    }
+  }
+}
+@media(max-width: $sm){
+  .tab-label{
+    width: 14rem;
+
+    > p {
+      font-size: 2.0rem;
+    }
+  }
+  #input-div{
+    input,select{
+      font-size: 1.4rem;
+    }
+  }
+}
+@media(max-width: $xs){
+  #title {
+    font-size: 3.3rem;
+  }
+  #switch-tabs{
+    width: 95%;
+  }
+  #input-div{
+    width: 80%;
+  }
+  .tab-label{
+    width: 12rem;
+
+    > p {
+      font-size: 1.8rem;
+    }
+  }
+}
+@media(max-width: $us){
+  #title {
+    font-size: 3rem;
+  }
+  #switch-tabs{
+    width: 100%;
+  }
+  #input-div{
+    width: 90%;
+  }
+  .tab-label{
+    width: 10.5rem;
+
+    > p {
+      font-size: 1.7rem;
+    }
+  }
+}
