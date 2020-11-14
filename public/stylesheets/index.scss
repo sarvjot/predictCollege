@@ -54,6 +54,10 @@ body {
 /* --------------------------------Title Styling-------------------------------- */
 #title {
   font-size: map-get($font-sizes, large);
+  font-weight: lighter;
+  // padding: 0 5px;
+  // background: white;
+  // border: $border-width solid black;
 }
 /* --------------------------------Form Styling-------------------------------- */
 #my-form {

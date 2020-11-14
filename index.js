@@ -1,3 +1,7 @@
+if( process.env.NODE_ENV !== "production"){
+  require('dotenv').config();
+}
+
 var express = require("express"),
   app = express(),
   mongoose = require("mongoose"),
@@ -5,10 +9,11 @@ var express = require("express"),
   College = require("./models/college"),
   seedDB = require("./seed"),
   isEligible = require("./Eligibility.js"),
-  port = 3000;
+  port = 3000,
+  dbUrl = process.env.DB_URL || "mongodb://localhost:27017/rank_predictor";
 
-// Connecting mongoose to the local database
-mongoose.connect("mongodb://localhost:27017/rank_predictor", {
+// Connecting mongoose to the database
+mongoose.connect(dbUrl, {
   useCreateIndex: true,
   useUnifiedTopology: true,
   useNewUrlParser: true,
@@ -16,7 +21,7 @@ mongoose.connect("mongodb://localhost:27017/rank_predictor", {
 });
 
 // seeding the database
-// seedDB();
+// seedDB(); 
 
 // configuring different plugins
 app.use(bodyParser.urlencoded({ extended: true }));

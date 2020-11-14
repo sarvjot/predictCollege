@@ -1,22 +1,27 @@
-$even-primary: #9d0208;
-$odd-primary: #2b2d42;
-$even-secondary: white;
-$odd-secondary: white;
 $font-family: "Zilla Slab";
 $font-size-base: 1rem;
 $font-sizes: (
-  "xl": (
+  "ul":(    // Ultra large font
     $font-size-base * 3,
   ),
+  "xl": (
+    $font-size-base * 2.5,
+  ),
   "lg": (
-    $font-size-base * 2.3,
+    $font-size-base * 2,
+  ),
+  "md":(
+    $font-size-base * 1.75,
   ),
   "sm": (
-    $font-size-base * 1.8,
-  ),
-  "xs": (
     $font-size-base * 1.5,
   ),
+  "xs": (
+    $font-size-base * 1.3,
+  ),
+  "us":(
+    $font-size-base * 1.1,
+  )
 );
 $font-weights: (
   "thin": (
@@ -30,7 +35,13 @@ $font-weights: (
   ),
 );
 $border-radius: 10px;
-$border-width: 2px;
+$border-width: 1px;
+$us: 450px; // ultra small screens
+$xs: 600px;
+$sm: 750px;
+$md: 900px;
+$lg: 1100px;
+$xl: 1300px;
 
 * {
   margin: 0;
@@ -40,35 +51,41 @@ $border-width: 2px;
   font-weight: map-get($font-weights, thin);
 }
 
+body{
+  background: url(/images/collegeListBackground.svg) ;
+  background-size: 100vw;
+}
+
 h1,
 h2 {
   padding: 10px;
   border-radius: $border-radius;
+  background: white;
+  color: black;
+  border: $border-width*2 solid black;
 }
 h1 {
-  font-size: map-get($font-sizes, xl);
+  font-size: map-get($font-sizes, ul);
   margin-top: 20px;
   margin-bottom: 10px;
 }
 h2 {
-  font-size: map-get($font-sizes, lg);
+  font-size: map-get($font-sizes, xl);
 }
 
 table {
+  color: black;
+  background: white;
+  border: $border-width solid black;
+  border-radius: $border-radius + 1.8px ;
   width: 90vw;
   border-spacing: 0;
-  margin: 40px 0;
-  line-height: 45px;
+  margin: 2.5rem 0;
+  line-height: 3rem;
 
   tbody tr:last-child{
-    td{
-      border-width: 0 $border-width $border-width $border-width;
-    }
     td:first-child{
       border-bottom-left-radius: $border-radius;
-    }
-    td:nth-child(2){
-      border-width: 0 0 $border-width 0;
     }
     td:last-child{
       border-bottom-right-radius: $border-radius;
@@ -79,32 +96,30 @@ table {
     th:first-child{
       border-top-left-radius: $border-radius;
     }
-    th:nth-child(2){
-      border-width: $border-width 0 $border-width 0;
-    }
     th:last-child{
       border-top-right-radius: $border-radius;
     }
   }
 
   th {
-    font-size: map-get($font-sizes, sm);
-    border-width: $border-width;
+    font-size: map-get($font-sizes, lg);
   }
   td {
-    font-size: map-get($font-sizes, xs);
-    border-width: 0 $border-width;
+    font-size: map-get($font-sizes, sm);
+  }
+
+  th,td{
+    border: $border-width solid black;
   }
   
   td:nth-child(1) {
-    width: 70%;
+    width: 50%;
   }
   td:nth-child(2) {
-    width: 15%;
-    border-width: 0;
+    width: 25%;
   }
   td:nth-child(3) {
-    width: 15%;
+    width: 25%;
   }
 }
 
@@ -118,39 +133,37 @@ table {
   margin: 0 auto;
 }
 
-.flex-container:nth-child(2n) {
-  h1,
-  h2 {
-    background: $even-secondary;
-    color: $even-primary;
+@media(max-width: $xl){
+  h1 {
+    font-size: map-get($font-sizes, xl);
   }
-  table {
-    color: $even-secondary;
-
-    th,td{
-      border-color: $even-secondary;
-      border-style: solid;
+  h2 {
+    font-size: map-get($font-sizes, lg);
+  }
+  table{
+    line-height: 2.2rem;
+    th {
+      font-size: map-get($font-sizes, md);
+    }
+    td {
+      font-size: map-get($font-sizes, xs);
     }
   }
 }
-.flex-container:nth-child(2n + 1) {
-  h1,
-  h2 {
-    background: $odd-secondary;
-    color: $odd-primary;
+@media(max-width: $lg){
+  h1 {
+    font-size: map-get($font-sizes, lg);
   }
-  table {
-    color: $odd-secondary;
-
-    th,td{
-      border-color: $odd-secondary;
-      border-style: solid;
+  h2 {
+    font-size: map-get($font-sizes, md);
+  }
+  table{
+    line-height: 2rem;
+    th {
+      font-size: map-get($font-sizes, sm);
+    }
+    td {
+      font-size: map-get($font-sizes, us);
     }
   }
-}
-.college-container:nth-child(2n) {
-  background: $even-primary;
-}
-.college-container:nth-child(2n + 1) {
-  background: $odd-primary;
 }

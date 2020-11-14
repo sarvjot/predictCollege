@@ -6,10 +6,18 @@
   font-weight: 200;
 }
 
+body {
+  background: url(/images/collegeListBackground.svg);
+  background-size: 100vw;
+}
+
 h1,
 h2 {
   padding: 10px;
   border-radius: 10px;
+  background: white;
+  color: black;
+  border: 2px solid black;
 }
 
 h1 {
@@ -19,26 +27,22 @@ h1 {
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 table {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  border-radius: 11.8px;
   width: 90vw;
   border-spacing: 0;
-  margin: 40px 0;
-  line-height: 45px;
-}
-
-table tbody tr:last-child td {
-  border-width: 0 2px 2px 2px;
+  margin: 2.5rem 0;
+  line-height: 3rem;
 }
 
 table tbody tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
-}
-
-table tbody tr:last-child td:nth-child(2) {
-  border-width: 0 0 2px 0;
 }
 
 table tbody tr:last-child td:last-child {
@@ -49,35 +53,32 @@ table thead tr th:first-child {
   border-top-left-radius: 10px;
 }
 
-table thead tr th:nth-child(2) {
-  border-width: 2px 0 2px 0;
-}
-
 table thead tr th:last-child {
   border-top-right-radius: 10px;
 }
 
 table th {
-  font-size: 1.8rem;
-  border-width: 2px;
+  font-size: 2rem;
 }
 
 table td {
   font-size: 1.5rem;
-  border-width: 0 2px;
+}
+
+table th, table td {
+  border: 1px solid black;
 }
 
 table td:nth-child(1) {
-  width: 70%;
+  width: 50%;
 }
 
 table td:nth-child(2) {
-  width: 15%;
-  border-width: 0;
+  width: 25%;
 }
 
 table td:nth-child(3) {
-  width: 15%;
+  width: 25%;
 }
 
 .flex-container {
@@ -98,41 +99,39 @@ table td:nth-child(3) {
   margin: 0 auto;
 }
 
-.flex-container:nth-child(2n) h1,
-.flex-container:nth-child(2n) h2 {
-  background: white;
-  color: #9d0208;
+@media (max-width: 1300px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  table {
+    line-height: 2.2rem;
+  }
+  table th {
+    font-size: 1.75rem;
+  }
+  table td {
+    font-size: 1.3rem;
+  }
 }
 
-.flex-container:nth-child(2n) table {
-  color: white;
-}
-
-.flex-container:nth-child(2n) table th, .flex-container:nth-child(2n) table td {
-  border-color: white;
-  border-style: solid;
-}
-
-.flex-container:nth-child(2n + 1) h1,
-.flex-container:nth-child(2n + 1) h2 {
-  background: white;
-  color: #2b2d42;
-}
-
-.flex-container:nth-child(2n + 1) table {
-  color: white;
-}
-
-.flex-container:nth-child(2n + 1) table th, .flex-container:nth-child(2n + 1) table td {
-  border-color: white;
-  border-style: solid;
-}
-
-.college-container:nth-child(2n) {
-  background: #9d0208;
-}
-
-.college-container:nth-child(2n + 1) {
-  background: #2b2d42;
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  table {
+    line-height: 2rem;
+  }
+  table th {
+    font-size: 1.5rem;
+  }
+  table td {
+    font-size: 1.1rem;
+  }
 }
 /*# sourceMappingURL=collegeList.css.map */
