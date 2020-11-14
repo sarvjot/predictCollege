@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set NODE_ENV=development&& node index.js"
+    "start": "set NODE_ENV=development&& node index.js",
+    "build": "set NODE_ENV=production&& node index.js"
   },
   "author": "Sarvjot Singh",
   "license": "ISC",

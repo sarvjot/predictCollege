@@ -1,6 +1,3 @@
-if( process.env.NODE_ENV !== "production"){
-  require('dotenv').config();
-}
 
 var express = require("express"),
   app = express(),
@@ -10,7 +7,15 @@ var express = require("express"),
   seedDB = require("./seed"),
   isEligible = require("./Eligibility.js"),
   port = process.env.PORT || 3000,
-  dbUrl = process.env.DB_URL || "mongodb://localhost:27017/rank_predictor";
+  dbUrl;
+
+// if mode is production then .env file can be accessed
+if( process.env.NODE_ENV === "production"){
+  require('dotenv').config();
+  dbUrl = process.env.DB_URL;
+}else{
+  dbUrl = "mongodb://localhost:27017/rank_predictor";
+}
 
 // Connecting mongoose to the database
 mongoose.connect(dbUrl, {
