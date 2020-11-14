@@ -162,9 +162,7 @@ body {
 }
 
 #input-div input:focus,
-#input-div select:focus,
-#input-div input:hover,
-#input-div select:hover {
+#input-div select:focus {
   border: 2px solid #3cc53c;
 }
 
@@ -275,7 +273,7 @@ button:focus {
     width: 100%;
   }
   #input-div {
-    width: 90%;
+    width: 95%;
   }
   .tab-label {
     width: 10.5rem;

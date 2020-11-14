@@ -147,9 +147,7 @@ body {
 
   
   input:focus,
-  select:focus,
-  input:hover,
-  select:hover{
+  select:focus{
     border: $border-width solid rgb(60, 197, 60);
   }
 
