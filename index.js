@@ -9,7 +9,7 @@ var express = require("express"),
   College = require("./models/college"),
   seedDB = require("./seed"),
   isEligible = require("./Eligibility.js"),
-  port = 3000,
+  port = process.env.PORT || 3000,
   dbUrl = process.env.DB_URL || "mongodb://localhost:27017/rank_predictor";
 
 // Connecting mongoose to the database
@@ -52,5 +52,5 @@ app.post("/colleges", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Serving at port : ${port}`);
 });
