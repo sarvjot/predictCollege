@@ -21,7 +21,7 @@ mongoose.connect(dbUrl, {
 });
 
 // seeding the database
-// seedDB(); 
+seedDB(); 
 
 // configuring different plugins
 app.use(bodyParser.urlencoded({ extended: true }));
