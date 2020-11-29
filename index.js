@@ -8,14 +8,11 @@ var express = require("express"),
   isEligible = require("./Eligibility.js"),
   port = process.env.PORT || 3000,
   dbUrl;
+  
+require('dotenv').config();
 
 // if mode is production then .env file can be accessed
-if( process.env.NODE_ENV === "production"){
-  require('dotenv').config();
-  dbUrl = process.env.DB_URL;
-}else{
-  dbUrl = "mongodb://localhost:27017/rank_predictor";
-}
+dbUrl = (process.env.NODE_ENV === "production")?process.env.DB_URL:"mongodb://localhost:27017/rank_predictor";
 
 // Connecting mongoose to the database
 mongoose.connect(dbUrl, {
