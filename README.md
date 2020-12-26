@@ -1,1 +1,1 @@
-# [College Predictor](http://www.collegepredictor2020.herokuapp.com)
+# [College Predictor](http://collegepredictor2020.herokuapp.com)
