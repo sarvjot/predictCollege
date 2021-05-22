@@ -1,285 +1,296 @@
 /* Styles are in increasing order of specificity*/
 /* --------------------------------Full Page Styling-------------------------------- */
 * {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: "Zilla Slab", serif;
-  border-radius: 0.6rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    border-radius: 0.6rem;
 }
 
-*, *:focus, *:hover {
-  outline: none;
+*,
+*:focus,
+*:hover {
+    outline: none;
 }
 
 body {
-  background: url(/images/BackgroundImage.svg) center no-repeat #ffda47;
-  background-size: cover;
+    background: url(/images/BackgroundImage.svg) center no-repeat #ffda47;
+    background-size: cover;
 }
 
 .container {
-  width: 98vw;
-  height: 100vh;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+    width: 98vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 }
 
 /* --------------------------------Title Styling-------------------------------- */
 #title {
-  font-size: 5rem;
-  font-weight: lighter;
+    font-size: 5rem;
+    font-weight: lighter;
 }
 
 /* --------------------------------Form Styling-------------------------------- */
 #my-form {
-  width: 60%;
-  height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    width: 60%;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 /* Form tabs styling */
 #switch-tabs {
-  width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .tab-label {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  /* making it a flexbox just to vertically center the contents */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  height: 5rem;
-  width: 18rem;
-  background: black;
-  opacity: 0.5;
-  /* opacity is the transition property name, and ease is the transition timing function */
-  -webkit-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* making it a flexbox just to vertically center the contents */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+    height: 5rem;
+    width: 18rem;
+    background: black;
+    opacity: 0.5;
+    /* opacity is the transition property name, and ease is the transition timing function */
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
 }
 
 .tab-label:hover {
-  cursor: pointer;
-  opacity: 0.8;
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .tab-label > p {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .tab {
-  display: none;
+    display: none;
 }
 
 .tab:checked + .tab-label {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* Form inputs styling */
 #input-div {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "category-rank category" "seat-pool state";
-  grid-gap: 0.4rem;
-  height: 35%;
-  width: 95%;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "category-rank category"
+        "seat-pool state";
+    grid-gap: 0.4rem;
+    height: 35%;
+    width: 95%;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
 }
 
-#input-div input, #input-div select {
-  color: black;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: white;
-  border: 2px solid black;
-  width: 100%;
-  text-align-last: center;
-  font-size: 1.5rem;
+#input-div input,
+#input-div select {
+    color: black;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: white;
+    border: 2px solid black;
+    width: 100%;
+    text-align-last: center;
+    font-size: 1.5rem;
 }
 
 #input-div #rank {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: category-rank;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: category-rank;
 }
 
 #input-div #category {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: category;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: category;
 }
 
 #input-div #seat_pool {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: seat-pool;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: seat-pool;
 }
 
 #input-div #state_of_eligibility {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: state;
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: state;
 }
 
 #input-div input:focus,
 #input-div select:focus {
-  border: 2px solid #3cc53c;
+    border: 2px solid #3cc53c;
 }
 
 #input-div input::-webkit-input-placeholder {
-  color: black;
+    color: black;
 }
 
 #input-div input:-ms-input-placeholder {
-  color: black;
+    color: black;
 }
 
 #input-div input::-ms-input-placeholder {
-  color: black;
+    color: black;
 }
 
 #input-div input::placeholder {
-  color: black;
+    color: black;
 }
 
 /* Form buttons styling*/
 button {
-  border-width: 0;
-  color: white;
-  width: 12rem;
-  height: 3rem;
-  font-size: 1.5rem;
-  background: black;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
+    border-width: 0;
+    color: white;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background: black;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 button:hover {
-  cursor: pointer;
-  opacity: 0.7;
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 button:focus {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 @media (max-width: 1300px) {
-  #my-form {
-    width: 70%;
-  }
+    #my-form {
+        width: 70%;
+    }
 }
 
 @media (max-width: 1100px) {
-  #my-form {
-    width: 85%;
-  }
+    #my-form {
+        width: 85%;
+    }
 }
 
 @media (max-width: 900px) {
-  #my-form {
-    width: 100%;
-  }
-  /* Got to do this using sass variables*/
-  #title {
-    font-size: 4rem;
-  }
-  #input-div {
-    -ms-grid-columns: 1fr;
+    #my-form {
+        width: 100%;
+    }
+    /* Got to do this using sass variables*/
+    #title {
+        font-size: 4rem;
+    }
+    #input-div {
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas: "category-rank" "category" "seat-pool" "state";
-    width: 70%;
-    height: 45%;
-  }
-  #input-div input, #input-div select {
-    height: 3rem;
-  }
+        grid-template-areas:
+            "category-rank"
+            "category"
+            "seat-pool"
+            "state";
+        width: 70%;
+        height: 45%;
+    }
+    #input-div input,
+    #input-div select {
+        height: 3rem;
+    }
 }
 
 @media (max-width: 750px) {
-  .tab-label {
-    width: 14rem;
-  }
-  .tab-label > p {
-    font-size: 2.0rem;
-  }
-  #input-div input, #input-div select {
-    font-size: 1.4rem;
-  }
+    .tab-label {
+        width: 14rem;
+    }
+    .tab-label > p {
+        font-size: 2rem;
+    }
+    #input-div input,
+    #input-div select {
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 600px) {
-  #title {
-    font-size: 3.3rem;
-  }
-  #switch-tabs {
-    width: 95%;
-  }
-  #input-div {
-    width: 80%;
-  }
-  .tab-label {
-    width: 12rem;
-  }
-  .tab-label > p {
-    font-size: 1.8rem;
-  }
+    #title {
+        font-size: 3.3rem;
+    }
+    #switch-tabs {
+        width: 95%;
+    }
+    #input-div {
+        width: 80%;
+    }
+    .tab-label {
+        width: 12rem;
+    }
+    .tab-label > p {
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 450px) {
-  #title {
-    font-size: 3rem;
-  }
-  #switch-tabs {
-    width: 100%;
-  }
-  #input-div {
-    width: 95%;
-  }
-  .tab-label {
-    width: 10.5rem;
-  }
-  .tab-label > p {
-    font-size: 1.7rem;
-  }
+    #title {
+        font-size: 3rem;
+    }
+    #switch-tabs {
+        width: 100%;
+    }
+    #input-div {
+        width: 95%;
+    }
+    .tab-label {
+        width: 10.5rem;
+    }
+    .tab-label > p {
+        font-size: 1.7rem;
+    }
 }
 /*# sourceMappingURL=index.css.map */

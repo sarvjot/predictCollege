@@ -1,51 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/collegeList.css">
-    <title>Predict College</title>
-  </head>
-  <body> 
-    <% colleges.forEach((college) => {  %> 
-        
-        <% var ctr=0 %> 
-        <% college.branches.forEach( (branch) => {%> 
-            <% var eligiblity = isEligible(branch, rank, category, state_of_eligibility, seat_pool, main_advanced, college.state); %> 
-            <% if(typeof eligiblity != "undefined") {%> 
-                <% ctr++ %> 
-                <% if(ctr==1){ %> 
-                    <!-- Every college should begin with its own table -->
-                    <div class="college-container">
-                        <div class="flex-container">
-                        <h1><%= college.institute_name %></h1> 
-                        <h2>Seat Pool : <%= branch.seat_pool%> | Category : <%= branch.Category%></h2>           
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Branch</th>
-                                    <th>Quota</th>
-                                    <th>Cutoff 2019</th>
-                                </tr>
-                            </thead>
-                            
-                            <tbody>
-                <% } %>            
-                <tr>
-                    <td><%= branch.branch_name %></td>      
-                    <td><%= eligiblity.alloted_quota %></td>   
-                    <td><%= eligiblity.closing_rank %></td>    
-                </tr>
-            <% } %> 
-        <% }); %> 
-        <% if(ctr>0){ %> 
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        <% } %> 
-    <% });  %>
-<%- include("./partials/footer") %> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="/stylesheets/collegeList.css" />
+        <title>Predict College</title>
+    </head>
+    <body>
+        <% colleges.forEach((college) => { %> <% var ctr=0 %> <% college.branches.forEach( (branch) => {%> <% var eligiblity = isEligible(branch,
+        rank, category, state_of_eligibility, seat_pool, main_advanced, college.state); %> <% if(typeof eligiblity != "undefined") {%> <% ctr++ %> <%
+        if(ctr==1){ %>
+        <!-- Every college should begin with its own table -->
+        <div class="college-container">
+            <div class="flex-container">
+                <h1><%= college.institute_name %></h1>
+                <h2>Seat Pool : <%= branch.seat_pool%> | Category : <%= branch.Category%></h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Branch</th>
+                            <th>Quota</th>
+                            <th>Cutoff 2019</th>
+                        </tr>
+                    </thead>
 
-    
+                    <tbody>
+                        <% } %>
+                        <tr>
+                            <td><%= branch.branch_name %></td>
+                            <td><%= eligiblity.alloted_quota %></td>
+                            <td><%= eligiblity.closing_rank %></td>
+                        </tr>
+                        <% } %> <% }); %> <% if(ctr>0){ %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <% } %> <% }); %> <%- include("./partials/footer") %>
+    </body>
+</html>

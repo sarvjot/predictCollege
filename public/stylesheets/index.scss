@@ -4,15 +4,15 @@ $light-text: black;
 $dark-text: white;
 $font-size-base: 1rem;
 $font-sizes: (
-  "large": (
-    $font-size-base * 5,
-  ),
-  "medium": (
-    $font-size-base * 2.5,
-  ),
-  "small": (
-    $font-size-base * 1.5,
-  ),
+    "large": (
+        $font-size-base * 5,
+    ),
+    "medium": (
+        $font-size-base * 2.5,
+    ),
+    "small": (
+        $font-size-base * 1.5,
+    ),
 );
 $font-family: "Zilla Slab", serif;
 $border-radius: 0.6rem;
@@ -27,232 +27,236 @@ $xl: 1300px;
 /* Styles are in increasing order of specificity*/
 /* --------------------------------Full Page Styling-------------------------------- */
 * {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: $font-family;
-  border-radius: $border-radius;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: $font-family;
+    border-radius: $border-radius;
 
-
-  &,&:focus,&:hover{
-    outline: none;
-  }
+    &,
+    &:focus,
+    &:hover {
+        outline: none;
+    }
 }
 body {
-  background: url(/images/BackgroundImage.svg) center no-repeat #ffda47;
-  background-size: cover;
+    background: url(/images/BackgroundImage.svg) center no-repeat #ffda47;
+    background-size: cover;
 }
 .container {
-  width: 98vw;
-  height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+    width: 98vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 /* --------------------------------Title Styling-------------------------------- */
 #title {
-  font-size: map-get($font-sizes, large);
-  font-weight: lighter;
-  // padding: 0 5px;
-  // background: white;
-  // border: $border-width solid black;
+    font-size: map-get($font-sizes, large);
+    font-weight: lighter;
+    // padding: 0 5px;
+    // background: white;
+    // border: $border-width solid black;
 }
 /* --------------------------------Form Styling-------------------------------- */
 #my-form {
-  width: 60%;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Form tabs styling */
 #switch-tabs {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .tab-label {
-  box-sizing: border-box;
-  /* making it a flexbox just to vertically center the contents */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    box-sizing: border-box;
+    /* making it a flexbox just to vertically center the contents */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  color: $dark-text;
-  height: 5rem;
-  width: 18rem;
-  background: $dark;
-  opacity: 0.5;
-  /* opacity is the transition property name, and ease is the transition timing function */
-  transition: opacity 0.5s ease;
+    color: $dark-text;
+    height: 5rem;
+    width: 18rem;
+    background: $dark;
+    opacity: 0.5;
+    /* opacity is the transition property name, and ease is the transition timing function */
+    transition: opacity 0.5s ease;
 
-  &:hover {
-    cursor: pointer;
-    opacity: 0.8;
-  }
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
 
-  > p {
-    font-size: map-get($font-sizes, medium);
-  }
+    > p {
+        font-size: map-get($font-sizes, medium);
+    }
 }
 .tab {
-  display: none;
+    display: none;
 
-  &:checked {
-    + .tab-label {
-      opacity: 1;
+    &:checked {
+        + .tab-label {
+            opacity: 1;
+        }
     }
-  }
 }
 
 /* Form inputs styling */
 #input-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "category-rank category"
-    "seat-pool state";
-  grid-gap: 0.4rem;
-  height: 35%;
-  width: 95%;
-  transition: 0.5s ease;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "category-rank category"
+        "seat-pool state";
+    grid-gap: 0.4rem;
+    height: 35%;
+    width: 95%;
+    transition: 0.5s ease;
 
-  input,select{
-    color: $light-text;
-    box-sizing: border-box;
-    background: $light;
-    border: $border-width solid $light-text;
-    width: 100%;
-    text-align-last: center;
-    font-size: map-get($font-sizes, small);
-  }
+    input,
+    select {
+        color: $light-text;
+        box-sizing: border-box;
+        background: $light;
+        border: $border-width solid $light-text;
+        width: 100%;
+        text-align-last: center;
+        font-size: map-get($font-sizes, small);
+    }
 
-  #rank {
-    grid-area: category-rank;
-  }
-  #category {
-    grid-area: category;
-  }
-  #seat_pool {
-    grid-area: seat-pool;
-  }
-  #state_of_eligibility {
-    grid-area: state;
-  }
+    #rank {
+        grid-area: category-rank;
+    }
+    #category {
+        grid-area: category;
+    }
+    #seat_pool {
+        grid-area: seat-pool;
+    }
+    #state_of_eligibility {
+        grid-area: state;
+    }
 
-  
-  input:focus,
-  select:focus{
-    border: $border-width solid rgb(60, 197, 60);
-  }
+    input:focus,
+    select:focus {
+        border: $border-width solid rgb(60, 197, 60);
+    }
 
-  input::placeholder {
-    color: $light-text;
-  }
+    input::placeholder {
+        color: $light-text;
+    }
 }
 
 /* Form buttons styling*/
 button {
-  border-width: 0;
-  color: $dark-text;
-  width: 12rem;
-  height: 3rem;
-  font-size: map-get($font-sizes, small);
-  background: $dark;
-  transition: opacity 0.3s ease;
-
-  &:hover{
-    cursor: pointer;
-    opacity: 0.7;
-  }
-  &:focus{
-    opacity: 0.7;
-  }
-}
-
-@media(max-width: $xl){
-  #my-form{
-    width: 70%;
-  }
-}
-@media(max-width: $lg){
-  #my-form{
-    width: 85%;
-  }
-}
-@media(max-width: $md){
-  #my-form{
-    width: 100%;
-  }
-  /* Got to do this using sass variables*/
-  #title {
-    font-size: 4rem;
-  }
-  #input-div{
-    grid-template-columns: 1fr;
-    grid-template-areas: "category-rank"
-      "category"
-      "seat-pool"
-      "state";
-    width: 70%;
-    height: 45%;
-    input,select{
-      height: 3rem;
-    }
-  }
-}
-@media(max-width: $sm){
-  .tab-label{
-    width: 14rem;
-
-    > p {
-      font-size: 2.0rem;
-    }
-  }
-  #input-div{
-    input,select{
-      font-size: 1.4rem;
-    }
-  }
-}
-@media(max-width: $xs){
-  #title {
-    font-size: 3.3rem;
-  }
-  #switch-tabs{
-    width: 95%;
-  }
-  #input-div{
-    width: 80%;
-  }
-  .tab-label{
+    border-width: 0;
+    color: $dark-text;
     width: 12rem;
+    height: 3rem;
+    font-size: map-get($font-sizes, small);
+    background: $dark;
+    transition: opacity 0.3s ease;
 
-    > p {
-      font-size: 1.8rem;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.7;
     }
-  }
+    &:focus {
+        opacity: 0.7;
+    }
 }
-@media(max-width: $us){
-  #title {
-    font-size: 3rem;
-  }
-  #switch-tabs{
-    width: 100%;
-  }
-  #input-div{
-    width: 95%;
-  }
-  .tab-label{
-    width: 10.5rem;
 
-    > p {
-      font-size: 1.7rem;
+@media (max-width: $xl) {
+    #my-form {
+        width: 70%;
     }
-  }
+}
+@media (max-width: $lg) {
+    #my-form {
+        width: 85%;
+    }
+}
+@media (max-width: $md) {
+    #my-form {
+        width: 100%;
+    }
+    /* Got to do this using sass variables*/
+    #title {
+        font-size: 4rem;
+    }
+    #input-div {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "category-rank"
+            "category"
+            "seat-pool"
+            "state";
+        width: 70%;
+        height: 45%;
+        input,
+        select {
+            height: 3rem;
+        }
+    }
+}
+@media (max-width: $sm) {
+    .tab-label {
+        width: 14rem;
+
+        > p {
+            font-size: 2rem;
+        }
+    }
+    #input-div {
+        input,
+        select {
+            font-size: 1.4rem;
+        }
+    }
+}
+@media (max-width: $xs) {
+    #title {
+        font-size: 3.3rem;
+    }
+    #switch-tabs {
+        width: 95%;
+    }
+    #input-div {
+        width: 80%;
+    }
+    .tab-label {
+        width: 12rem;
+
+        > p {
+            font-size: 1.8rem;
+        }
+    }
+}
+@media (max-width: $us) {
+    #title {
+        font-size: 3rem;
+    }
+    #switch-tabs {
+        width: 100%;
+    }
+    #input-div {
+        width: 95%;
+    }
+    .tab-label {
+        width: 10.5rem;
+
+        > p {
+            font-size: 1.7rem;
+        }
+    }
 }
